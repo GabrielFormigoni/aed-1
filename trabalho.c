@@ -88,6 +88,8 @@ int main(void)
      break;
   
   }
+  
+  free(lista);
 
 return 0;
 }
