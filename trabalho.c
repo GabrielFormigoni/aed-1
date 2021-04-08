@@ -1,7 +1,7 @@
-/*Programa que tem como objetivo dar recomendações de formas de entrenimentos como: filmes, series, livros e jogos de acordo com as preferências do usuário.
+/*Programa que tem como objetivo dar recomendações de formas de entretenimentos como: filmes, series, livros e jogos de acordo com as preferências do usuário.
 
   Particiántes : Gabriel Formigoni dos Santos Neto
-                 César Augusto     
+                 César Augusto Sales de Oliveira    
 */
 
 #include <stdio.h>
