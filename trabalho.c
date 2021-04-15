@@ -14,13 +14,32 @@ typedef struct{
    
 }Lista;
 
+typedef struct{
+  
+   char nome[1000];
+   
+}Lista2;
+
+void imprimir(Lista2 l[], int len)
+{
+    int i;
+    
+    for(i = 0; i < len; i++)
+    {
+    printf("%s\n", l[i].nome);
+    }
+
+}
+
 int main(void)
 {
 
    Lista *lista =  malloc(1000 * sizeof(Lista));
+   Lista2 *lista2 =  malloc(1000 * sizeof(Lista2));
 
-   char genero1[100];
-   int tipo, cont = 0;
+   int i;
+   char genero1[100], r;
+   int tipo, cont = 0, len;
    
    printf("Selecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
    printf("1 - Filme\n");
@@ -102,8 +121,8 @@ int main(void)
             scanf(" %s", nome);
             
             len++;
-            lista = (num*) realloc(lista,(len) * sizeof(num));
-            inserir(lista, len, nome);
+            lista = (num*) realloc(lista2,(len) * sizeof(num));
+            inserir(lista2, len, nome);
             
             
 
@@ -111,16 +130,16 @@ int main(void)
         if(r == 'R')
         {
             scanf(" %s", nome);
-            remover(lista, len, nome);
+            remover(lista2, len, nome);
             
             len--;
-            lista=(num*) realloc(lista,(len) * sizeof(num));
+            lista=(num*) realloc(lista2,(len) * sizeof(num));
 
         }
         if(r == 'F')
         {
             
-          imprimir(lista, len);
+          imprimir(lista2, len);
 
         }
     }
