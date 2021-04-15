@@ -143,8 +143,10 @@ int main(void)
 
         }
     }
-    while(r != 'F');  
+    while(r != 'F'); 
+  
   free(lista);
+  free(lista2)
 
 return 0;
 }
