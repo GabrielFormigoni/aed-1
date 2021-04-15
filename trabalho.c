@@ -103,7 +103,7 @@ int main(void)
             
             len++;
             lista = (num*) realloc(lista,(len) * sizeof(num));
-            inserir(lista, len, nome, tel, numero);
+            inserir(lista, len, nome);
             
             
 
