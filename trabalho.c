@@ -22,7 +22,7 @@ typedef struct{
 
 void inserir(Lista2 *l, int len, char nome[])
 {
-    strncpy(l[len].nome, nome,30);
+    strncpy(l[len].nome, nome,1000);
 
 }
 
@@ -43,7 +43,7 @@ void remover(Lista2 *l, int len, char nome[])
     }
 }
 
-void imprimir(Lista2 l[], int len)
+void imprimir(Lista2 *l, int len)
 {
     int i;
     
@@ -57,12 +57,20 @@ void imprimir(Lista2 l[], int len)
 int main(void)
 {
 
-   Lista *lista =  malloc(1000 * sizeof(Lista));
-   Lista2 *lista2 =  malloc(1000 * sizeof(Lista2));
+   Lista *lista;
+   Lista2 *lista2;
 
    int i;
-   char genero1[100], nome[100], r;
-   int tipo, cont = 0, len;
+   char genero1[1000], nome[1000], r;
+   int tipo, cont = 0, len = 2;
+   
+   lista =  malloc(1000 * sizeof(Lista));
+   lista2 =  malloc(3*sizeof(Lista2));
+   strcpy(nome,"Matrix");
+   strcpy(lista2[1].nome,nome);
+   
+   strcpy(nome,"Gladiador");
+   strcpy(lista2[0].nome,nome);
    
    printf("Selecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
    printf("1 - Filme\n");
@@ -134,7 +142,8 @@ int main(void)
         printf("I - Se deseja inserir um título da lista:\n");
         printf("R - Se deseja remover um título da lista:\n");
         printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
-  
+        printf("A lista já possui dois exemplos de recomendação.\n");
+        
   do
     {
 
@@ -144,20 +153,20 @@ int main(void)
         {
             scanf(" %s", nome);
             
-            len++;
-            lista2 = (Lista2*) realloc(lista2,(len) * sizeof(Lista2));
-            inserir(lista2, len, nome);
-            
+            len++;            
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
+            inserir(lista2, len-1, nome);
             
 
         }
         if(r == 'R')
         {
             scanf(" %s", nome);
+            
             remover(lista2, len, nome);
             
             len--;
-            lista2 = (Lista2*) realloc(lista2,(len) * sizeof(Lista2));
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
 
         }
         if(r == 'F')
