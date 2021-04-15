@@ -145,6 +145,7 @@ int main(void)
         printf("Informe o caractere conforme a operação que deseja realizar:\n");
         printf("I - Se deseja inserir um título da lista:\n");
         printf("R - Se deseja remover um título da lista:\n");
+        printf("S - Se deseja saber a sinopse de algum título:\n");
         printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
         printf("A lista já possui dois exemplos de recomendação.\n");
         
@@ -172,6 +173,12 @@ int main(void)
             len--;
             lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
 
+        }
+        if(r == 'S')
+        {
+            scanf(" %s", nome);
+          
+            sinopse(lista2, nome);
         }
         if(r == 'F')
         {
