@@ -89,6 +89,42 @@ int main(void)
   
   }
   
+  do
+    {
+        printf("Informe o caractere conforme a operação que deseja realizar:\n");
+        printf("I - Se deseja inserir um título da lista:\n");
+        printf("R - Se deseja remover um título da lista:\n");
+        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        scanf(" %c", &r);
+
+        if(r == 'I')
+        {
+            scanf(" %s", nome);
+            
+            len++;
+            lista = (num*) realloc(lista,(len) * sizeof(num));
+            inserir(lista, len, nome, tel, numero);
+            
+            
+
+        }
+        if(r == 'R')
+        {
+            scanf(" %s", nome);
+            remover(lista, len, nome);
+            
+            len--;
+            lista=(num*) realloc(lista,(len) * sizeof(num));
+
+        }
+        if(r == 'F')
+        {
+            
+          imprimir(lista, len);
+
+        }
+    }
+    while(r != 'F');  
   free(lista);
 
 return 0;
