@@ -83,6 +83,7 @@ int main(void)
    if(tipo == 1){
     
       printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -96,6 +97,7 @@ int main(void)
   else if(tipo == 2){
     
       printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -109,6 +111,7 @@ int main(void)
   else if(tipo == 3){
     
       printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -122,6 +125,7 @@ int main(void)
   else if(tipo == 4){
     
       printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
