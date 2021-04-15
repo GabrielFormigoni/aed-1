@@ -130,12 +130,14 @@ int main(void)
   
   }
   
-  do
-    {
         printf("Informe o caractere conforme a operação que deseja realizar:\n");
         printf("I - Se deseja inserir um título da lista:\n");
         printf("R - Se deseja remover um título da lista:\n");
         printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+  
+  do
+    {
+
         scanf(" %c", &r);
 
         if(r == 'I')
