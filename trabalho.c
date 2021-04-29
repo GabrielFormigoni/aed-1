@@ -20,11 +20,14 @@ typedef struct{
    
 }Lista2;
 
+
+
 void inserir(Lista2 *l, int len, char nome[])
 {
     strncpy(l[len].nome, nome,1000);
 
 }
+
 
 void remover(Lista2 *l, int len, char nome[])
 {
@@ -43,6 +46,7 @@ void remover(Lista2 *l, int len, char nome[])
     }
 }
 
+
 void imprimir(Lista2 *l, int len)
 {
     int i;
@@ -53,6 +57,20 @@ void imprimir(Lista2 *l, int len)
     }
 
 }
+
+void recomendacoes(Lista *k)
+{
+
+
+}
+
+
+void sinopse(Lista2 *l, char nome[])
+{
+
+
+}
+
 
 int main(void)
 {
@@ -66,23 +84,24 @@ int main(void)
    
    lista =  malloc(1000 * sizeof(Lista));
    lista2 =  malloc(3*sizeof(Lista2));
-   strcpy(nome,"Matrix");
-   strcpy(lista2[1].nome,nome);
-   
-   strcpy(nome,"Gladiador");
+   strcpy(nome,"Usuário:");
    strcpy(lista2[0].nome,nome);
    
-   printf("Selecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
+   printf("Informe o nome de usuário:\n");
+   gets(nome);
+   strcpy(lista2[1].nome,nome);
+   
+   printf("\n\n\nSelecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
    printf("1 - Filme\n");
    printf(" 2 - Série\n");
    printf(" 3 - Livro\n");
-   printf(" 4 - Jogo\n");
+   printf(" 4 - Jogo\n\n");
    
    scanf("%d", &tipo);
    
    if(tipo == 1){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
       printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
    
       while(strcmp(genero1, "FIM") != 0){
@@ -96,8 +115,8 @@ int main(void)
   
   else if(tipo == 2){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
+      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -110,8 +129,8 @@ int main(void)
   
   else if(tipo == 3){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
+      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -124,7 +143,7 @@ int main(void)
   
   else if(tipo == 4){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
       printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
    
       while(strcmp(genero1, "FIM") != 0){
@@ -142,21 +161,23 @@ int main(void)
   
   }
   
-        printf("Informe o caractere conforme a operação que deseja realizar:\n");
+        printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
         printf("I - Se deseja inserir um título da lista:\n");
         printf("R - Se deseja remover um título da lista:\n");
         printf("S - Se deseja saber a sinopse de algum título:\n");
+        printf("M - Se deseja mostrar o conteúdo da lista:\n");
         printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
-        printf("A lista já possui dois exemplos de recomendação.\n");
         
   do
     {
-
+    
+        printf("\n");
         scanf(" %c", &r);
 
         if(r == 'I')
         {
-            scanf(" %s", nome);
+            printf("\nInforme o título que deseja inserir.\n\n");
+            scanf("%s", nome);
             
             len++;            
             lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
@@ -164,9 +185,12 @@ int main(void)
             
 
         }
+        
+        
         if(r == 'R')
         {
-            scanf(" %s", nome);
+            printf("\nInforme o título que deseja remover.\n\n");
+            scanf("%s", nome);
             
             remover(lista2, len, nome);
             
@@ -174,17 +198,35 @@ int main(void)
             lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
 
         }
+        
+        
         if(r == 'S')
         {
-            scanf(" %s", nome);
-          
+            printf("\nInforme o título que deseja saber a sinopse.\n\n");
+            scanf("%s", nome);
+            printf("\n");
+            
             sinopse(lista2, nome);
         }
+        
+        
+        if(r == 'M')
+        {
+        
+          printf("\n");
+          imprimir(lista2, len);
+          printf("\n");
+
+        }
+        
+        
         if(r == 'F')
         {
-            
+        
+          printf("\n");  
           imprimir(lista2, len);
-
+          printf("\n");
+          
         }
     }
     while(r != 'F'); 
