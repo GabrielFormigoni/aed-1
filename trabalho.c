@@ -24,7 +24,7 @@ typedef struct{
 
 void inserir(Lista2 *l, int len, char nome[])
 {
-    strncpy(l[len].nome, nome,1000);
+    strcpy(l[len].nome, nome);
 
 }
 
@@ -53,7 +53,10 @@ void imprimir(Lista2 *l, int len)
     
     for(i = 0; i < len; i++)
     {
-    printf("%s\n", l[i].nome);
+       
+       printf("%s\n", l[i].nome);
+       
+    
     }
 
 }
@@ -77,19 +80,23 @@ int main(void)
 
    Lista *lista;
    Lista2 *lista2;
+   
 
    int i;
-   char genero1[1000], nome[1000], r;
+   char genero1[1000], nome[1000], r, user[1000];
    int tipo, cont = 0, len = 2;
+   
    
    lista =  malloc(1000 * sizeof(Lista));
    lista2 =  malloc(3*sizeof(Lista2));
-   strcpy(nome,"Usuário:");
-   strcpy(lista2[0].nome,nome);
+   strcpy(user,"Usuário:");
+   strcpy(lista2[0].nome,user);
+   
    
    printf("Informe o nome de usuário:\n");
-   gets(nome);
-   strcpy(lista2[1].nome,nome);
+   gets(user);
+   strcpy(lista2[1].nome,user);
+   
    
    printf("\n\n\nSelecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
    printf("1 - Filme\n");
@@ -97,7 +104,9 @@ int main(void)
    printf(" 3 - Livro\n");
    printf(" 4 - Jogo\n\n");
    
+   
    scanf("%d", &tipo);
+   
    
    if(tipo == 1){
     
@@ -168,15 +177,20 @@ int main(void)
         printf("M - Se deseja mostrar o conteúdo da lista:\n");
         printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
         
+        
   do
     {
     
         printf("\n");
         scanf(" %c", &r);
+        
 
         if(r == 'I')
         {
-            printf("\nInforme o título que deseja inserir.\n\n");
+        
+            printf("\nInforme o título que deseja inserir.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos)\n");
+            
             scanf("%s", nome);
             
             len++;            
@@ -189,7 +203,10 @@ int main(void)
         
         if(r == 'R')
         {
-            printf("\nInforme o título que deseja remover.\n\n");
+        
+            printf("\nInforme o título que deseja remover.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos)\n");
+                        
             scanf("%s", nome);
             
             remover(lista2, len, nome);
@@ -202,7 +219,10 @@ int main(void)
         
         if(r == 'S')
         {
-            printf("\nInforme o título que deseja saber a sinopse.\n\n");
+        
+            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos)\n");            
+            
             scanf("%s", nome);
             printf("\n");
             
