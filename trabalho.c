@@ -24,7 +24,7 @@ typedef struct{
 
 void inserir(Lista2 *l, int len, char nome[])
 {
-    strcpy(l[len].nome, nome);
+    strncpy(l[len].nome, nome, 1000);
 
 }
 
@@ -86,7 +86,10 @@ int main(void)
    char genero1[1000], nome[1000], r, user[1000];
    int tipo, cont = 0, len = 2;
    
-   
+   printf("\n\n");
+   printf("Programa que tem como objetivo dar recomendações de formas de entretenimentos como: filmes, series, livros e jogos de acordo com as preferências do usuário.");
+   printf("\n\n");
+      
    lista =  malloc(1000 * sizeof(Lista));
    lista2 =  malloc(3*sizeof(Lista2));
    strcpy(user,"Usuário:");
@@ -98,7 +101,7 @@ int main(void)
    strcpy(lista2[1].nome,user);
    
    
-   printf("\n\n\nSelecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
+   printf("\n\nSelecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
    printf("1 - Filme\n");
    printf(" 2 - Série\n");
    printf(" 3 - Livro\n");
@@ -106,12 +109,12 @@ int main(void)
    
    
    scanf("%d", &tipo);
-   
+   printf("\n");
    
    if(tipo == 1){
     
-      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
+      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -124,8 +127,8 @@ int main(void)
   
   else if(tipo == 2){
     
-      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n\n");
+      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -138,8 +141,8 @@ int main(void)
   
   else if(tipo == 3){
     
-      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n\n");
+      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -152,8 +155,8 @@ int main(void)
   
   else if(tipo == 4){
     
-      printf("\n\nDigite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia\n");
+      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -189,7 +192,7 @@ int main(void)
         {
         
             printf("\nInforme o título que deseja inserir.\n");
-            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos)\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
             
             scanf("%s", nome);
             
@@ -205,7 +208,7 @@ int main(void)
         {
         
             printf("\nInforme o título que deseja remover.\n");
-            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos)\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
                         
             scanf("%s", nome);
             
@@ -221,10 +224,9 @@ int main(void)
         {
         
             printf("\nInforme o título que deseja saber a sinopse.\n");
-            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos)\n");            
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
             
             scanf("%s", nome);
-            printf("\n");
             
             sinopse(lista2, nome);
         }
@@ -255,4 +257,5 @@ int main(void)
   free(lista2);
 
 return 0;
+
 }
