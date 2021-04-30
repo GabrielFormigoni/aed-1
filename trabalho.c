@@ -22,14 +22,35 @@ typedef struct{
 
 
 
-void inserir(Lista2 *l, int len, char nome[])
+void inserir_filme(Lista2 *l, int len, char nome[])
 {
     strncpy(l[len].nome, nome, 1000);
 
 }
 
 
-void remover(Lista2 *l, int len, char nome[])
+void inserir_serie(Lista2 *l, int len, char nome[])
+{
+    strncpy(l[len].nome, nome, 1000);
+
+}
+
+
+void inserir_livro(Lista2 *l, int len, char nome[])
+{
+    strncpy(l[len].nome, nome, 1000);
+
+}
+
+
+void inserir_jogo(Lista2 *l, int len, char nome[])
+{
+    strncpy(l[len].nome, nome, 1000);
+
+}
+
+
+void remover_filme(Lista2 *l, int len, char nome[])
 {
     int i, j;
     
@@ -47,7 +68,61 @@ void remover(Lista2 *l, int len, char nome[])
 }
 
 
-void imprimir(Lista2 *l, int len)
+void remover_serie(Lista2 *l, int len, char nome[])
+{
+    int i, j;
+    
+    for(i = 0; i < len; i++)
+    {
+        if(strcmp(l[i].nome,nome)==0)
+        {
+            for(j = i; j < len; j++)
+            {
+                strncpy(l[j].nome,l[j+1].nome,1000);
+
+            }
+        }
+    }
+}
+
+
+void remover_livro(Lista2 *l, int len, char nome[])
+{
+    int i, j;
+    
+    for(i = 0; i < len; i++)
+    {
+        if(strcmp(l[i].nome,nome)==0)
+        {
+            for(j = i; j < len; j++)
+            {
+                strncpy(l[j].nome,l[j+1].nome,1000);
+
+            }
+        }
+    }
+}
+
+
+void remover_jogo(Lista2 *l, int len, char nome[])
+{
+    int i, j;
+    
+    for(i = 0; i < len; i++)
+    {
+        if(strcmp(l[i].nome,nome)==0)
+        {
+            for(j = i; j < len; j++)
+            {
+                strncpy(l[j].nome,l[j+1].nome,1000);
+
+            }
+        }
+    }
+}
+
+
+void imprimir_filme(Lista2 *l, int len)
 {
     int i;
     
@@ -60,6 +135,53 @@ void imprimir(Lista2 *l, int len)
     }
 
 }
+
+
+void imprimir_serie(Lista2 *l, int len)
+{
+    int i;
+    
+    for(i = 0; i < len; i++)
+    {
+       
+       printf("%s\n", l[i].nome);
+       
+    
+    }
+
+}
+
+
+void imprimir_livro(Lista2 *l, int len)
+{
+    int i;
+    
+    for(i = 0; i < len; i++)
+    {
+       
+       printf("%s\n", l[i].nome);
+       
+    
+    }
+
+}
+
+
+void imprimir_jogo(Lista2 *l, int len)
+{
+    int i;
+    
+    for(i = 0; i < len; i++)
+    {
+       
+       printf("%s\n", l[i].nome);
+       
+    
+    }
+
+}
+
+
 
 void recomendacoes(Lista *k)
 {
@@ -122,56 +244,7 @@ int main(void)
          strcpy(genero1,lista[cont].genero);
          cont++;
       }
-  } 
-  
-  
-  else if(tipo == 2){
-    
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
-   
-      while(strcmp(genero1, "FIM") != 0){
-      
-         scanf("%s", lista[cont].genero);
-         strcpy(genero1,lista[cont].genero);
-         cont++;
-      }
-  } 
-  
-  
-  else if(tipo == 3){
-    
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
-   
-      while(strcmp(genero1, "FIM") != 0){
-      
-         scanf("%s", lista[cont].genero);
-         strcpy(genero1,lista[cont].genero);
-         cont++;
-      }
-  } 
-  
-  
-  else if(tipo == 4){
-    
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n");
-   
-      while(strcmp(genero1, "FIM") != 0){
-      
-         scanf("%s", lista[cont].genero);
-         strcpy(genero1,lista[cont].genero);
-         cont++;
-      }
-  } 
-  
-  
-  else{
-  
-     printf("Número inválido!!!\n");
-  
-  }
+
   
         printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
         printf("I - Se deseja inserir um título da lista:\n");
@@ -198,7 +271,7 @@ int main(void)
             
             len++;            
             lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
-            inserir(lista2, len-1, nome);
+            inserir_filme(lista2, len-1, nome);
             
 
         }
@@ -212,7 +285,7 @@ int main(void)
                         
             scanf("%s", nome);
             
-            remover(lista2, len, nome);
+            remover_filme(lista2, len, nome);
             
             len--;
             lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
@@ -236,7 +309,7 @@ int main(void)
         {
         
           printf("\n");
-          imprimir(lista2, len);
+          imprimir_filme(lista2, len);
           printf("\n");
 
         }
@@ -246,13 +319,310 @@ int main(void)
         {
         
           printf("\n");  
-          imprimir(lista2, len);
+          imprimir_filme(lista2, len);
           printf("\n");
           
         }
     }
     while(r != 'F'); 
+          
+  } 
   
+  
+  else if(tipo == 2){
+    
+      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
+   
+      while(strcmp(genero1, "FIM") != 0){
+      
+         scanf("%s", lista[cont].genero);
+         strcpy(genero1,lista[cont].genero);
+         cont++;
+      }
+      
+  
+        printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
+        printf("I - Se deseja inserir um título da lista:\n");
+        printf("R - Se deseja remover um título da lista:\n");
+        printf("S - Se deseja saber a sinopse de algum título:\n");
+        printf("M - Se deseja mostrar o conteúdo da lista:\n");
+        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        
+        
+  do
+    {
+    
+        printf("\n");
+        scanf(" %c", &r);
+        
+
+        if(r == 'I')
+        {
+        
+            printf("\nInforme o título que deseja inserir.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
+            
+            scanf("%s", nome);
+            
+            len++;            
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
+            inserir_serie(lista2, len-1, nome);
+            
+
+        }
+        
+        
+        if(r == 'R')
+        {
+        
+            printf("\nInforme o título que deseja remover.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
+                        
+            scanf("%s", nome);
+            
+            remover_serie(lista2, len, nome);
+            
+            len--;
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
+
+        }
+        
+        
+        if(r == 'S')
+        {
+        
+            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            sinopse(lista2, nome);
+        }
+        
+        
+        if(r == 'M')
+        {
+        
+          printf("\n");
+          imprimir_serie(lista2, len);
+          printf("\n");
+
+        }
+        
+        
+        if(r == 'F')
+        {
+        
+          printf("\n");  
+          imprimir_serie(lista2, len);
+          printf("\n");
+          
+        }
+    }
+    while(r != 'F'); 
+          
+  } 
+  
+  
+  else if(tipo == 3){
+    
+      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
+   
+      while(strcmp(genero1, "FIM") != 0){
+      
+         scanf("%s", lista[cont].genero);
+         strcpy(genero1,lista[cont].genero);
+         cont++;
+      }
+
+  
+        printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
+        printf("I - Se deseja inserir um título da lista:\n");
+        printf("R - Se deseja remover um título da lista:\n");
+        printf("S - Se deseja saber a sinopse de algum título:\n");
+        printf("M - Se deseja mostrar o conteúdo da lista:\n");
+        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        
+        
+  do
+    {
+    
+        printf("\n");
+        scanf(" %c", &r);
+        
+
+        if(r == 'I')
+        {
+        
+            printf("\nInforme o título que deseja inserir.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
+            
+            scanf("%s", nome);
+            
+            len++;            
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
+            inserir_livro(lista2, len-1, nome);
+            
+
+        }
+        
+        
+        if(r == 'R')
+        {
+        
+            printf("\nInforme o título que deseja remover.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
+                        
+            scanf("%s", nome);
+            
+            remover_livro(lista2, len, nome);
+            
+            len--;
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
+
+        }
+        
+        
+        if(r == 'S')
+        {
+        
+            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            sinopse(lista2, nome);
+        }
+        
+        
+        if(r == 'M')
+        {
+        
+          printf("\n");
+          imprimir_livro(lista2, len);
+          printf("\n");
+
+        }
+        
+        
+        if(r == 'F')
+        {
+        
+          printf("\n");  
+          imprimir_livro(lista2, len);
+          printf("\n");
+          
+        }
+    }
+    while(r != 'F'); 
+          
+  } 
+  
+  
+  else if(tipo == 4){
+    
+      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n");
+   
+      while(strcmp(genero1, "FIM") != 0){
+      
+         scanf("%s", lista[cont].genero);
+         strcpy(genero1,lista[cont].genero);
+         cont++;
+      }
+  
+        printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
+        printf("I - Se deseja inserir um título da lista:\n");
+        printf("R - Se deseja remover um título da lista:\n");
+        printf("S - Se deseja saber a sinopse de algum título:\n");
+        printf("M - Se deseja mostrar o conteúdo da lista:\n");
+        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        
+        
+  do
+    {
+    
+        printf("\n");
+        scanf(" %c", &r);
+        
+
+        if(r == 'I')
+        {
+        
+            printf("\nInforme o título que deseja inserir.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
+            
+            scanf("%s", nome);
+            
+            len++;            
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
+            inserir_jogo(lista2, len-1, nome);
+            
+
+        }
+        
+        
+        if(r == 'R')
+        {
+        
+            printf("\nInforme o título que deseja remover.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
+                        
+            scanf("%s", nome);
+            
+            remover_jogo(lista2, len, nome);
+            
+            len--;
+            lista2 = (Lista2*) realloc(lista2,(len+2) * sizeof(Lista2));
+
+        }
+        
+        
+        if(r == 'S')
+        {
+        
+            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            sinopse(lista2, nome);
+        }
+        
+        
+        if(r == 'M')
+        {
+        
+          printf("\n");
+          imprimir_jogo(lista2, len);
+          printf("\n");
+
+        }
+        
+        
+        if(r == 'F')
+        {
+        
+          printf("\n");  
+          imprimir_jogo(lista2, len);
+          printf("\n");
+          
+        }
+    }
+    while(r != 'F');   
+        
+  } 
+  
+  
+  else{
+  
+     printf("Número inválido!!!\n");
+  
+  }
+        
+
   free(lista);
   free(lista2);
 
