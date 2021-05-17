@@ -272,8 +272,8 @@ int main(void)
    
    if(tipo == 1){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n");
+      printf("Digite os gêneros que deseja incluir no seu filme, e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia.\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -284,11 +284,11 @@ int main(void)
 
   
         printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
-        printf("I - Se deseja inserir um título da lista:\n");
-        printf("R - Se deseja remover um título da lista:\n");
-        printf("S - Se deseja saber a sinopse de algum título:\n");
-        printf("M - Se deseja mostrar o conteúdo da lista:\n");
-        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        printf("I - Se deseja inserir um filme da lista:\n");
+        printf("R - Se deseja remover um filme da lista:\n");
+        printf("S - Se deseja saber a sinopse de algum filme:\n");
+        printf("M - Se deseja mostrar o conteúdo da lista de filmes:\n");
+        printf("F - Se deseja finalizar a lista de filmes e mostrar o seu conteúdo:\n");
         
         
   do
@@ -301,7 +301,7 @@ int main(void)
         if(r == 'I')
         {
         
-            printf("\nInforme o título que deseja inserir.\n");
+            printf("\nInforme o filme que deseja inserir.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
             
             scanf("%s", nome);
@@ -317,7 +317,7 @@ int main(void)
         if(r == 'R')
         {
         
-            printf("\nInforme o título que deseja remover.\n");
+            printf("\nInforme o filme que deseja remover.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
                         
             scanf("%s", nome);
@@ -333,7 +333,7 @@ int main(void)
         if(r == 'S')
         {
         
-            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("\nInforme o filme que deseja saber a sinopse.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
             
             scanf("%s", nome);
@@ -368,8 +368,8 @@ int main(void)
   
   else if(tipo == 2){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
+      printf("Digite os gêneros que deseja incluir na sua série e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia.\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -380,11 +380,11 @@ int main(void)
       
   
         printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
-        printf("I - Se deseja inserir um título da lista:\n");
-        printf("R - Se deseja remover um título da lista:\n");
-        printf("S - Se deseja saber a sinopse de algum título:\n");
-        printf("M - Se deseja mostrar o conteúdo da lista:\n");
-        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        printf("I - Se deseja inserir uma série da lista:\n");
+        printf("R - Se deseja remover uma série da lista:\n");
+        printf("S - Se deseja saber a sinopse de alguma série:\n");
+        printf("M - Se deseja mostrar o conteúdo da sua lista de séries:\n");
+        printf("F - Se deseja finalizar a sua lista de séries e mostrar o seu conteúdo:\n");
         
         
   do
@@ -397,7 +397,7 @@ int main(void)
         if(r == 'I')
         {
         
-            printf("\nInforme o título que deseja inserir.\n");
+            printf("\nInforme a série que deseja inserir.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
             
             scanf("%s", nome);
@@ -413,7 +413,7 @@ int main(void)
         if(r == 'R')
         {
         
-            printf("\nInforme o título que deseja remover.\n");
+            printf("\nInforme a série que deseja remover.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
                         
             scanf("%s", nome);
@@ -429,7 +429,7 @@ int main(void)
         if(r == 'S')
         {
         
-            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("\nInforme a série que deseja saber a sinopse.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
             
             scanf("%s", nome);
@@ -464,8 +464,8 @@ int main(void)
   
   else if(tipo == 3){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n\n");
+      printf("Digite os gêneros que deseja incluir no seu livro e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia.\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -476,11 +476,11 @@ int main(void)
 
   
         printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
-        printf("I - Se deseja inserir um título da lista:\n");
-        printf("R - Se deseja remover um título da lista:\n");
-        printf("S - Se deseja saber a sinopse de algum título:\n");
-        printf("M - Se deseja mostrar o conteúdo da lista:\n");
-        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        printf("I - Se deseja inserir um livro da lista:\n");
+        printf("R - Se deseja remover um livro da lista:\n");
+        printf("S - Se deseja saber a sinopse de algum livro:\n");
+        printf("M - Se deseja mostrar o conteúdo da lista de livros:\n");
+        printf("F - Se deseja finalizar a lista de livros e mostrar o seu conteúdo:\n");
         
         
   do
@@ -493,7 +493,7 @@ int main(void)
         if(r == 'I')
         {
         
-            printf("\nInforme o título que deseja inserir.\n");
+            printf("\nInforme o livro que deseja inserir.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
             
             scanf("%s", nome);
@@ -509,7 +509,7 @@ int main(void)
         if(r == 'R')
         {
         
-            printf("\nInforme o título que deseja remover.\n");
+            printf("\nInforme o livro que deseja remover.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
                         
             scanf("%s", nome);
@@ -525,7 +525,7 @@ int main(void)
         if(r == 'S')
         {
         
-            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("\nInforme o livro que deseja saber a sinopse.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
             
             scanf("%s", nome);
@@ -560,8 +560,8 @@ int main(void)
   
   else if(tipo == 4){
     
-      printf("Digite os gêneros que deseja incluir e quando terminar digite FIM.\n");
-      printf("Exemplos de gêneros: Drama, Ação, Aventura, Terror, Comédia.\n");
+      printf("Digite os gêneros que deseja incluir no seu jogo e quando terminar digite FIM.\n");
+      printf("Exemplos de gêneros: Plataforma, Ação, Esportes, Terror, RPG.\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -571,11 +571,11 @@ int main(void)
       }
   
         printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
-        printf("I - Se deseja inserir um título da lista:\n");
-        printf("R - Se deseja remover um título da lista:\n");
-        printf("S - Se deseja saber a sinopse de algum título:\n");
-        printf("M - Se deseja mostrar o conteúdo da lista:\n");
-        printf("F - Se deseja finalizar a lista e mostrar o seu conteúdo:\n");
+        printf("I - Se deseja inserir um jogo da lista:\n");
+        printf("R - Se deseja remover um jogo da lista:\n");
+        printf("S - Se deseja saber a sinopse de algum jogo:\n");
+        printf("M - Se deseja mostrar o conteúdo da lista de jogos:\n");
+        printf("F - Se deseja finalizar a lista de jogos e mostrar o seu conteúdo:\n");
         
         
   do
@@ -588,7 +588,7 @@ int main(void)
         if(r == 'I')
         {
         
-            printf("\nInforme o título que deseja inserir.\n");
+            printf("\nInforme o jogo que deseja inserir.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
             
             scanf("%s", nome);
@@ -604,7 +604,7 @@ int main(void)
         if(r == 'R')
         {
         
-            printf("\nInforme o título que deseja remover.\n");
+            printf("\nInforme o jogo que deseja remover.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");
                         
             scanf("%s", nome);
@@ -620,7 +620,7 @@ int main(void)
         if(r == 'S')
         {
         
-            printf("\nInforme o título que deseja saber a sinopse.\n");
+            printf("\nInforme o jogo que deseja saber a sinopse.\n");
             printf("Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
             
             scanf("%s", nome);
