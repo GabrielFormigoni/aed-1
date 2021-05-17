@@ -183,14 +183,51 @@ void imprimir_jogo(Lista2 *l, int len)
 
 
 
-void recomendacoes(Lista *k)
+void recomendacoes_filme(Lista *k)
+{
+
+
+}
+
+void recomendacoes_serie(Lista *k)
+{
+
+
+}
+
+void recomendacoes_livro(Lista *k)
+{
+
+
+}
+
+void recomendacoes_jogo(Lista *k)
 {
 
 
 }
 
 
-void sinopse(Lista2 *l, char nome[])
+
+void sinopse_filme(Lista2 *l, char nome[])
+{
+
+
+}
+
+void sinopse_serie(Lista2 *l, char nome[])
+{
+
+
+}
+
+void sinopse_livro(Lista2 *l, char nome[])
+{
+
+
+}
+
+void sinopse_jogo(Lista2 *l, char nome[])
 {
 
 
