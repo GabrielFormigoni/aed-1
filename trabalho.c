@@ -183,7 +183,7 @@ void imprimir_jogo(Lista2 *l, int len)
 
 
 
-void recomendacoes_filme(Lista *k, cont)
+void recomendacoes_filme(Lista *k, int cont)
 {
   int i;
   
@@ -198,23 +198,63 @@ void recomendacoes_filme(Lista *k, cont)
           printf(" À Espera de um Milagre\n");
         
         }
+       
+        if(strcmp(k[i].genero, "Ação") == 0){
+        
+          printf(" Como Eu Era Antes de Você\n");
+          printf(" A Culpa é das Estrelas\n");
+          printf(" Doze Anos de Escravidão\n");
+          printf(" Sempre ao Seu Lado\n");
+          printf(" À Espera de um Milagre\n");
+        
+        } 
+       
+       if(strcmp(k[i].genero, "Romance") == 0){
+        
+          printf(" Como Eu Era Antes de Você\n");
+          printf(" A Culpa é das Estrelas\n");
+          printf(" Doze Anos de Escravidão\n");
+          printf(" Sempre ao Seu Lado\n");
+          printf(" À Espera de um Milagre\n");
+        
+        }
+       
+       if(strcmp(k[i].genero, "Terror") == 0){
+        
+          printf(" Como Eu Era Antes de Você\n");
+          printf(" A Culpa é das Estrelas\n");
+          printf(" Doze Anos de Escravidão\n");
+          printf(" Sempre ao Seu Lado\n");
+          printf(" À Espera de um Milagre\n");
+        
+        }
+       
+       if(strcmp(k[i].genero, "Comédia") == 0){
+        
+          printf(" Como Eu Era Antes de Você\n");
+          printf(" A Culpa é das Estrelas\n");
+          printf(" Doze Anos de Escravidão\n");
+          printf(" Sempre ao Seu Lado\n");
+          printf(" À Espera de um Milagre\n");
+        
+        }
           
      }     
 }
 
-void recomendacoes_serie(Lista *k)
+void recomendacoes_serie(Lista *k, int cont)
 {
 
 
 }
 
-void recomendacoes_livro(Lista *k)
+void recomendacoes_livro(Lista *k, int cont)
 {
 
 
 }
 
-void recomendacoes_jogo(Lista *k)
+void recomendacoes_jogo(Lista *k, int cont)
 {
 
 
