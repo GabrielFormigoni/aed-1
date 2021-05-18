@@ -183,10 +183,23 @@ void imprimir_jogo(Lista2 *l, int len)
 
 
 
-void recomendacoes_filme(Lista *k)
+void recomendacoes_filme(Lista *k, cont)
 {
-
-
+  int i;
+  
+     for(i = 0; i < cont; i++){
+       
+        if(strcmp(k[i].genero, "Drama") == 0){
+        
+          printf(" Como Eu Era Antes de Você\n");
+          printf(" A Culpa é das Estrelas\n");
+          printf(" Doze Anos de Escravidão\n");
+          printf(" Sempre ao Seu Lado\n");
+          printf(" À Espera de um Milagre\n");
+        
+        }
+          
+     }     
 }
 
 void recomendacoes_serie(Lista *k)
