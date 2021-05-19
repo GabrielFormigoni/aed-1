@@ -203,22 +203,22 @@ void recomendacoes_filme(Lista *k, int cont)
         if(strcmp(k[i].genero, "Ação") == 0){
         
           printf("\n\nFilmes Ação\n\n");
-          printf(" Como_Eu_Era_Antes_de_Você\n");
-          printf(" A Culpa é das Estrelas\n");
-          printf(" Doze Anos de Escravidão\n");
-          printf(" Sempre ao Seu Lado\n");
-          printf(" À Espera de um Milagre\n");
+          printf(" Tenet\n");
+          printf(" Mad_Max\n");
+          printf(" Matrix\n");
+          printf(" A_Identidade_Bourne\n");
+          printf(" Missão_Impossível_Fallout\n");
         
         } 
        
        if(strcmp(k[i].genero, "Romance") == 0){
        
           printf("\n\nFilmes Romance\n\n");
-          printf(" Como Eu Era Antes de Você\n");
-          printf(" A Culpa é das Estrelas\n");
-          printf(" Doze Anos de Escravidão\n");
-          printf(" Sempre ao Seu Lado\n");
-          printf(" À Espera de um Milagre\n");
+          printf(" PS_Eu_Te_Amo\n");
+          printf(" Simplesmente_Acontece\n");
+          printf(" Cartas_para_Julieta\n");
+          printf(" O_Guarda_Costas\n");
+          printf(" Meu_Primeiro_Amor\n");
         
         }
        
@@ -297,6 +297,36 @@ void sinopse_filme(Lista2 *l, char nome[])
    if(strcmp(nome, "À_Espera_de_um_Milagre") == 0){
    
       printf("\nImpossível não se emocionar neste drama estrelado por Tom Hanks, que interpreta o carcereiro Paul Edgecomb. O homem passa a ter uma ligação com Coffey, um condenado a pena de morte por matar brutalmente duas gêmeas de 9 anos de idade. Apesar de seu crime, o preso apresenta um comportamento infantil e um dom sobrenatural de cura.\n");
+   
+   }
+  
+   if(strcmp(nome, "Tenet") == 0){
+   
+      printf("\nImpossível não se emocionar neste drama estrelado por Tom Hanks, que interpreta o carcereiro Paul Edgecomb. O homem passa a ter uma ligação com Coffey, um condenado a pena de morte por matar brutalmente duas gêmeas de 9 anos de idade. Apesar de seu crime, o preso apresenta um comportamento infantil e um dom sobrenatural de cura.\n");
+   
+   }
+  
+  if(strcmp(nome, "Mad_Max") == 0){
+   
+      printf("\nImpossível não se emocionar neste drama estrelado por Tom Hanks, que interpreta o carcereiro Paul Edgecomb. O homem passa a ter uma ligação com Coffey, um condenado a pena de morte por matar brutalmente duas gêmeas de 9 anos de idade. Apesar de seu crime, o preso apresenta um comportamento infantil e um dom sobrenatural de cura.\n");
+   
+   }
+  
+  if(strcmp(nome, "Matrix") == 0){
+   
+      printf("\nImpossível não se emocionar neste drama estrelado por Tom Hanks, que interpreta o carcereiro Paul Edgecomb. O homem passa a ter uma ligação com Coffey, um condenado a pena de morte por matar brutalmente duas gêmeas de 9 anos de idade. Apesar de seu crime, o preso apresenta um comportamento infantil e um dom sobrenatural de cura.\n");
+   
+   }
+  
+  if(strcmp(nome, "A_Identidade_Bourne") == 0){
+   
+      printf("\nImpossível não se emocionar neste drama estrelado por Tom Hanks, que interpreta o carcereiro Paul Edgecomb. O homem passa a ter uma ligação com Coffey, um condenado a pena de morte por matar brutalmente duas gêmeas de 9 anos de idade. Apesar de seu crime, o preso apresenta um comportamento infantil e um dom sobrenatural de cura.\n");
+   
+   }
+  
+  if(strcmp(nome, "Missão_Impossível_Fallout") == 0){
+   
+      printf("\nNão poderíamos falar de longas-metragens de ação sem referir uma das sagas mais bem-sucedidas de sempre: Missão Impossível. A sequência mais recente da franquia foi dirigida por Christopher McQuarrie e combina cenas de ação, espionagem e aventura.\nEthan Hunt, o protagonista, recebe mais uma tarefa perigosa e desta vez precisa colaborar com um agente da CIA para conseguir realizá-la.\n");
    
    }
    
