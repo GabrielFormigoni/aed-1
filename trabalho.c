@@ -1,7 +1,7 @@
 /*Programa que tem como objetivo dar recomendações de formas de entretenimentos como: filmes, series, livros e jogos de acordo com as preferências do usuário.
 
   Participantes : Gabriel Formigoni dos Santos Neto
-                 César Augusto Sales de Oliveira    
+                  César Augusto Sales de Oliveira    
 */
 
 #include <stdio.h>
@@ -191,17 +191,19 @@ void recomendacoes_filme(Lista *k, int cont)
        
         if(strcmp(k[i].genero, "Drama") == 0){
         
-          printf(" Como Eu Era Antes de Você\n");
-          printf(" A Culpa é das Estrelas\n");
-          printf(" Doze Anos de Escravidão\n");
-          printf(" Sempre ao Seu Lado\n");
-          printf(" À Espera de um Milagre\n");
+          printf("\n\nFilmes Drama\n\n");
+          printf(" Como_Eu_Era_Antes_de_Você\n");
+          printf(" A_Culpa_é_das_Estrelas\n");
+          printf(" Doze_Anos_de_Escravidão\n");
+          printf(" Sempre_ao_Seu_Lado\n");
+          printf(" À_Espera_de_um_Milagre\n");
         
         }
        
         if(strcmp(k[i].genero, "Ação") == 0){
         
-          printf(" Como Eu Era Antes de Você\n");
+          printf("\n\nFilmes Ação\n\n");
+          printf(" Como_Eu_Era_Antes_de_Você\n");
           printf(" A Culpa é das Estrelas\n");
           printf(" Doze Anos de Escravidão\n");
           printf(" Sempre ao Seu Lado\n");
@@ -210,7 +212,8 @@ void recomendacoes_filme(Lista *k, int cont)
         } 
        
        if(strcmp(k[i].genero, "Romance") == 0){
-        
+       
+          printf("\n\nFilmes Romance\n\n");
           printf(" Como Eu Era Antes de Você\n");
           printf(" A Culpa é das Estrelas\n");
           printf(" Doze Anos de Escravidão\n");
@@ -221,6 +224,7 @@ void recomendacoes_filme(Lista *k, int cont)
        
        if(strcmp(k[i].genero, "Terror") == 0){
         
+          printf("\n\nFilmes Terror\n\n");
           printf(" Como Eu Era Antes de Você\n");
           printf(" A Culpa é das Estrelas\n");
           printf(" Doze Anos de Escravidão\n");
@@ -230,7 +234,8 @@ void recomendacoes_filme(Lista *k, int cont)
         }
        
        if(strcmp(k[i].genero, "Comédia") == 0){
-        
+          
+          printf("\n\nFilmes Comédia\n\n");
           printf(" Como Eu Era Antes de Você\n");
           printf(" A Culpa é das Estrelas\n");
           printf(" Doze Anos de Escravidão\n");
@@ -265,7 +270,37 @@ void recomendacoes_jogo(Lista *k, int cont)
 void sinopse_filme(Lista2 *l, char nome[])
 {
 
-
+   if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
+   
+      printf("\nLouisa Clark é contratada para ser cuidadora do mal-humorado jovem Will Traynor. Apesar da resistência do rapaz, a simpatia de Lou acaba mudando o relacionamento da dupla, mas será que isso será suficiente para mudar os planos de Will?\n");
+   
+   }
+   
+    if(strcmp(nome, "A_Culpa_é_das_Estrelas") == 0){
+   
+      printf("\nHazel não tinha planos de se apaixonar, mas esta ideia veio por água abaixo quando ela conheceu Augustus em um grupo de apoio para pacientes com câncer. A afinidade entre os dois acaba aproximando-os rapidamente, e juntos embarcarão em uma jornada que ficará marcada para sempre em suas vidas.\n");
+   
+   }
+   
+   if(strcmp(nome, "Doze_Anos_de_Escravidão") == 0){
+   
+      printf("\nSolomon Northup vive tranquilamente com sua esposa e filhos, até o dia em que aceitou um trabalho em outra cidade. No caminho, ele é sequestrado e vendido como se fosse escravo. Durante 12 anos, o rapaz terá que passar por humilhações físicas e emocionais para sobreviver.\n");
+   
+   }
+   
+   if(strcmp(nome, "Sempre_ao_Seu_Lado") == 0){
+   
+      printf("\nO professor universitário Parker Wilson encontra um filhote de Akita durante a sua volta do trabalho. O que era para ser um lar provisório acabou se tornando definitivo para o cãozinho, e a afinidade entre a dupla passou a surpreender a todos. \n");
+   
+   }
+   
+   if(strcmp(nome, "À_Espera_de_um_Milagre") == 0){
+   
+      printf("\nImpossível não se emocionar neste drama estrelado por Tom Hanks, que interpreta o carcereiro Paul Edgecomb. O homem passa a ter uma ligação com Coffey, um condenado a pena de morte por matar brutalmente duas gêmeas de 9 anos de idade. Apesar de seu crime, o preso apresenta um comportamento infantil e um dom sobrenatural de cura.\n");
+   
+   }
+   
+   
 }
 
 void sinopse_serie(Lista2 *l, char nome[])
@@ -335,7 +370,8 @@ int main(void)
          cont++;
       }
 
-  
+      recomendacoes_filme(lista, cont);
+      
         printf("\nInforme o caractere conforme a operação que deseja realizar:\n");
         printf("I - Se deseja inserir um filme da lista:\n");
         printf("R - Se deseja remover um filme da lista:\n");
@@ -391,7 +427,7 @@ int main(void)
             
             scanf("%s", nome);
             
-            sinopse(lista2, nome);
+            sinopse_filme(lista2, nome);
         }
         
         
@@ -487,7 +523,7 @@ int main(void)
             
             scanf("%s", nome);
             
-            sinopse(lista2, nome);
+
         }
         
         
@@ -583,7 +619,7 @@ int main(void)
             
             scanf("%s", nome);
             
-            sinopse(lista2, nome);
+   
         }
         
         
@@ -678,7 +714,7 @@ int main(void)
             
             scanf("%s", nome);
             
-            sinopse(lista2, nome);
+  
         }
         
         
