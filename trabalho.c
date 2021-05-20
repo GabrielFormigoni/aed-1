@@ -398,6 +398,36 @@ void sinopse_filme(Lista2 *l, char nome[])
    
    }  
   
+   if(strcmp(nome, "Minha_Mãe_é_Uma_Peça") == 0){
+   
+      printf("\nDona Hermínia é uma mulher de meia idade, divorciada do marido, que a trocou por uma mais jovem. Hiperativa, ela não larga o pé de seus filhos Marcelina e Juliano, que já estão bem grandinhos. Um dia, após descobrir que eles a consideram uma chata, resolve sair de casa sem avisar ninguém, deixando todos, de alguma forma, preocupados com o que teria acontecido. Mal sabem eles que a mãe foi visitar a querida tia Zélia para desabafar suas tristezas do presente e recordar os bons tempos do passado.\n");
+   
+   }  
+   
+    if(strcmp(nome, "Até_que_a_Sorte_nos_Separe") == 0){
+   
+      printf("\nTino é um pai de família que tem sua rotina transformada ao ganhar na loteria. Em dez anos, o fanfarrão e sua mulher Jane gastam todo o dinheiro com uma vida de ostentação. Ao descobrir que está falido, ele é obrigado a aceitar a ajuda de Amauri, seu vizinho, um consultor financeiro nada divertido e extremamente econômico. Quando Jane engravida do terceiro filho, Tino faz de tudo para esconder da esposa que estão na lona, pois a recomendação médica é que a grávida evite fortes emoções.\n");
+   
+   }
+   
+    if(strcmp(nome, "Missão_Madrinha_de_Casamento") == 0){
+   
+      printf("\nLillian vai se casar e convida a amiga Annie para ser sua madrinha. Ela, que enfrenta problemas profissionais e amorosos, resolve se dedicar à função de corpo e alma. Só que, logo no primeiro evento organizado, Annie conhece Helen, uma bela e rica mulher que quer ser a nova melhor amiga de Lillian. As duas passam a disputar a proximidade da noiva, assim como o posto de organizadora do casamento e demais eventos pré-nupciais.\n");
+   
+   }
+   
+    if(strcmp(nome, "As_Férias_de_Mr_Bean") == 0){
+   
+      printf("\nQuando o clima úmido de Londres fica insuportável, Mr. Bean decide ir para a Riviera Francesa e divertir-se ao sol. Como sempre, seus planos não acontecem do jeito que queria. Ele é confundido duas vezes: com um sequestrador e com um renomado cineasta quando chega com o filho de um diretor e uma atriz principiante. Mr. Bean acaba no Festival de Cinema de Cannes.\n");
+   
+   }
+   
+    if(strcmp(nome, "O_virgem_de_40_anos") == 0){
+   
+      printf("\nAndy fica horrorizado quando seus colegas de trabalho descobrem que, aos 40 anos, ele ainda é virgem. Agora, seus amigos tentam ajudá-lo a encontrar uma garota e perder a sua virgindade.\n");
+   
+   } 
+  
 }
 
 void sinopse_serie(Lista2 *l, char nome[])
