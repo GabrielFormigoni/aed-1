@@ -330,7 +330,38 @@ void sinopse_filme(Lista2 *l, char nome[])
    
    }
    
+  if(strcmp(nome, "PS_Eu_Te_Amo") == 0){
    
+      printf("\nHolly Kennedy é uma jovem bonita, feliz e realizada. Casou-se com o homem de sua vida, o apaixonado Gerry, que, infelizmente, fica doente e morre, deixando Holly em estado de choque. Antes de falecer, Gerry deixa para a esposa uma série de cartas. Mensagens sempre assinadas da mesma forma: (P.S. Eu te amo). A mãe e as amigas de Holly estão preocupadas porque as cartas mantêm a jovem presa ao passado. Entretanto, o fato é que as cartas estão ajudando a aliviar sua dor e guiá-la a uma nova vida.\n");
+   
+   }   
+   
+  if(strcmp(nome, "Simplesmente_Acontece") == 0){
+   
+      printf("\nAlex e Rosie são amigos inseparáveis que cresceram juntos em Londres, compartilhando entre si suas melhores experiências. Tudo muda quando Alex ganha uma bolsa de estudos e passa a morar nos EUA. Separados, seus caminhos agora são outros. Mas nos tempos de hoje é impossível não se conectar. E, em se tratando de amor, o difícil é fazer as escolhas certas.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Cartas_para_Julieta") == 0){
+   
+      printf("\nEm visita à cidade italiana de Verona com seu noivo ocupado, uma jovem chamada Sophie visita um muro onde os desiludidos deixam cartas para a trágica heroína de Shakespeare, Julieta Capuleto. Ao encontrar uma dessas cartas, de 1957, a jovem decide escrever à autora, Claire. Inspirada pela atitude de Sophie, Claire decide procurar por seu antigo amor.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "O_Guarda_Costas") == 0){
+   
+      printf("\nFrank Farmer, um guarda-costas altamente eficiente e caro, é contratado para proteger Rachel Marron, uma grande cantora e atriz que está recebendo cartas anônimas e ameaçadoras. Frank é um ex-agente do Serviço Secreto que ainda não se perdoou do sentimento de culpa em relação à sua inabilidade de proteger o presidente Reagan, que quase foi assassinado. Frank e Rachel se apaixonam e logo ele se torna parte integrante do círculo íntimo dela. Paralelamente, novos atentados acontecem.\n");
+   
+   }
+
+
+  if(strcmp(nome, "Meu_Primeiro_Amor") == 0){
+   
+      printf("\nVada Sultenfuss, uma garota de 11 anos, é obcecada com a morte, pois sua mãe morreu quando a garota nasceu e seu pai, Harry Sultenfuss, é um agente funerário que não lhe dá muita atenção. Vada é apaixonada por Jake Bixler, seu professor de inglês, e é muito amiga de Thomas J. Sennett, um garoto que é alérgico a tudo. Quando Harry contrata Shelly DeVoto, uma maquiadora, para os funerais e se apaixona por ela, Vada se sente rejeitada e quer fazer qualquer coisa para separá-los.\n");
+   
+   }    
 }
 
 void sinopse_serie(Lista2 *l, char nome[])
