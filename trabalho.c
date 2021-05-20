@@ -225,11 +225,11 @@ void recomendacoes_filme(Lista *k, int cont)
        if(strcmp(k[i].genero, "Terror") == 0){
         
           printf("\n\nFilmes Terror\n\n");
-          printf(" Como Eu Era Antes de Você\n");
-          printf(" A Culpa é das Estrelas\n");
-          printf(" Doze Anos de Escravidão\n");
-          printf(" Sempre ao Seu Lado\n");
-          printf(" À Espera de um Milagre\n");
+          printf(" O_Exorcista\n");
+          printf(" O_Massacre_da_Serra_Elétrica\n");
+          printf(" O_Sexto_Sentido\n");
+          printf(" Psicose\n");
+          printf(" IT_A_Coisa\n");
         
         }
        
