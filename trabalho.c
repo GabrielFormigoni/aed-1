@@ -789,6 +789,165 @@ void sinopse_filme(Lista2 *l, char nome[])
    }        
 }      
 
+void ano_serie(Lista2 *l, char nome[])
+{         
+ 
+   if(strcmp(nome, "Sky_Rojo") == 0){
+   
+      printf("\nSky Rojo conta a história de três mulheres que trabalhavam em um clube de strip-tease como prostitutas, chamado Las Novias Club. Após uma delas atacar o cafetão como forma de defesa e achar que ele está morto, elas precisam fugir para que seus capangas não tentem vingar pelo que aconteceu com o chefe.\n");
+   
+   }
+   
+    if(strcmp(nome, "Lupin") == 0){
+   
+      printf("\nBaseada nos romances policiais de Maurice Leblanc, Lupin acompanha Assane Diop (Omar Sy), um homem que, 25 anos atrás, viu sua vida virar de cabeça para baixo com a morte de seu pai, então acusado injustamente de um crime.\n");
+   
+   }
+   
+   if(strcmp(nome, "Sherlock") == 0){
+   
+      printf("\nSherlock mostra a história do detetive Sherlock Holmes (Benedict Cumberbatch) resolvendo vários mistérios na Londres contemporânea. Holmes é ajudado pelo seu amigo Dr. John Watson, um médico que retorna à Inglaterra depois de servir como médico no exército britânico na Guerra do Afeganistão.\n");
+   
+   }
+   
+   if(strcmp(nome, "Peaky_Blinders") == 0){
+   
+      printf("\nOs Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas (Tommy) Shelby (Cillian Murphy).\n");
+   
+   }
+   
+   if(strcmp(nome, "La_Casa_de_Papel") == 0){
+   
+      printf("\nEm La Casa de Papel da Netflix, nove habilidosos ladrões (Nairóbi, Berlim, Tókyo, Rio, Helsinki, Oslo, Professor, Denver e Moscou) se trancam na Casa da Moeda da Espanha com o ambicioso plano de realizar o maior roubo da história. Para isso, a gangue precisa lidar com as dezenas de pessoas que manteve como refém, além dos agentes da força de elite da polícia, que farão de tudo para que a investida dos criminosos fracasse.\n");
+   
+   }
+
+   if(strcmp(nome, "Elite") == 0){
+   
+      printf("\nEm Elite, depois de um problema na escola que frequentam, três alunos do ensino público são transferidos para Las Encinas, a melhor e mais exclusiva escola na Espanha, onde os filhos da elite estudam. O choque entre os menos favorecidos e aqueles que têm tudo culmina em um assassinato.\n");
+   
+   }
+  
+  if(strcmp(nome, "The_End_of_the_F***ing_World") == 0){
+   
+      printf("\nThe End of the F***ing World. Nesta série de humor negro baseada numa banda desenhada, um adolescente psicopata e uma rebelde sedenta por aventuras embarcam numa viagem que tem tudo para correr mal. Veja tudo o que quiser. Com Alex Lawther (Black Mirror) e Jessica Barden (Penny Dreadful).\n");
+   
+   }
+  
+  if(strcmp(nome, "The_Witcher") == 0){
+   
+      printf("\nGeralt de Rívia, um mutante caçador de monstros, sai em busca de seu destino em um mundo turbulento, onde as pessoas podem ser mais perversas que as criaturas selvagens.\n");
+   
+   }
+  
+  if(strcmp(nome, "Kingdom") == 0){
+   
+      printf("\nA série é definida na época da Dinastia Joseon (1392-1897). Conta a história de um príncipe herdeiro que é enviado numa missão suicida para investigar uma misteriosa praga que tem assolado o país. A verdade ameaça o reino, quando se descobre um misterioso surto de zumbis.\n");
+   
+   }
+  
+  if(strcmp(nome, "Sex_Education") == 0){
+   
+      printf("\nO inseguro Otis manja tudo quando o negócio é aconselhamento sexual, graças à sua mãe sexóloga. E aí a rebelde Maeve propõe criar uma clínica de terapia sexual na escola.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Jane_a_Virgem") == 0){
+   
+      printf("\nGina Rodriguez interpreta Jane Gloriana Villanueva, uma jovem de 23 anos religiosa e latina que engravida após ser inseminada artificialmente por um erro médico, ao mesmo tempo que namora outro homem, o detetive Michael.\n");
+   
+   }   
+   
+  if(strcmp(nome, "Riverdale") == 0){
+   
+      printf("\nRiverdale é uma série norte-americana de drama e mistério, baseada nos personagens da Archie Comics. ... A série começa com a morte de um rico garoto chamado Jason Blossom, dando início a uma investigação que mexe com toda a cidade. Archie Andrews descobre seu amor pela música e pela professora.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Virgin_River") == 0){
+   
+      printf("\nMel é uma enfermeira especializada em partos que se muda para uma pequena cidade chamada Virgin River, no norte da Califórnia, para recomeçar a sua vida, deixando tudo para trás em Los Angeles. ... A série começa com Mel chegando em Virgin River, mas enfrentando alguns problemas com o seu carro.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Os_Inocentes") == 0){
+   
+      printf("\nDois adolescentes apaixonados abandonam suas famílias problemáticas para viverem esse amor. No entanto, essa romântica aventura logo se transforma em uma jornada de autodescobrimento, mas longe do que os jovens imaginavam.\n");
+   
+   }
+
+
+  if(strcmp(nome, "Bridgerton") == 0){
+   
+      printf("\nDaphne Bridgerton (Phoebe Dynevor), a filha mais velha do respeitado clã, se encontra à procura de um marido adequado. Como seus pais, ela gostaria de se casar por amor, mas o irmão mais velho atrapalha seus planos e torna ainda mais difícil sua busca.\n");
+   
+   }   
+
+  if(strcmp(nome, "American_Horror_Story") == 0){
+   
+      printf("\nBaseada na lenda de Roanoke, narra a história do casal Shelby (Sarah Paulson / Lily Rabe) e Matt (Cuba Goodin Jr / André Holland), que se muda para uma casa no campo em Roanoke, Virginia, e descobrem uma série de acontecimentos estranhos nos arredores da residência.\n");
+   
+   }
+   
+   if(strcmp(nome, "Stranger_Things") == 0){
+   
+      printf("\n Em 6 de Novembro, 1983 na pequena cidade de Hawkins, Indiana, o garoto de 12 anos, Will Byers desaparece misteriosamente. A mãe de Will, Joyce, torna-se frenética e tenta encontrar Will enquanto o chefe de polícia Jim Hopper começa a investigar, e assim fazem também os amigos de Will: Dustin, Mike e Lucas.\n");
+   
+   }
+   
+   if(strcmp(nome, "O_Mundo_Sombrio_de_Sabrina") == 0){
+   
+      printf("\nA trama acompanha a vida de Sabrina Spellman (Kiernan Shipka), uma adolescente que é metade bruxa e metade humana, que só queria viver uma vida normal. No entanto, desde o seu nascimento, ela tem deveres a cumprir com a escuridão e não consegue fugir disso.\n");
+   
+   }
+   
+   if(strcmp(nome, "A_Maldição") == 0){
+   
+      printf("\nEm A Maldição da Mansão Bly, a jovem Dani Clayton (Victoria Pedretti) é contratada por Henry Wingrave (Henry Thomas) para trabalhar numa enorme e antiga mansão, cuidando de seus dois sobrinhos órfãos.\n");
+   
+   }
+   
+   if(strcmp(nome, "Bates_Motel") == 0){
+   
+      printf("\nApós a misteriosa morte de seu marido, Norma Bates decidiu começar uma nova vida longe do Arizona, na pequena cidade de White Pine Bay, em Oregon, e leva o filho Norman, de 17 anos, com ela. Ela compra um velho motel abandonado e a mansão ao lado.\n");
+   
+   }     
+
+   if(strcmp(nome, "Friends") == 0){
+   
+      printf("\nRoss, Rachel, Mônica, Chandler, Joey e Phoebe formam um grupo de seis amigos que lutam para se sobressair e progredir na competitiva vida de Manhattan. ... Seu humor inteligente e apoio mútuo incondicional fazem com sua amizade seja cada vez mais forte, superando assim todos os obstáculos que a vida lhes apresenta.\n");
+   
+   }  
+   
+   if(strcmp(nome, "The_Big_Bang_Theory") == 0){
+   
+      printf("\nDois jovens gênios da física, Leonard (Johnny Galecki) e Sheldon Cooper (Jim Parsons), dividem um apartamento e são surpreendidos ao descobrir que a vizinha, Penny (Kaley Cuoco), é uma loira não tão inteligente. Leonard acredita que pode conquistar a jovem.\n");
+   
+   }
+   
+   if(strcmp(nome, "How_I_Met_Your_Mother") == 0){
+   
+      printf("\nEm 2030, o arquiteto Ted Mosby (Josh Radnor) conta a história sobre como conheceu a mãe dos seus filhos. Ele volta no tempo para 2005, relembrando suas aventuras amorosas em Nova York e a busca pela mulher dos seus sonhos. Ao longo do anos, Ted aproveita para falar a jornada dos seus amigos: o advogado Marshall Eriksen (Jason Segel), a professora Lily Aldrin (Alyson Hannigan), a jornalista Robin Scherbatsky (Cobie Smulders) e o mulherengo convicto Barney Stinson (Neil Patrick Harris).\n");
+   
+   }
+   
+   if(strcmp(nome, "Os_Simpsons") == 0){
+   
+      printf("\nThe Simpsons é uma série animada norte americana transmitida pelo canal FOX. A comédia acompanha a família Simpsons, uma família da classe trabalhadora na cidade desajustada de Springfield. Homer, o pai, trabalha como inspetor de segurança na usina nuclear local; Marge, a mãe, tenta manter a paz na família.\n");
+   
+   }
+   
+   if(strcmp(nome, "Todo_Mundo_Odeia_o_Chris") == 0){
+   
+      printf("\nA série conta a história da família Rock entre os anos de 1982 até 1987, com o foco no menino Chris (Tyler James Williams). Em 1982, Chris completa 13 anos e muda-se com a sua família para Bedford-Stuyvesant, no Brooklyn. Lá, Chris vive situações corriqueiras da vida de um adolescente, tanto nas histórias que realmente acontecem quanto nos pensamentos que são expostos de uma forma humorística. Chris vive com os pais Julius (Terry Crews) e Rochelle (Tichina Arnold), e com os dois irmãos Drew (Tequan Richmond) e Tonya (Imani Hakim). Ele estuda no Corleone Junior High School, colégio onde Chris é o único aluno negro, situação que o vitimiza durante todo seu tempo lá. Mas ele faz um amigo, Greg (Vicent Martella), que vai estar sempre junto de Chris, passando por suas situações tragicamente cômicas.\n");
+   
+   }          
+
+}
+
 void sinopse_serie(Lista2 *l, char nome[])
 {         
  
@@ -948,6 +1107,164 @@ void sinopse_serie(Lista2 *l, char nome[])
 
 }
 
+void ano_livro(Lista2 *l, char nome[])
+{
+
+    if(strcmp(nome, "O_diário_de_Anne_Frank") == 0){
+   
+      printf("\nNa Holanda ocupada pelos nazistas na Segunda Guerra Mundial, o comerciante Kraler abriga duas famílias de judeus em seu sótão. A jovem Anne Frank mantém um diário da vida cotidiana dos Franks e dos Van Daans, narrando a ameaça nazista bem como a dinâmica familiar. Um romance com Peter Van Daan causa ciúmes entre Anne e sua irmã, Margot. Anos depois de as duas famílias terem sido capturadas, Otto Frank volta ao sótão e acha o diário de sua filha.\n");
+   
+   }
+   
+    if(strcmp(nome, "O_menino_do_pijama_listrado") == 0){
+   
+      printf("\nDurante a Segunda Guerra Mundial, Bruno, um garoto de oito anos, e sua família saem de Berlim para residir próximo a um campo de concentração, onde seu pai acaba de se tornar comandante. Infeliz e solitário, ele vagueia fora de sua casa e certo dia encontra Shmuel, um menino judeu de sua idade. Embora a cerca de arame farpado do campo os separem, os meninos começam uma amizade proibida.\n");
+   
+   }
+   
+   if(strcmp(nome, "Capitães_da_areia") == 0){
+   
+      printf("\nPedro Bala, Professor, Gato, Sem Pernas e Boa Vida são adolescentes abandonados por suas famílias, que crescem nas ruas de Salvador e vivem em comunidade no Trapiche. Eles praticam uma série de assaltos e são constantemente perseguidos pela polícia. Um dia, Professor conhece Dora e seu irmão Zé Fuinha e os leva até o Trapiche, o que desencadeia a excitação dos demais garotos, que não estão acostumados à presença de uma mulher no local. Aos poucos, nasce o afeto entre o líder do grupo e a jovem.\n");
+   
+   }
+   
+   if(strcmp(nome, "A_menina_que_roubava_livros") == 0){
+   
+      printf("\nDurante a Segunda Guerra Mundial, uma jovem garota chamada Liesel Meminger sobrevive fora de Munique lendo os livros que ela rouba. Ajudada por seu pai adotivo, ela aprende a ler e partilhar livros com seus amigos, incluindo um judeu que vive na clandestinidade em sua casa. Enquanto não está lendo ou estudando, ela faz algumas tarefas para a mãe e brinca com o amigo Rudy.\n");
+   
+   }
+   
+   if(strcmp(nome, "A_cidade_do_Sol") == 0){
+   
+      printf("\nMariam tem 33 anos. Sua mãe morreu quando ela tinha 15 anos e Jalil, o homem que deveria ser seu pai, a deu em casamento a Rasheed, um sapateiro de 45 anos. ... Ela vai à escola todos os dias, é considerada uma das melhores alunas do colégio e sempre soube que seu destino era muito maior do que casar e ter filhos.\n");
+   
+   }
+
+   if(strcmp(nome, "As_Crônicas_de_Nárnia") == 0){
+   
+      printf("\nDurante os bombardeios da Segunda Guerra Mundial de Londres, quatro irmãos ingleses são enviados para uma casa de campo onde eles estarão seguros. Um dia, Lucy encontra um guarda-roupa que a transporta para um mundo mágico chamado Nárnia. Depois de voltar, ela logo volta a Nárnia com seus irmãos, Peter e Edmund, e sua irmã, Susan. Lá eles se juntam ao leão mágico, Aslan, na luta contra a Feiticeira Branca.\n");
+   
+   }
+  
+  if(strcmp(nome, "O_Hobbit") == 0){
+   
+      printf("\nComo a maioria dos hobbits, Bilbo Bolseiro leva uma vida tranquila até o dia em que recebe uma missão do mago Gandalf. Acompanhado por um grupo de anões, ele parte numa jornada até a Montanha Solitária para libertar o Reino de Erebor do dragão Smaug.\n");
+   
+   }
+  
+  if(strcmp(nome, "O_Instituto") == 0){
+   
+      printf("\nUma garota está sofrendo por conta da morte inesperada de seus pais e voluntariamente dá entrada no Instituto Rosewood, onde é submetida a experimentos bizarros e pseudocientíficos de modificação de personalidade e de lavagem cerebral.\n");
+   
+   }
+  
+  if(strcmp(nome, "Uma_Dobra_no_Tempo") == 0){
+   
+      printf("\nMeg Murry e seu irmãozinho, Charles Wallace, ficaram sem o seu pai cientista, o senhor Murry, há cinco anos, desde que ele descobriu um novo planeta e usou o conceito conhecido como tesseract para viajar para lá. Aliado do colega de classe de Meg, Calvin O'Keefe, e guiado pelos três misteriosos viajantes astrais conhecidos como sra. Whatsit, sra. Who e mrs. Which, as crianças iniciam uma perigosa jornada para um planeta que possui todo o mal no universo.\n");
+   
+   }
+  
+  if(strcmp(nome, "Viagem_ao_Centro_da_Terra") == 0){
+   
+      printf("\nDurante uma expedição na Islândia, o professor Trevor Anderson, o seu sobrinho Sean, e sua guia Hannah ficam presos em uma caverna. Enquanto seguem sua rota de fuga mais abaixo da superfície da Terra, eles passam por lugares estranhos e encontram criaturas incríveis, incluindo dinossauros. Porém, como a atividade vulcânica à sua volta aumenta, eles percebem que precisam encontrar o caminho para fora rapidamente.\n");
+   
+   }   
+
+  if(strcmp(nome, "Me_Chame_pelo_Seu_Nome") == 0){
+   
+      printf("\nO jovem Elio está enfrentando outro verão preguiçoso na casa de seus pais na bela e lânguida paisagem italiana. Mas tudo muda com a chegada de Oliver, um acadêmico que veio ajudar a pesquisa de seu pai.\n");
+   
+   }   
+   
+  if(strcmp(nome, "O_Visconde_que_me_Amava") == 0){
+   
+      printf("\nAo que tudo indica, o solteiro mais cobiçado do ano será Anthony Bridgerton, um visconde charmoso, elegante e muito rico que, contrariando as probabilidades, resolve dar um basta na rotina de libertino e arranjar uma noiva. Logo ele decide que Edwina Sheffield, a debutante mais linda da estação, é a candidata ideal.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Eleanor_&_Park") == 0){
+   
+      printf("\nEleanor é nova na cidade. Com roupas inusitadas, cachos ruivos indomáveis e uma família problemática, ela sente que nunca vai conseguir se encaixar. Park senta sozinho no ônibus da escola. Sempre de camiseta preta, fones de ouvido e a cabeça enfiada num livro, acha que consegue passar despercebido.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "O_Diário_de_Suzana_para_Nicolas") == 0){
+   
+      printf("\nAo folhear aquelas páginas, Katie logo descobre que Suzana é uma jovem médica que, depois de sofrer um infarto, decidiu deixar para trás a correria de Boston e se mudar para um chalé na pacata ilha de Martha's Vineyard. ... O diário de Suzana para Nicolas é uma história de amor que se constrói ao virar de cada página.\n");
+   
+   }
+
+
+  if(strcmp(nome, "Simplesmente_Acontece") == 0){
+   
+      printf("\nAlex e Rosie são amigos inseparáveis que cresceram juntos em Londres, compartilhando entre si suas melhores experiências. Tudo muda quando Alex ganha uma bolsa de estudos e passa a morar nos EUA. Separados, seus caminhos agora são outros. Mas nos tempos de hoje é impossível não se conectar. E, em se tratando de amor, o difícil é fazer as escolhas certas.\n");
+   
+   }   
+
+  if(strcmp(nome, "O_Desfiladeiro_do_Medo") == 0){
+   
+      printf("\nApós uma cirurgia malfeita, Todd precisa de um lugar onde possa esconder-se durante algum tempo, enquanto as cicatrizes desaparecem. Querendo ser momentaneamente esquecido instala-se em uma mansão no Coldheart Canyon, um recanto da cidade tão secreto, que sequer consta nos mapas.\n");
+   
+   }
+   
+   if(strcmp(nome, "As_Ruínas") == 0){
+   
+      printf("\n Amy, Stacy, Jeff e Eric procuram por diversão no México, mas o que eles encontram é muito mais do que esperavam. Eles descobrem uma entidade maldita em uma região arqueológica na selva do país. Vinhas carnívoras tentam seduzir os amigos em seus tentáculos, forçando o grupo a lutar pela sobrevivência.\n");
+   
+   }
+   
+   if(strcmp(nome, "A_Profecia") == 0){
+   
+      printf("\nO embaixador americano e a esposa querem muito ter filhos. Quando ela dá à luz um bebê morto e um padre sugere que adotem um recém-nascido saudável e órfão, ele aceita sem contar à mulher. O que ele não sabe é que o bebê é o anticristo.\n");
+   
+   }
+   
+   if(strcmp(nome, "O_Exorcista") == 0){
+   
+      printf("\nUma atriz vai gradativamente tomando consciência de que a sua filha de doze anos está tendo um comportamento completamente assustador. Deste modo, ela pede ajuda a um padre, que também é um psiquiatra, e este chega a conclusão de que a garota está possuída pelo demônio. Ele solicita então a ajuda de um segundo sacerdote, especialista em exorcismo, para tentar livrar a menina desta terrível possessão.\n");
+   
+   }
+   
+   if(strcmp(nome, "A_Coisa") == 0){
+   
+      printf("\nUm grupo de crianças se une para investigar o misterioso desaparecimento de vários jovens em sua cidade. Eles descobrem que o culpado é Pennywise, um palhaço cruel que se alimenta de seus medos e cuja violência teve origem há vários séculos.\n");
+   
+   }       
+
+   if(strcmp(nome, "Azul_da_Cor_do_Mar") == 0){
+   
+      printf("\nEla quer ser jornalista, e seu sonho está se concretizando: Rafaela Vilas Boas (um nome tão imponente para alguém tão desajeitado) conseguiu um estágio no melhor jornal de Minas Gerais. ... O jornal é mesmo incrível, mas seu colega de trabalho, Bernardo, não é a pessoa mais simpática do mundo.\n");
+   
+   }
+   
+   if(strcmp(nome, "Cadê_Você_Bernadette?") == 0){
+   
+      printf("\nA vida de Bernadette começa a parecer sem rumo, e ela resolve fugir da sua zona de conforto e desaparecer misteriosamente, deixando tudo para trás. Agora, Bee, sua filha, precisa juntar todas as pistas para descobrir onde foi parar essa mulher que imaginava conhecer tão bem, mas que se transformou em um verdadeiro ponto de interrogação.\n");
+   
+   }
+   
+   if(strcmp(nome, "Galvez_Imperador_do_Acre") == 0){
+   
+      printf("\nTrata-se de um folhetim histórico-farsesco baseado na vida de Luis Gálvez Rodríguez de Arias (1864-1935), aventureiro espanhol que se envolveu com as disputas em torno da posse do território do Acre, no final do século XIX. \n");
+   
+   }
+   
+   if(strcmp(nome, "A_louca_dos_gatos") == 0){
+   
+      printf("\nOs quadrinhos de Sarah Andersen são para todos que precisam lidar com níveis de ansiedade cada vez mais alarmantes, que sentem que o mundo está à beira do colapso e que se esforçam para sair ao menos um centimetrozinho da zona de conforto. Ou seja, é basicamente um manual de sobrevivência para os dias de hoje.\n");
+   
+   } 
+   
+   if(strcmp(nome, "Cães_e_gatos") == 0){
+   
+      printf("\nCães e gatos têm travado uma guerra secreta desde o começo dos tempos. A vitória dos cães fica cada vez mais próxima quando o Professor Brody inventa uma fórmula capaz de curar a alergia dos humanos a cachorros. Para impedi-la, o líder dos gatos, Sr. Tinkles, decide roubar a vacina, mas primeiro precisa enfrentar o Agente Lou, um cão corajoso que, graças a um erro no sistema, está encarregado de proteger a família Brody.\n");
+   
+   }
+}
+
+
 void sinopse_livro(Lista2 *l, char nome[])
 {
 
@@ -1103,6 +1420,165 @@ void sinopse_livro(Lista2 *l, char nome[])
       printf("\nCães e gatos têm travado uma guerra secreta desde o começo dos tempos. A vitória dos cães fica cada vez mais próxima quando o Professor Brody inventa uma fórmula capaz de curar a alergia dos humanos a cachorros. Para impedi-la, o líder dos gatos, Sr. Tinkles, decide roubar a vacina, mas primeiro precisa enfrentar o Agente Lou, um cão corajoso que, graças a um erro no sistema, está encarregado de proteger a família Brody.\n");
    
    }
+}
+
+void ano_jogo(Lista2 *l, char nome[])
+{
+
+    if(strcmp(nome, "Katana_Zero") == 0){
+   
+      printf("\nO enredo te coloca na pele de um protagonista chamado Zero, também conhecido como Dragon. Ele é uma espécie de mercenário que vive sob efeito de drogas, precisa passar pelo psicólogo, não tem parte de sua memória e tem a missão de assassinar alvos específicos. A personalidade dele se molda de acordo com algumas escolhas do jogador numa gameplay com ação e muito, muito, sangue.\n");
+   
+   }
+   
+    if(strcmp(nome, "Celeste") == 0){
+   
+      printf("\nCeleste é uma história sobre resiliência, e essa é a primeira lição que você vai aprender, juntamente com a protagonista, Madeline. Ela decidiu se aventurar subindo a Montanha Celeste, um lugar mágico e perigoso, por um motivo que nem ela mesma entende bem.\n");
+   
+   }
+   
+   if(strcmp(nome, "Little_Nightmares") == 0){
+   
+      printf("\nUma menina faminta de nove anos chamada Six (seis) está presa na A Bocarra - um navio misterioso que serve os caprichos de criaturas doentes e poderosas. Depois acordar nas profundidades mais baixas da Bocarra, Six decide escapar de seu confinamento, tendo momentos regulares de fome excruciante.\n");
+   
+   }
+   
+   if(strcmp(nome, "Ori_and_the_Blind_Forest") == 0){
+   
+      printf("\nEm Ori and the Blind Forest, o jogador controla um guardião espiritual feito de luz chamado Ori, um dos muitos filhos da Árvore do Espírito, que protegia a floresta de Nibel. Durante uma tempestade, Ori se desprende da árvore e se perde na floresta, quando é encontrado e adotado por uma criatura chamada Naru. \n");
+   
+   }
+   
+   if(strcmp(nome, "Hollow_Knight") == 0){
+   
+      printf("\nO jogador deverá derrotar incontáveis inimigos poderosos e desbloquear habilidades novas para prosseguir no jogo e para explorar o reino esquecido em que se encontra e descobrir seus segredos.\n");
+   
+   }
+
+   if(strcmp(nome, "Assassin’s_Creed_II") == 0){
+   
+      printf("\nO jogador assume o papel de um jovem nobre que se tornou assassino, chamado Ezio Auditore da Firenze. O pai de Ezio e seus irmãos, acusados injustamente de trair a cidade de Florença, são executados em praça pública. Ezio também seria executado, porém conseguiu escapar da morte. Ezio então parte junto com sua mãe e sua irmã para a vila dos Auditore em Monteriggioni, onde descobre que o seu pai era secretamente um assassino. Ezio passa a ajudar o seu tio Mario na guerra entre os templários e os assassinos, com o intuito de se vingar dos causadores da morte de sua família\n");
+   
+   }
+  
+  if(strcmp(nome, "Red_Dead_Redemption_2") == 0){
+   
+      printf("\nA história se passa em 1899 em uma representação ficcional do oeste, meio-oeste e sul dos Estados Unidos e acompanha o fora da lei Arthur Morgan, que precisa lidar com o declínio do Velho Oeste e sobreviver à perseguição de forças governamentais, gangues rivais e outros adversários.\n");
+   
+   }
+  
+  if(strcmp(nome, "Tomb_Raider") == 0){
+   
+      printf("\nA história decorre em Yamatai, uma ilha onde a protagonista e os seus amigos naufragaram. Lara tem que salvá-los, além de ter que lutar contra os habitantes e os perigos naturais da ilha.\n");
+   
+   }
+  
+  if(strcmp(nome, "The_Last_of_Us") == 0){
+   
+      printf("\nJoel, um sobrevivente durão, é contratado para contrabandear Ellie, uma jovem de 14 anos, para fora de uma zona de quarentena opressora. O que começa como um pequeno trabalho se torna uma jornada brutal e emocionante, conforme eles atravessam os Estados Unidos e dependem um do outro para sobreviver.\n");
+   
+   }
+  
+  if(strcmp(nome, "Grand_Theft_Auto_V") == 0){
+   
+      printf("\nO ex-assaltante de bancos Michael Townley vive em Los Santos, San Andreas, sob o programa proteção a testemunhas com o nome de Michael De Santa por causa de um roubo malsucedido em Ludendorff, North Yankton, nove anos antes. ... Os dois se reencontram depois de Trevor caçar Michael até Los Santos.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "FIFA_20") == 0){
+   
+      printf("\nFIFA 20 é o novo jogo de futebol da franquia da EA Sports. FIFA contará com melhorias em diversos elementos, como jogabilidade, gráficos e no balanceamento da dificuldade\n");
+   
+   }   
+   
+  if(strcmp(nome, "PES_2020") == 0){
+   
+      printf("\nSimulador de futebol. O game traz melhorias na sua jogabilidade e mudanças em seus principais modos, como o Liga Master e MyClub. Além é claro de ter um foco maior nos esports, fator que fez com que a franquia adicionasse o EFootball em seu nome oficial. \n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Crash_Team_Racing_Nitro_Fueled") == 0){
+   
+      printf("\nÉ um jogo de corrida da série Crash Bandicoot. Jogadores devem evitar obstáculos e navegar pelas diversas pistas para alcançar a linha de chegada, utilizando power-ups colocados pela pista para conseguir um turbo ou atingir os oponentes.\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Need_For_Speed_Heat") == 0){
+   
+      printf("\nO jogo de corrida se passa na cidade fictícia de Palm City, um mundo aberto que serve de palco para corridas oficiais do “Speedhunters Showdown” durante o dia. À noite, o cenário muda e as corridas clandestinas tomam conta das ruas. Seguindo a tradição da franquia, a polícia será um perigo constante dos competidores que buscam um lugar na elite das corridas de rua.\n");
+   
+   }
+
+
+  if(strcmp(nome, "UFC_3") == 0){
+   
+      printf("\nVada Sultenfuss, uma garota de 11 anos, é obcecada com a morte, pois sua mãe morreu quando a garota nasceu e seu pai, Harry Sultenfuss, é um agente funerário que não lhe dá muita atenção. Vada é apaixonada por Jake Bixler, seu professor de inglês, e é muito amiga de Thomas J. Sennett, um garoto que é alérgico a tudo. Quando Harry contrata Shelly DeVoto, uma maquiadora, para os funerais e se apaixona por ela, Vada se sente rejeitada e quer fazer qualquer coisa para separá-los.\n");
+   
+   }   
+
+  if(strcmp(nome, "Alien:_Isolation") == 0){
+   
+      printf("\nO jogo é baseado na série de filmes de terror de ficção científica Alien, e acontece quinze anos após os eventos do filme original Alien de 1979, seguindo a engenheira Amanda Ripley, filha da protagonista Ellen Ripley de Alien, enquanto ela investiga o desaparecimento de sua mãe.\n");
+   
+   }
+   
+   if(strcmp(nome, "Outlast") == 0){
+   
+      printf("\nOutlast é um jogo de survival horror em primeira pessoa, ambientado em um hospício. ... Como grande parte do hospicio é escuro, o jogador deve usar a câmera de vídeo de Miles para ver, graças à sua função de visão noturna. Usando a visão noturna há o consumo de baterias, as quais estão espalhadas por todo o ambiente.\n");
+   
+   }
+   
+   if(strcmp(nome, "Until_Dawn") == 0){
+   
+      printf("\nUm homem estranho se agacha pela beira do penhasco e estende a mão para ajudá-las, mas Hannah e Beth caem em sua aparente morte, para nunca mais serem vistas. No aniversário de um ano dos desaparecimento das gêmeas Washington, os sete amigos restantes aceitam o convite de Josh de volta à montanha\n");
+   
+   }
+   
+   if(strcmp(nome, "Resident_Evil_7") == 0){
+   
+      printf("\nA história segue a busca do civil Ethan Winters por sua esposa Mia, que o leva a uma mansão agrícola aparentemente abandonada e habitada pela família Baker. Ethan faz uso de armas e ferramentas na luta contra os membros da família e os Mofados, uma forma humanoide de bactéria.\n");
+   
+   }
+   
+   if(strcmp(nome, "Layers_of_Fear") == 0){
+   
+      printf("\nEm Layers of Fear, o jogador controla um pintor perturbado psicologicamente que procura terminar sua obra-prima enquanto anda por sua mansão vitoriana e descobre segredos sobre a família e obras do artista.\n");
+   
+   }     
+
+   if(strcmp(nome, "The_Elder_Scrolls_V:_Skyrim") == 0){
+   
+      printf("\nO jogador entra na pele do último Dovahkiin,que tem o dever de livrar a província de Skyrim da tormenta causada pelos dragões e seu líder Alduin. O jogo se passa duzentos anos depois dos eventos de Oblivion. Na premissa, o Império começa a ceder territórios para as nações Élficas uma vez governadas, porque não há nenhum herdeiro para o trono do Imperador. Os Blades não tem ninguém para defender, e gradualmente morreram, foram assassinados ou se isolaram do resto do mundo. Depois do assassinato do Rei de Skyrim, uma guerra civil irrompe entre as raças nativas Nord — sendo a maioria aqueles que desejavam que Skyrim se separe do Império, e o resto sendo aqueles que desejam que Skyrim permaneça no Império.\n");
+   
+   }  
+   
+   if(strcmp(nome, "Disco_Elysium") == 0){
+   
+      printf("\nDisco Elysium se passa na fictícia cidade de Revachol, mais especificamente no bairro costal de Martinaise, cheio de crime, pobreza e corrupção, controlada pelo corrupto Sindicato dos estivadores. O protagonista é um detetive enviado pela RCM para investigar o assassinato de um homem que foi encontrado pendurado em uma árvore. Infelizmente, após um colapso emocional, o detetive começou a beber muito em todo o distrito de Martinaise, e acorda três dias depois em seu quarto do hotel, sem lembrança de quem ele é e o que estava fazendo. Agora cabe ao jogador resolver o caso de assassinato e orientar o detetive a redescobrir sua identidade preenchendo os buracos em sua memória\n");
+   
+   }
+   
+   if(strcmp(nome, "Persona_5_Royal") == 0){
+   
+      printf("\nO Persona 5 Royal é um novo relançamento da saga de RPG da Atlus, focado na aventura que já fez grande sucesso, o Persona 5 original. O jogo tem a mesma história da primeira versão, envolvendo os Phantom Thieves e sua missão para convencer pessoas ruins a se arrependerem de seus crimes.\n");
+   
+   }
+   
+   if(strcmp(nome, "Chrono_Cross") == 0){
+   
+      printf("\nA história de Chrono Cross é focada no adolescente chamado Serge e na temática de mundos paralelos. De cara com uma realidade alternativa na qual morreu ainda criança, Serge parte em busca da verdade em torno da divergência entre os dois mundos.\n");
+   
+   }
+   
+   if(strcmp(nome, "Final_Fantasy_VII_Remake") == 0){
+   
+      printf("\nA história se passa na metrópole distópica de Midgar e acompanha o mercenário Cloud Strife, que se junta a um grupo ecoterrorista em uma tentativa de impedir que a poderosa megacorporação Shinra use a essência vital do planeta como fonte de energia.\n");
+   
+   }        
+
 }
 
 void sinopse_jogo(Lista2 *l, char nome[])
@@ -1435,6 +1911,7 @@ int main(void)
         printf(" I - Se deseja inserir uma série da lista:\n");
         printf(" R - Se deseja remover uma série da lista:\n");
         printf(" S - Se deseja saber a sinopse de alguma série:\n");
+        printf(" A - Se deseja saber o ano de lançamento de alguma série:\n");
         printf(" M - Se deseja mostrar o conteúdo da sua lista de séries:\n");
         printf(" F - Se deseja finalizar a sua lista de séries e mostrar o seu conteúdo:\n");
         
@@ -1490,6 +1967,16 @@ int main(void)
 
         }
         
+        if(r == 'A')
+        {
+        
+            printf("\n Informe a série que deseja saber o ano de lançamento.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            ano_serie(lista2, nome);
+        }
         
         if(r == 'M')
         {
@@ -1535,6 +2022,7 @@ int main(void)
         printf(" I - Se deseja inserir um livro da lista:\n");
         printf(" R - Se deseja remover um livro da lista:\n");
         printf(" S - Se deseja saber a sinopse de algum livro:\n");
+        printf(" A - Se deseja saber o ano de lançamento de algum livro:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de livros:\n");
         printf(" F - Se deseja finalizar a lista de livros e mostrar o seu conteúdo:\n");
         
@@ -1590,6 +2078,16 @@ int main(void)
                
         }
         
+        if(r == 'A')
+        {
+        
+            printf("\n Informe o livro que deseja saber o ano de lançamento.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            ano_livro(lista2, nome);
+        }
         
         if(r == 'M')
         {
@@ -1635,6 +2133,7 @@ int main(void)
         printf(" I - Se deseja inserir um jogo da lista:\n");
         printf(" R - Se deseja remover um jogo da lista:\n");
         printf(" S - Se deseja saber a sinopse de algum jogo:\n");
+        printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de jogos:\n");
         printf(" F - Se deseja finalizar a lista de jogos e mostrar o seu conteúdo:\n");
         
@@ -1689,6 +2188,16 @@ int main(void)
             sinopse_jogo(lista2, nome); 
         }
         
+        if(r == 'A')
+        {
+        
+            printf("\n Informe o jogo que deseja saber o ano de lançamento.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            ano_jogo(lista2, nome);
+        }
         
         if(r == 'M')
         {
