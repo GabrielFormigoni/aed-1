@@ -203,7 +203,74 @@ void recomendacoes_filme(Lista *k, int cont)
           printf(" A_Culpa_é_das_Estrelas\n");
           printf(" Doze_Anos_de_Escravidão\n");
           printf(" Sempre_ao_Seu_Lado\n");
+          printf(" Tenet\n");
+          printf(" O_Guarda_Costas\n");
+          printf(" Cartas_para_Julieta\n");
+          printf(" A_Identidade_Bourne\n");
           printf(" À_Espera_de_um_Milagre\n");
+          printf(" Meu_Primeiro_Amor\n");
+          printf(" Mad_Max\n");
+          printf(" Túmulo_dos_Vaga_Lumes\n");
+          printf(" PS_Eu_Te_Amo\n");
+        
+        }
+       
+        if(strcmp(k[i].genero, "Histórico") == 0){
+        
+          printf("\n\nFilmes Históricos\n\n");
+          printf(" Doze_Anos_de_Escravidão\n");
+        
+        }
+       
+        if(strcmp(k[i].genero, "Ficção") == 0){
+        
+          printf("\n\nFilmes Ficção\n\n");
+          printf(" Tenet\n");
+          printf(" Coraline\n");
+          printf(" Mad_Max\n");
+          printf(" Upgrade\n");
+        
+        }
+       
+        if(strcmp(k[i].genero, "Animação") == 0){
+        
+          printf("\n\nFilmes Animação\n\n");
+          printf(" O_Rei_Leão\n");
+          printf(" Túmulo_dos_Vaga_Lumes\n");
+          printf(" Divertidamente\n");
+          printf(" Toy_Story\n");
+          printf(" ParaNorman\n");
+          printf(" Coraline\n");
+          
+        
+        }
+       
+        if(strcmp(k[i].genero, "Crime") == 0){
+        
+          printf("\n\nFilmes Crime\n\n");
+          printf(" À_Espera_de_um_Milagre\n");
+          printf(" O_Guarda_Costas\n");
+          printf(" A_Identidade_Bourne\n");
+        
+        }
+       
+        if(strcmp(k[i].genero, "Suspense") == 0){
+        
+          printf("\n\nFilmes Suspense\n\n");
+          printf(" À_Espera_de_um_Milagre\n");
+          printf(" A_Identidade_Bourne\n");
+          printf(" O_Sexto_Sentido\n");
+          printf(" Psicose\n");
+          printf(" IT_A_Coisa\n");
+          printf(" Tenet\n");
+          printf(" ParaNorman\n");
+          printf(" Coraline\n");
+          printf(" Upgrade\n");
+          printf(" O_Massacre_da_Serra_Elétrica\n");
+          printf(" O_Guarda_Costas\n");
+          printf(" Mad_Max\n");
+          printf(" O_Exorcista\n");
+          printf(" Missão_Impossível_Fallout\n");
         
         }
        
@@ -214,6 +281,8 @@ void recomendacoes_filme(Lista *k, int cont)
           printf(" Mad_Max\n");
           printf(" Matrix\n");
           printf(" A_Identidade_Bourne\n");
+          printf(" Upgrade\n");
+          printf(" O_Guarda_Costas\n");
           printf(" Missão_Impossível_Fallout\n");
         
         } 
@@ -224,6 +293,9 @@ void recomendacoes_filme(Lista *k, int cont)
           printf(" PS_Eu_Te_Amo\n");
           printf(" Simplesmente_Acontece\n");
           printf(" Cartas_para_Julieta\n");
+          printf(" O_virgem_de_40_anos\n");
+          printf(" Como_Eu_Era_Antes_de_Você\n");
+          printf(" A_Culpa_é_das_Estrelas\n");
           printf(" O_Guarda_Costas\n");
           printf(" Meu_Primeiro_Amor\n");
         
@@ -233,6 +305,9 @@ void recomendacoes_filme(Lista *k, int cont)
         
           printf("\n\nFilmes Terror\n\n");
           printf(" O_Exorcista\n");
+          printf(" ParaNorman\n");
+          printf(" Coraline\n");
+          printf(" Upgrade\n");
           printf(" O_Massacre_da_Serra_Elétrica\n");
           printf(" O_Sexto_Sentido\n");
           printf(" Psicose\n");
@@ -244,9 +319,14 @@ void recomendacoes_filme(Lista *k, int cont)
           
           printf("\n\nFilmes Comédia\n\n");
           printf(" Minha_Mãe_é_Uma_Peça\n");
+          printf(" Cartas_para_Julieta\n");
           printf(" Até_que_a_Sorte_nos_Separe\n");
           printf(" Missão_Madrinha_de_Casamento\n");
+          printf(" Meu_Primeiro_Amor\n");
+          printf(" Divertidamente\n");
+          printf(" Toy_Story\n");
           printf(" As_Férias_de_Mr_Bean\n");
+          printf(" Simplesmente_Acontece\n");
           printf(" O_virgem_de_40_anos\n");
         
         }
@@ -629,6 +709,13 @@ if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
     
    }      
 
+      if(strcmp(nome, "Upgrade") == 0){
+   
+      printf("\nAno de lançamento : 2018\n");
+      
+    
+   } 
+  
 }  
 
 void sinopse_filme(Lista2 *l, char nome[])
@@ -667,6 +754,12 @@ void sinopse_filme(Lista2 *l, char nome[])
    if(strcmp(nome, "Tenet") == 0){
    
       printf("\nUm agente secreto embarca em uma missão perigosa para evitar o início da Terceira Guerra Mundial.\n");
+   
+   }
+  
+   if(strcmp(nome, "Upgrade") == 0){
+   
+      printf("\nNo futuro próximo, a tecnologia controla quase todos os aspectos da vida. Mas quando Gray, um tecnofóbico, tem seu mundo virado de cabeça para baixo, sua única esperança de vingança é um implante experimental de chips de computador chamado Stem.\n");
    
    }
   
@@ -1784,7 +1877,7 @@ int main(void)
    if(tipo == 1){
     
       printf(" Digite os gêneros que deseja incluir no seu filme, e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia.\n");
+      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Ficção, Suspense, Animação, Crime, Histórico.\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
