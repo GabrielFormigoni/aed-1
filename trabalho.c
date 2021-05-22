@@ -716,6 +716,42 @@ if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
     
    } 
   
+  if(strcmp(nome, "O_Rei_Leão") == 0){
+   
+    printf("\nAno de lançamento : 1994\n");
+     
+   }  
+  
+  if(strcmp(nome, "Túmulo_dos_Vaga_Lumes") == 0){
+   
+    printf("\nAno de lançamento : 1989\n");
+    
+   }  
+  
+  if(strcmp(nome, "Divertidamente") == 0){
+   
+    printf("\nAno de lançamento : 2015\n");
+    
+   }  
+  
+  if(strcmp(nome, "Toy_Story") == 0){
+   
+     printf("\nAno de lançamento : 1995\n");
+    
+   
+   }  
+  
+  if(strcmp(nome, "ParaNorman") == 0){
+   
+     printf("\nAno de lançamento : 2012\n");
+    
+   }  
+  
+  if(strcmp(nome, "Coraline") == 0){
+   
+      printf("\nAno de lançamento : 2009\n");
+   
+  
 }  
 
 void sinopse_filme(Lista2 *l, char nome[])
@@ -880,6 +916,42 @@ void sinopse_filme(Lista2 *l, char nome[])
       printf("\nAndy fica horrorizado quando seus colegas de trabalho descobrem que, aos 40 anos, ele ainda é virgem. Agora, seus amigos tentam ajudá-lo a encontrar uma garota e perder a sua virgindade.\n");
    
    }        
+
+  if(strcmp(nome, "O_Rei_Leão") == 0){
+   
+      printf("\nEste desenho animado da Disney mostra as aventuras de um leão jovem de nome Simba, o herdeiro de seu pai, Mufasa. O tio malvado de Simba, Oscar, planeja roubar o trono de Mufasa atraindo pai e filho para uma emboscada. Simba consegue escapar e somente Mufasa morre. Com a ajuda de seus amigos,Timon e Pumba, ele reaparece como adulto para recuperar sua terra, que foi roubada por seu tio Oscar.\n");
+   
+   }  
+  
+  if(strcmp(nome, "Túmulo_dos_Vaga_Lumes") == 0){
+   
+      printf("\nDois irmãos japoneses tentam sobreviver, numa cabana abandonada, às agruras da Segunda Guerra Mundial. Fome, solidão e desesperança marcam a espera pelo retorno incerto do pai que está no front da batalha.\n");
+   
+   }  
+  
+  if(strcmp(nome, "Divertidamente") == 0){
+   
+      printf("\nCom a mudança para uma nova cidade, as emoções de Riley, que tem apenas 11 anos de idade, ficam extremamente agitadas. Uma confusão na sala de controle do seu cérebro deixa a Alegria e a Tristeza de fora, afetando a vida de Riley radicalmente.\n");
+   
+   }  
+  
+  if(strcmp(nome, "Toy_Story") == 0){
+   
+      printf("\nO aniversário do garoto Andy está chegando e seus brinquedos ficam nervosos, temendo que ele ganhe novos brinquedos que possam substituí-los. Liderados pelo caubói Woody, o brinquedo predileto de Andy, eles recebem Buzz Lightyear, o boneco de um patrulheiro espacial, que logo passa a receber mais atenção do garoto. Com ciúmes, Woody tenta ensiná-lo uma lição, mas Buzz cai pela janela. É o início da aventura do caubói, que precisa resgatar Buzz para limpar sua barra com os outros brinquedos.\n");
+   
+   }  
+  
+  if(strcmp(nome, "ParaNorman") == 0){
+   
+      printf("\nO jovem Norman Babcock consegue falar com os mortos e prefere conviver com eles a conviver com os vivos. Seu tio Prenderghast se comunica com ele para dizer que a maldição de uma bruxa centenária vai se realizar, e apenas Norman pode detê-la.\n");
+   
+   }  
+  
+  if(strcmp(nome, "Coraline") == 0){
+   
+      printf("\nEnquanto explora sua nova casa à noite, a pequena Coraline descobre uma porta secreta que contém um mundo parecido com o dela, porém melhor em muitas maneiras. Todos têm botões no lugar dos olhos, os pais são carinhosos e os sonhos de Coraline viram realidade por lá. Ela se encanta com essa descoberta, mas logo percebe que segredos estranhos estão em ação: uma outra mãe e o resto de sua família tentam mantê-la eternamente nesse mundo paralelo.\n");
+   
+   }  
 }      
 
 void ano_serie(Lista2 *l, char nome[])
