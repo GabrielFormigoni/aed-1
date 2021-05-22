@@ -449,7 +449,187 @@ void recomendacoes_jogo(Lista *k, int cont)
 
 }
 
+void ano_filme(Lista2 *l, char nome[])
+{
 
+if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
+   
+      printf("\nAno de lançamento : 2016\n");
+   
+   }
+   
+    if(strcmp(nome, "A_Culpa_é_das_Estrelas") == 0){
+   
+      printf("\nAno de lançamento : 2014\n");
+      
+   }
+   
+   if(strcmp(nome, "Doze_Anos_de_Escravidão") == 0){
+   
+      printf("\nAno de lançamento : 2013\n");
+      
+   
+   }
+   
+   if(strcmp(nome, "Sempre_ao_Seu_Lado") == 0){
+   
+      printf("\nAno de lançamento : 2009\n");
+      
+   
+   }
+   
+   if(strcmp(nome, "À_Espera_de_um_Milagre") == 0){
+   
+      printf("\nAno de lançamento : 1999\n");
+      
+    
+   }
+ 
+   if(strcmp(nome, "Tenet") == 0){
+   
+      printf("\nAno de lançamento : 2020\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "Mad_Max") == 0){
+   
+       printf("\nAno de lançamento : 1980\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "Matrix") == 0){
+   
+      printf("\nAno de lançamento : 1999\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "A_Identidade_Bourne") == 0){
+   
+      printf("\nAno de lançamento : 2002\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "Missão_Impossível_Fallout") == 0){
+   
+      printf("\nAno de lançamento : 2018\n");
+      
+     
+   }   
+   
+
+  if(strcmp(nome, "PS_Eu_Te_Amo") == 0){
+   
+      printf("\nAno de lançamento : 2008\n");
+      
+     
+   }   
+   
+  if(strcmp(nome, "Simplesmente_Acontece") == 0){
+   
+      printf("\nAno de lançamento : 2014\n");
+      
+     
+   }   
+   
+
+  if(strcmp(nome, "Cartas_para_Julieta") == 0){
+   
+      printf("\nAno de lançamento : 2010\n");
+      
+    
+   }   
+   
+
+  if(strcmp(nome, "O_Guarda_Costas") == 0){
+   
+      printf("\nAno de lançamento : 1993\n");
+      
+     
+   }
+
+
+  if(strcmp(nome, "Meu_Primeiro_Amor") == 0){
+   
+      printf("\nAno de lançamento : 1992\n");
+      
+     
+   }   
+
+  if(strcmp(nome, "O_Exorcista") == 0){
+   
+      printf("\nAno de lançamento : 1973\n");
+      
+     
+   }
+   
+   if(strcmp(nome, "O_Massacre_da_Serra_Elétrica") == 0){
+   
+      printf("\nAno de lançamento : 1974\n");
+      
+     
+   }
+   
+   if(strcmp(nome, "O_Sexto_Sentido") == 0){
+   
+      printf("\nAno de lançamento : 1999\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "Psicose") == 0){
+   
+      printf("\nAno de lançamento : 1960\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "IT_A_Coisa") == 0){
+   
+      printf("\nAno de lançamento : 2017\n");
+      
+     
+   }     
+  
+   if(strcmp(nome, "Minha_Mãe_é_Uma_Peça") == 0){
+   
+      printf("\nAno de lançamento : 2013\n");
+      
+     
+   }  
+   
+   if(strcmp(nome, "Até_que_a_Sorte_nos_Separe") == 0){
+   
+      printf("\nAno de lançamento : 2012\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "Missão_Madrinha_de_Casamento") == 0){
+   
+       printf("\nAno de lançamento : 2011\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "As_Férias_de_Mr_Bean") == 0){
+   
+      printf("\nAno de lançamento : 2007\n");
+      
+     
+   }
+   
+   if(strcmp(nome, "O_virgem_de_40_anos") == 0){
+   
+      printf("\nAno de lançamento : 2005\n");
+      
+    
+   }      
+
+}  
 
 void sinopse_filme(Lista2 *l, char nome[])
 {
@@ -1144,6 +1324,7 @@ int main(void)
         printf(" I - Se deseja inserir um filme da lista:\n");
         printf(" R - Se deseja remover um filme da lista:\n");
         printf(" S - Se deseja saber a sinopse de algum filme:\n");
+        printf(" A - Se deseja saber o ano de lançamento de algum filme:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de filmes:\n");
         printf(" F - Se deseja finalizar a lista de filmes e mostrar o seu conteúdo:\n");
         
@@ -1196,6 +1377,17 @@ int main(void)
             scanf("%s", nome);
             
             sinopse_filme(lista2, nome);
+        }
+    
+        if(r == 'A')
+        {
+        
+            printf("\n Informe o filme que deseja saber o ano de lançamento.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            ano_filme(lista2, nome);
         }
         
         
