@@ -344,10 +344,22 @@ void recomendacoes_serie(Lista *k, int cont)
         
           printf("\n\nSéries Drama\n\n");
           printf(" Elite\n");
+          printf(" Os_Inocentes\n");
+          printf(" Lupin\n");
+          printf(" A_Maldição_da_Mansão_Bly\n");
+          printf(" Jane_a_Virgem\n");
+          printf(" O_Mundo_Sombrio_de_Sabrina\n");
           printf(" The_End_of_the_F***ing_World\n");
           printf(" The_Witcher\n");
+          printf(" Bates_Motel\n");
+          printf(" La_Casa_de_Papel\n");
+          printf(" Peaky_Blinders\n");
           printf(" Kingdom\n");
+          printf(" Virgin_River\n");
+          printf(" Riverdale\n");
+          printf(" Sky_Rojo\n");
           printf(" Sex_Education\n");
+          printf(" Sherlock\n");
         
         }
        
@@ -357,10 +369,49 @@ void recomendacoes_serie(Lista *k, int cont)
           printf(" Sky_Rojo\n");
           printf(" Lupin\n");
           printf(" Sherlock\n");
+          printf(" The_Witcher\n");
           printf(" Peaky_Blinders\n");
+          printf(" Kingdom\n");
           printf(" La_Casa_de_Papel\n");
         
         } 
+       
+        if(strcmp(k[i].genero, "Suspense") == 0){
+       
+          printf("\n\nSéries Suspense\n\n");
+          printf(" Elite\n");
+          printf(" Stranger_Things\n");
+          printf(" Bates_Motel\n");
+          printf(" American_Horror_Story\n");
+          printf(" La_Casa_de_Papel\n");
+          printf(" Kingdom\n");
+          printf(" Peaky_Blinders\n");
+          printf(" Lupin\n");
+       
+        }
+       
+        if(strcmp(k[i].genero, "Fantasia") == 0){
+       
+          printf("\n\nSéries Fantasia\n\n");
+          printf(" The_Witcher\n");
+          printf(" Sherlock\n");
+          printf(" Kingdom\n");
+       
+        }     
+       
+        if(strcmp(k[i].genero, "Mistério") == 0){
+       
+          printf("\n\nSéries Mistério\n\n");
+          printf(" Elite\n");
+          printf(" O_Mundo_Sombrio_de_Sabrina\n");
+          printf(" Stranger_Things\n");
+          printf(" Bates_Motel\n");
+          printf(" Lupin\n");
+          printf(" American_Horror_Story\n");
+          printf(" Riverdale\n");
+          printf(" Sherlock\n");
+       
+        }
        
        if(strcmp(k[i].genero, "Romance") == 0){
        
@@ -378,8 +429,10 @@ void recomendacoes_serie(Lista *k, int cont)
           printf("\n\nSéries Terror\n\n");
           printf(" American_Horror_Story\n");
           printf(" Stranger_Things\n");
+          printf(" Os_Inocentes\n");
           printf(" O_Mundo_Sombrio_de_Sabrina\n");
-          printf(" A_Maldição\n");
+          printf(" A_Maldição_da_Mansão_Bly\n");
+          printf(" Kingdom\n");
           printf(" Bates_Motel\n");
         
         }
@@ -388,6 +441,9 @@ void recomendacoes_serie(Lista *k, int cont)
           
           printf("\n\nSéries Comédia\n\n");
           printf(" Friends\n");
+          printf(" Sex_Education\n");
+          printf(" Sherlock\n");
+          printf(" Jane_a_Virgem\n");
           printf(" The_Big_Bang_Theory\n");
           printf(" How_I_Met_Your_Mother\n");
           printf(" Os_Simpsons\n");
@@ -1069,7 +1125,7 @@ void ano_serie(Lista2 *l, char nome[])
    
    }
    
-   if(strcmp(nome, "A_Maldição") == 0){
+   if(strcmp(nome, "A_Maldição_da_Mansão_Bly") == 0){
    
       printf("\nEm A Maldição da Mansão Bly, a jovem Dani Clayton (Victoria Pedretti) é contratada por Henry Wingrave (Henry Thomas) para trabalhar numa enorme e antiga mansão, cuidando de seus dois sobrinhos órfãos.\n");
    
@@ -1228,7 +1284,7 @@ void sinopse_serie(Lista2 *l, char nome[])
    
    }
    
-   if(strcmp(nome, "A_Maldição") == 0){
+   if(strcmp(nome, "A_Maldição_da_Mansão_Bly") == 0){
    
       printf("\nEm A Maldição da Mansão Bly, a jovem Dani Clayton (Victoria Pedretti) é contratada por Henry Wingrave (Henry Thomas) para trabalhar numa enorme e antiga mansão, cuidando de seus dois sobrinhos órfãos.\n");
    
