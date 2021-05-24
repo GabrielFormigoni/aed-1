@@ -14,7 +14,7 @@ final da disciplina.
 - Funcionalidades a serem implementadas:
 . O programa tem como objetivo recomendar formas de
 entretenimento como séries, filmes, livros e jogos com base nas preferências de gêneros
-do usuário, disponibilizando títulos, sinopses, ano de lançamento, entre outras
+do usuário, disponibilizando títulos, sinopses, ano de lançamento, número de temporadas e episódios, nome do autor, plataforma dos jogos, estúdio, entre outras
 informações e criando uma lista com o nome do usuário em que se pode inserir e excluir os títulos que gostar, e mostrar a lista a qualquer momento.
 
 
