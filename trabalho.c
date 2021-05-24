@@ -1739,158 +1739,182 @@ void ano_jogo(Lista2 *l, char nome[])
 
     if(strcmp(nome, "Katana_Zero") == 0){
    
-      printf("\nO enredo te coloca na pele de um protagonista chamado Zero, também conhecido como Dragon. Ele é uma espécie de mercenário que vive sob efeito de drogas, precisa passar pelo psicólogo, não tem parte de sua memória e tem a missão de assassinar alvos específicos. A personalidade dele se molda de acordo com algumas escolhas do jogador numa gameplay com ação e muito, muito, sangue.\n");
+      printf("\nAno de lançamento : 2019\n");
    
    }
    
     if(strcmp(nome, "Celeste") == 0){
    
-      printf("\nCeleste é uma história sobre resiliência, e essa é a primeira lição que você vai aprender, juntamente com a protagonista, Madeline. Ela decidiu se aventurar subindo a Montanha Celeste, um lugar mágico e perigoso, por um motivo que nem ela mesma entende bem.\n");
+      printf("\nAno de lançamento : 2018\n");
    
    }
    
    if(strcmp(nome, "Little_Nightmares") == 0){
    
-      printf("\nUma menina faminta de nove anos chamada Six (seis) está presa na A Bocarra - um navio misterioso que serve os caprichos de criaturas doentes e poderosas. Depois acordar nas profundidades mais baixas da Bocarra, Six decide escapar de seu confinamento, tendo momentos regulares de fome excruciante.\n");
+      printf("\nAno de lançamento : 2017\n");
    
    }
    
    if(strcmp(nome, "Ori_and_the_Blind_Forest") == 0){
    
-      printf("\nEm Ori and the Blind Forest, o jogador controla um guardião espiritual feito de luz chamado Ori, um dos muitos filhos da Árvore do Espírito, que protegia a floresta de Nibel. Durante uma tempestade, Ori se desprende da árvore e se perde na floresta, quando é encontrado e adotado por uma criatura chamada Naru. \n");
+      printf("\nAno de lançamento : 2015\n");
    
    }
    
    if(strcmp(nome, "Hollow_Knight") == 0){
    
-      printf("\nO jogador deverá derrotar incontáveis inimigos poderosos e desbloquear habilidades novas para prosseguir no jogo e para explorar o reino esquecido em que se encontra e descobrir seus segredos.\n");
+      printf("\nAno de lançamento : 2017\n");
    
    }
 
    if(strcmp(nome, "Assassin’s_Creed_II") == 0){
    
-      printf("\nO jogador assume o papel de um jovem nobre que se tornou assassino, chamado Ezio Auditore da Firenze. O pai de Ezio e seus irmãos, acusados injustamente de trair a cidade de Florença, são executados em praça pública. Ezio também seria executado, porém conseguiu escapar da morte. Ezio então parte junto com sua mãe e sua irmã para a vila dos Auditore em Monteriggioni, onde descobre que o seu pai era secretamente um assassino. Ezio passa a ajudar o seu tio Mario na guerra entre os templários e os assassinos, com o intuito de se vingar dos causadores da morte de sua família\n");
+      printf("\nAno de lançamento : 2009\n");
    
    }
   
   if(strcmp(nome, "Red_Dead_Redemption_2") == 0){
    
-      printf("\nA história se passa em 1899 em uma representação ficcional do oeste, meio-oeste e sul dos Estados Unidos e acompanha o fora da lei Arthur Morgan, que precisa lidar com o declínio do Velho Oeste e sobreviver à perseguição de forças governamentais, gangues rivais e outros adversários.\n");
+      printf("\nAno de lançamento : 2018\n");
    
    }
   
   if(strcmp(nome, "Tomb_Raider") == 0){
    
-      printf("\nA história decorre em Yamatai, uma ilha onde a protagonista e os seus amigos naufragaram. Lara tem que salvá-los, além de ter que lutar contra os habitantes e os perigos naturais da ilha.\n");
+      printf("\nAno de lançamento : 2013\n");
    
    }
   
   if(strcmp(nome, "The_Last_of_Us") == 0){
    
-      printf("\nJoel, um sobrevivente durão, é contratado para contrabandear Ellie, uma jovem de 14 anos, para fora de uma zona de quarentena opressora. O que começa como um pequeno trabalho se torna uma jornada brutal e emocionante, conforme eles atravessam os Estados Unidos e dependem um do outro para sobreviver.\n");
+      printf("\nAno de lançamento : 2013\n");
    
    }
   
   if(strcmp(nome, "Grand_Theft_Auto_V") == 0){
    
-      printf("\nO ex-assaltante de bancos Michael Townley vive em Los Santos, San Andreas, sob o programa proteção a testemunhas com o nome de Michael De Santa por causa de um roubo malsucedido em Ludendorff, North Yankton, nove anos antes. ... Os dois se reencontram depois de Trevor caçar Michael até Los Santos.\n");
+      printf("\nAno de lançamento : 2013\n");
    
    }   
    
 
   if(strcmp(nome, "FIFA_20") == 0){
    
-      printf("\nFIFA 20 é o novo jogo de futebol da franquia da EA Sports. FIFA contará com melhorias em diversos elementos, como jogabilidade, gráficos e no balanceamento da dificuldade\n");
+      printf("\nAno de lançamento : 2019\n");
    
    }   
    
   if(strcmp(nome, "PES_2020") == 0){
    
-      printf("\nSimulador de futebol. O game traz melhorias na sua jogabilidade e mudanças em seus principais modos, como o Liga Master e MyClub. Além é claro de ter um foco maior nos esports, fator que fez com que a franquia adicionasse o EFootball em seu nome oficial. \n");
+      printf("\nAno de lançamento : 2019\n");
    
    }   
    
 
   if(strcmp(nome, "Crash_Team_Racing_Nitro_Fueled") == 0){
-   
-      printf("\nÉ um jogo de corrida da série Crash Bandicoot. Jogadores devem evitar obstáculos e navegar pelas diversas pistas para alcançar a linha de chegada, utilizando power-ups colocados pela pista para conseguir um turbo ou atingir os oponentes.\n");
+    
+      printf("\nAno de lançamento : 2019\n");
    
    }   
    
 
   if(strcmp(nome, "Need_For_Speed_Heat") == 0){
    
-      printf("\nO jogo de corrida se passa na cidade fictícia de Palm City, um mundo aberto que serve de palco para corridas oficiais do “Speedhunters Showdown” durante o dia. À noite, o cenário muda e as corridas clandestinas tomam conta das ruas. Seguindo a tradição da franquia, a polícia será um perigo constante dos competidores que buscam um lugar na elite das corridas de rua.\n");
+      printf("\nAno de lançamento : 2019\n");
    
    }
 
 
   if(strcmp(nome, "UFC_3") == 0){
    
-      printf("\nVada Sultenfuss, uma garota de 11 anos, é obcecada com a morte, pois sua mãe morreu quando a garota nasceu e seu pai, Harry Sultenfuss, é um agente funerário que não lhe dá muita atenção. Vada é apaixonada por Jake Bixler, seu professor de inglês, e é muito amiga de Thomas J. Sennett, um garoto que é alérgico a tudo. Quando Harry contrata Shelly DeVoto, uma maquiadora, para os funerais e se apaixona por ela, Vada se sente rejeitada e quer fazer qualquer coisa para separá-los.\n");
+      printf("\nAno de lançamento : 2018\n");
    
    }   
 
   if(strcmp(nome, "Alien:_Isolation") == 0){
    
-      printf("\nO jogo é baseado na série de filmes de terror de ficção científica Alien, e acontece quinze anos após os eventos do filme original Alien de 1979, seguindo a engenheira Amanda Ripley, filha da protagonista Ellen Ripley de Alien, enquanto ela investiga o desaparecimento de sua mãe.\n");
+      printf("\nAno de lançamento : 2014\n");
    
    }
    
    if(strcmp(nome, "Outlast") == 0){
    
-      printf("\nOutlast é um jogo de survival horror em primeira pessoa, ambientado em um hospício. ... Como grande parte do hospicio é escuro, o jogador deve usar a câmera de vídeo de Miles para ver, graças à sua função de visão noturna. Usando a visão noturna há o consumo de baterias, as quais estão espalhadas por todo o ambiente.\n");
+      printf("\nAno de lançamento : 2013\n");
    
    }
    
    if(strcmp(nome, "Until_Dawn") == 0){
    
-      printf("\nUm homem estranho se agacha pela beira do penhasco e estende a mão para ajudá-las, mas Hannah e Beth caem em sua aparente morte, para nunca mais serem vistas. No aniversário de um ano dos desaparecimento das gêmeas Washington, os sete amigos restantes aceitam o convite de Josh de volta à montanha\n");
+      printf("\nAno de lançamento : 2015\n");
    
    }
    
    if(strcmp(nome, "Resident_Evil_7") == 0){
    
-      printf("\nA história segue a busca do civil Ethan Winters por sua esposa Mia, que o leva a uma mansão agrícola aparentemente abandonada e habitada pela família Baker. Ethan faz uso de armas e ferramentas na luta contra os membros da família e os Mofados, uma forma humanoide de bactéria.\n");
+      printf("\nAno de lançamento : 2017\n");
    
    }
    
    if(strcmp(nome, "Layers_of_Fear") == 0){
    
-      printf("\nEm Layers of Fear, o jogador controla um pintor perturbado psicologicamente que procura terminar sua obra-prima enquanto anda por sua mansão vitoriana e descobre segredos sobre a família e obras do artista.\n");
+      printf("\nAno de lançamento : 2016\n");
    
    }     
 
    if(strcmp(nome, "The_Elder_Scrolls_V:_Skyrim") == 0){
    
-      printf("\nO jogador entra na pele do último Dovahkiin,que tem o dever de livrar a província de Skyrim da tormenta causada pelos dragões e seu líder Alduin. O jogo se passa duzentos anos depois dos eventos de Oblivion. Na premissa, o Império começa a ceder territórios para as nações Élficas uma vez governadas, porque não há nenhum herdeiro para o trono do Imperador. Os Blades não tem ninguém para defender, e gradualmente morreram, foram assassinados ou se isolaram do resto do mundo. Depois do assassinato do Rei de Skyrim, uma guerra civil irrompe entre as raças nativas Nord — sendo a maioria aqueles que desejavam que Skyrim se separe do Império, e o resto sendo aqueles que desejam que Skyrim permaneça no Império.\n");
+      printf("\nAno de lançamento : 2011\n");
    
    }  
    
    if(strcmp(nome, "Disco_Elysium") == 0){
    
-      printf("\nDisco Elysium se passa na fictícia cidade de Revachol, mais especificamente no bairro costal de Martinaise, cheio de crime, pobreza e corrupção, controlada pelo corrupto Sindicato dos estivadores. O protagonista é um detetive enviado pela RCM para investigar o assassinato de um homem que foi encontrado pendurado em uma árvore. Infelizmente, após um colapso emocional, o detetive começou a beber muito em todo o distrito de Martinaise, e acorda três dias depois em seu quarto do hotel, sem lembrança de quem ele é e o que estava fazendo. Agora cabe ao jogador resolver o caso de assassinato e orientar o detetive a redescobrir sua identidade preenchendo os buracos em sua memória\n");
+      printf("\nAno de lançamento : 2019\n");
    
    }
    
    if(strcmp(nome, "Persona_5_Royal") == 0){
    
-      printf("\nO Persona 5 Royal é um novo relançamento da saga de RPG da Atlus, focado na aventura que já fez grande sucesso, o Persona 5 original. O jogo tem a mesma história da primeira versão, envolvendo os Phantom Thieves e sua missão para convencer pessoas ruins a se arrependerem de seus crimes.\n");
+      printf("\nAno de lançamento : 2019\n");
    
    }
    
    if(strcmp(nome, "Chrono_Cross") == 0){
    
-      printf("\nA história de Chrono Cross é focada no adolescente chamado Serge e na temática de mundos paralelos. De cara com uma realidade alternativa na qual morreu ainda criança, Serge parte em busca da verdade em torno da divergência entre os dois mundos.\n");
+      printf("\nAno de lançamento : 1999\n");
    
    }
    
    if(strcmp(nome, "Final_Fantasy_VII_Remake") == 0){
    
-      printf("\nA história se passa na metrópole distópica de Midgar e acompanha o mercenário Cloud Strife, que se junta a um grupo ecoterrorista em uma tentativa de impedir que a poderosa megacorporação Shinra use a essência vital do planeta como fonte de energia.\n");
+      printf("\nAno de lançamento : 2020\n");
    
    }        
 
+     if(strcmp(nome, "The_Witcher_3") == 0){
+   
+      printf("\nAno de lançamento : 2015\n");
+   
+    }    
+  
+     if(strcmp(nome, "Diablo_III") == 0){
+   
+      printf("\nAno de lançamento : 2012\n");
+   
+   }    
+  
+     if(strcmp(nome, "Stardew_Valley") == 0){
+   
+      printf("\nAno de lançamento : 2016\n");
+   
+   }    
+  
+     if(strcmp(nome, "Undertale") == 0){
+   
+      printf("\nAno de lançamento : 2015\n");
+   
+   }  
+  
 }
 
 void sinopse_jogo(Lista2 *l, char nome[])
