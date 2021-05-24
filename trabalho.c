@@ -346,6 +346,7 @@ void recomendacoes_serie(Lista *k, int cont)
           printf(" Elite\n");
           printf(" Os_Inocentes\n");
           printf(" Lupin\n");
+          printf(" How_I_Met_Your_Mother\n");
           printf(" A_Maldição_da_Mansão_Bly\n");
           printf(" Jane_a_Virgem\n");
           printf(" O_Mundo_Sombrio_de_Sabrina\n");
@@ -418,7 +419,9 @@ void recomendacoes_serie(Lista *k, int cont)
           printf("\n\nSéries Romance\n\n");
           printf(" Jane_a_Virgem\n");
           printf(" Riverdale\n");
+          printf(" How_I_Met_Your_Mother\n");
           printf(" Virgin_River\n");
+          printf(" Friends\n");
           printf(" Os_Inocentes\n");
           printf(" Bridgerton\n");
         
@@ -1015,156 +1018,156 @@ void ano_serie(Lista2 *l, char nome[])
  
    if(strcmp(nome, "Sky_Rojo") == 0){
    
-      printf("\nSky Rojo conta a história de três mulheres que trabalhavam em um clube de strip-tease como prostitutas, chamado Las Novias Club. Após uma delas atacar o cafetão como forma de defesa e achar que ele está morto, elas precisam fugir para que seus capangas não tentem vingar pelo que aconteceu com o chefe.\n");
+      printf("\nAnos de duração: 2021-Presente\n");
    
    }
    
     if(strcmp(nome, "Lupin") == 0){
    
-      printf("\nBaseada nos romances policiais de Maurice Leblanc, Lupin acompanha Assane Diop (Omar Sy), um homem que, 25 anos atrás, viu sua vida virar de cabeça para baixo com a morte de seu pai, então acusado injustamente de um crime.\n");
-   
+      printf("\nAnos de duração: 2021-Presente\n");
+      
    }
    
    if(strcmp(nome, "Sherlock") == 0){
    
-      printf("\nSherlock mostra a história do detetive Sherlock Holmes (Benedict Cumberbatch) resolvendo vários mistérios na Londres contemporânea. Holmes é ajudado pelo seu amigo Dr. John Watson, um médico que retorna à Inglaterra depois de servir como médico no exército britânico na Guerra do Afeganistão.\n");
-   
+      printf("\nAnos de duração: 2010-Presente\n");
+     
    }
    
    if(strcmp(nome, "Peaky_Blinders") == 0){
    
-      printf("\nOs Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas (Tommy) Shelby (Cillian Murphy).\n");
-   
+      printf("\nAnos de duração: 2013-Presente\n");
+     
    }
    
    if(strcmp(nome, "La_Casa_de_Papel") == 0){
    
-      printf("\nEm La Casa de Papel da Netflix, nove habilidosos ladrões (Nairóbi, Berlim, Tókyo, Rio, Helsinki, Oslo, Professor, Denver e Moscou) se trancam na Casa da Moeda da Espanha com o ambicioso plano de realizar o maior roubo da história. Para isso, a gangue precisa lidar com as dezenas de pessoas que manteve como refém, além dos agentes da força de elite da polícia, que farão de tudo para que a investida dos criminosos fracasse.\n");
-   
+      printf("\nAnos de duração: 2017-Presente\n");
+     
    }
 
    if(strcmp(nome, "Elite") == 0){
    
-      printf("\nEm Elite, depois de um problema na escola que frequentam, três alunos do ensino público são transferidos para Las Encinas, a melhor e mais exclusiva escola na Espanha, onde os filhos da elite estudam. O choque entre os menos favorecidos e aqueles que têm tudo culmina em um assassinato.\n");
-   
+      printf("\nAnos de duração: 2018-Presente\n");
+     
    }
   
   if(strcmp(nome, "The_End_of_the_F***ing_World") == 0){
    
-      printf("\nThe End of the F***ing World. Nesta série de humor negro baseada numa banda desenhada, um adolescente psicopata e uma rebelde sedenta por aventuras embarcam numa viagem que tem tudo para correr mal. Veja tudo o que quiser. Com Alex Lawther (Black Mirror) e Jessica Barden (Penny Dreadful).\n");
-   
+       printf("\nAnos de duração: 2017-2019\n");
+     
    }
   
   if(strcmp(nome, "The_Witcher") == 0){
    
-      printf("\nGeralt de Rívia, um mutante caçador de monstros, sai em busca de seu destino em um mundo turbulento, onde as pessoas podem ser mais perversas que as criaturas selvagens.\n");
-   
+      printf("\nAnos de duração: 2019-Presente\n");
+     
    }
   
   if(strcmp(nome, "Kingdom") == 0){
    
-      printf("\nA série é definida na época da Dinastia Joseon (1392-1897). Conta a história de um príncipe herdeiro que é enviado numa missão suicida para investigar uma misteriosa praga que tem assolado o país. A verdade ameaça o reino, quando se descobre um misterioso surto de zumbis.\n");
-   
+      printf("\nAnos de duração: 2014-2017\n");
+     
    }
   
   if(strcmp(nome, "Sex_Education") == 0){
    
-      printf("\nO inseguro Otis manja tudo quando o negócio é aconselhamento sexual, graças à sua mãe sexóloga. E aí a rebelde Maeve propõe criar uma clínica de terapia sexual na escola.\n");
-   
+      printf("\nAnos de duração: 2019-Presente\n");
+     
    }   
    
 
   if(strcmp(nome, "Jane_a_Virgem") == 0){
    
-      printf("\nGina Rodriguez interpreta Jane Gloriana Villanueva, uma jovem de 23 anos religiosa e latina que engravida após ser inseminada artificialmente por um erro médico, ao mesmo tempo que namora outro homem, o detetive Michael.\n");
-   
+      printf("\nAnos de duração: 2014-2019\n");
+     
    }   
    
   if(strcmp(nome, "Riverdale") == 0){
    
-      printf("\nRiverdale é uma série norte-americana de drama e mistério, baseada nos personagens da Archie Comics. ... A série começa com a morte de um rico garoto chamado Jason Blossom, dando início a uma investigação que mexe com toda a cidade. Archie Andrews descobre seu amor pela música e pela professora.\n");
-   
+      printf("\nAnos de duração: 2017-Presente\n");
+     
    }   
    
 
   if(strcmp(nome, "Virgin_River") == 0){
    
-      printf("\nMel é uma enfermeira especializada em partos que se muda para uma pequena cidade chamada Virgin River, no norte da Califórnia, para recomeçar a sua vida, deixando tudo para trás em Los Angeles. ... A série começa com Mel chegando em Virgin River, mas enfrentando alguns problemas com o seu carro.\n");
-   
+      printf("\nAnos de duração: 2019-Presente\n");
+     
    }   
    
 
   if(strcmp(nome, "Os_Inocentes") == 0){
    
-      printf("\nDois adolescentes apaixonados abandonam suas famílias problemáticas para viverem esse amor. No entanto, essa romântica aventura logo se transforma em uma jornada de autodescobrimento, mas longe do que os jovens imaginavam.\n");
-   
+      printf("\nAnos de duração: 2018-2018\n");
+     
    }
 
 
   if(strcmp(nome, "Bridgerton") == 0){
    
-      printf("\nDaphne Bridgerton (Phoebe Dynevor), a filha mais velha do respeitado clã, se encontra à procura de um marido adequado. Como seus pais, ela gostaria de se casar por amor, mas o irmão mais velho atrapalha seus planos e torna ainda mais difícil sua busca.\n");
-   
+      printf("\nAnos de duração: 2020-Presente\n");
+     
    }   
 
   if(strcmp(nome, "American_Horror_Story") == 0){
    
-      printf("\nBaseada na lenda de Roanoke, narra a história do casal Shelby (Sarah Paulson / Lily Rabe) e Matt (Cuba Goodin Jr / André Holland), que se muda para uma casa no campo em Roanoke, Virginia, e descobrem uma série de acontecimentos estranhos nos arredores da residência.\n");
-   
+      printf("\nAnos de duração: 2011-Presente\n");
+     
    }
    
    if(strcmp(nome, "Stranger_Things") == 0){
    
-      printf("\n Em 6 de Novembro, 1983 na pequena cidade de Hawkins, Indiana, o garoto de 12 anos, Will Byers desaparece misteriosamente. A mãe de Will, Joyce, torna-se frenética e tenta encontrar Will enquanto o chefe de polícia Jim Hopper começa a investigar, e assim fazem também os amigos de Will: Dustin, Mike e Lucas.\n");
-   
+      printf("\nAnos de duração: 2016-Presente\n");
+     
    }
    
    if(strcmp(nome, "O_Mundo_Sombrio_de_Sabrina") == 0){
    
-      printf("\nA trama acompanha a vida de Sabrina Spellman (Kiernan Shipka), uma adolescente que é metade bruxa e metade humana, que só queria viver uma vida normal. No entanto, desde o seu nascimento, ela tem deveres a cumprir com a escuridão e não consegue fugir disso.\n");
-   
+      printf("\nAnos de duração: 2018-2020\n");
+     
    }
    
    if(strcmp(nome, "A_Maldição_da_Mansão_Bly") == 0){
    
-      printf("\nEm A Maldição da Mansão Bly, a jovem Dani Clayton (Victoria Pedretti) é contratada por Henry Wingrave (Henry Thomas) para trabalhar numa enorme e antiga mansão, cuidando de seus dois sobrinhos órfãos.\n");
-   
+      printf("\nAnos de duração: 2020-2020\n");
+     
    }
    
    if(strcmp(nome, "Bates_Motel") == 0){
    
-      printf("\nApós a misteriosa morte de seu marido, Norma Bates decidiu começar uma nova vida longe do Arizona, na pequena cidade de White Pine Bay, em Oregon, e leva o filho Norman, de 17 anos, com ela. Ela compra um velho motel abandonado e a mansão ao lado.\n");
-   
+      printf("\nAnos de duração: 2013-2017\n");
+     
    }     
 
    if(strcmp(nome, "Friends") == 0){
    
-      printf("\nRoss, Rachel, Mônica, Chandler, Joey e Phoebe formam um grupo de seis amigos que lutam para se sobressair e progredir na competitiva vida de Manhattan. ... Seu humor inteligente e apoio mútuo incondicional fazem com sua amizade seja cada vez mais forte, superando assim todos os obstáculos que a vida lhes apresenta.\n");
-   
+      printf("\nAnos de duração: 1994-2004\n");
+     
    }  
    
    if(strcmp(nome, "The_Big_Bang_Theory") == 0){
    
-      printf("\nDois jovens gênios da física, Leonard (Johnny Galecki) e Sheldon Cooper (Jim Parsons), dividem um apartamento e são surpreendidos ao descobrir que a vizinha, Penny (Kaley Cuoco), é uma loira não tão inteligente. Leonard acredita que pode conquistar a jovem.\n");
-   
+      printf("\nAnos de duração: 2007-2019\n");
+     
    }
    
    if(strcmp(nome, "How_I_Met_Your_Mother") == 0){
    
-      printf("\nEm 2030, o arquiteto Ted Mosby (Josh Radnor) conta a história sobre como conheceu a mãe dos seus filhos. Ele volta no tempo para 2005, relembrando suas aventuras amorosas em Nova York e a busca pela mulher dos seus sonhos. Ao longo do anos, Ted aproveita para falar a jornada dos seus amigos: o advogado Marshall Eriksen (Jason Segel), a professora Lily Aldrin (Alyson Hannigan), a jornalista Robin Scherbatsky (Cobie Smulders) e o mulherengo convicto Barney Stinson (Neil Patrick Harris).\n");
-   
+      printf("\nAnos de duração: 2005-2014\n");
+     
    }
    
    if(strcmp(nome, "Os_Simpsons") == 0){
    
-      printf("\nThe Simpsons é uma série animada norte americana transmitida pelo canal FOX. A comédia acompanha a família Simpsons, uma família da classe trabalhadora na cidade desajustada de Springfield. Homer, o pai, trabalha como inspetor de segurança na usina nuclear local; Marge, a mãe, tenta manter a paz na família.\n");
-   
+      printf("\nAnos de duração: 1989-Presente\n");
+     
    }
    
    if(strcmp(nome, "Todo_Mundo_Odeia_o_Chris") == 0){
    
-      printf("\nA série conta a história da família Rock entre os anos de 1982 até 1987, com o foco no menino Chris (Tyler James Williams). Em 1982, Chris completa 13 anos e muda-se com a sua família para Bedford-Stuyvesant, no Brooklyn. Lá, Chris vive situações corriqueiras da vida de um adolescente, tanto nas histórias que realmente acontecem quanto nos pensamentos que são expostos de uma forma humorística. Chris vive com os pais Julius (Terry Crews) e Rochelle (Tichina Arnold), e com os dois irmãos Drew (Tequan Richmond) e Tonya (Imani Hakim). Ele estuda no Corleone Junior High School, colégio onde Chris é o único aluno negro, situação que o vitimiza durante todo seu tempo lá. Mas ele faz um amigo, Greg (Vicent Martella), que vai estar sempre junto de Chris, passando por suas situações tragicamente cômicas.\n");
-   
+      printf("\nAnos de duração: 2005-2009\n");
+     
    }          
 
 }
