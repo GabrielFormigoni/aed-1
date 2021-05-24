@@ -2119,7 +2119,7 @@ int main(void)
   else if(tipo == 2){
     
       printf(" Digite os gêneros que deseja incluir na sua série e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia.\n\n");
+      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Suspense, Fantasia, Mistério.\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
