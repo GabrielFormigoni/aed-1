@@ -15,7 +15,7 @@ final da disciplina.
 . O programa tem como objetivo recomendar formas de
 entretenimento como séries, filmes, livros e jogos com base nas preferências de gêneros
 do usuário, disponibilizando títulos, sinopses, ano de lançamento, entre outras
-informações e criando uma lista com o nome do usuário em que se pode incluir e excluir os títulos que gostar, e mostrar a lista a qualquer momento.
+informações e criando uma lista com o nome do usuário em que se pode inserir e excluir os títulos que gostar, e mostrar a lista a qualquer momento.
 
 
 - Definição e motivação da Linguagem de programação a
