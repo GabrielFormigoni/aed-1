@@ -565,11 +565,49 @@ void recomendacoes_jogo(Lista *k, int cont)
           printf("\n\nJogos Ação\n\n");
           printf(" Assassin’s_Creed_II\n");
           printf(" Red_Dead_Redemption_2\n");
+          printf(" Until_Dawn\n");
+          printf(" The_Elder_Scrolls_V:_Skyrim\n");
           printf(" Tomb_Raider\n");
+          printf(" Resident_Evil_7\n");
+          printf(" Hollow_Knight\n");
+          printf(" Ori_and_the_Blind_Forest\n");
           printf(" The_Last_of_Us\n");
           printf(" Grand_Theft_Auto_V\n");
         
         } 
+       
+        if(strcmp(k[i].genero, "Aventura") == 0){
+        
+          printf("\n\nJogos Aventura\n\n");
+          printf(" Hollow_Knight\n");
+          printf(" Resident_Evil_7\n");
+          printf(" Until_Dawn\n");
+          printf(" The_Elder_Scrolls_V:_Skyrim\n");
+          printf(" Assassin’s_Creed_II\n");
+          printf(" Grand_Theft_Auto_V\n");
+          printf(" Outlast\n");
+          printf(" The_Last_of_Us\n");
+          printf(" Red_Dead_Redemption_2\n");
+          printf(" Katana_Zero\n");
+          printf(" Tomb_Raider\n");
+          printf(" Ori_and_the_Blind_Forest\n");
+          printf(" Little_Nightmares\n");
+          printf(" Celeste\n");
+          
+        
+        }
+       
+        if(strcmp(k[i].genero, "Tiro") == 0){
+        
+          printf("\n\nJogos Tiro\n\n");
+          printf(" Red_Dead_Redemption_2\n");
+          printf(" Alien:_Isolation\n");
+          printf(" Resident_Evil_7\n");
+          printf(" The_Last_of_Us\n");
+          
+          
+        
+        }
        
        if(strcmp(k[i].genero, "Esportes") == 0){
        
@@ -588,6 +626,8 @@ void recomendacoes_jogo(Lista *k, int cont)
           printf(" Alien:_Isolation\n");
           printf(" Outlast\n");
           printf(" Until_Dawn\n");
+          printf(" The_Last_of_Us\n");
+          printf(" Little_Nightmares\n");
           printf(" Resident_Evil_7\n");
           printf(" Layers_of_Fear\n");
         
@@ -601,6 +641,11 @@ void recomendacoes_jogo(Lista *k, int cont)
           printf(" Persona_5_Royal\n");
           printf(" Chrono_Cross\n");
           printf(" Final_Fantasy_VII_Remake\n");
+          printf(" The_Witcher_3\n");
+          printf(" Diablo_III\n");
+          printf(" Stardew_Valley\n");
+          printf(" Undertale\n");
+          
         
         }
           
@@ -2003,7 +2048,30 @@ void sinopse_jogo(Lista2 *l, char nome[])
    
       printf("\nA história se passa na metrópole distópica de Midgar e acompanha o mercenário Cloud Strife, que se junta a um grupo ecoterrorista em uma tentativa de impedir que a poderosa megacorporação Shinra use a essência vital do planeta como fonte de energia.\n");
    
-   }        
+   }    
+  
+     if(strcmp(nome, "The_Witcher_3") == 0){
+   
+      printf("\nThe Witcher 3: Wild Hunt conclui a história do lendário bruxo Geralt de Rívia, o protagonista da série, que vem sendo contada nos jogos antecessores e nos livros da série cronologicamente anteriores a esses.[20] Bruxos são humanos geneticamente modificados ensinados a lutar contra monstros desde jovens, possuindo diversas habilidades especiais, as quais divergem de bruxo para bruxo. Com grande conhecimento alquímico, estes caçadores de recompensas usam a magia em grande parte de seu cotidiano, sobrevivendo ao matar criaturas monstruosas e outras ameaças em troca de dinheiro. No entanto, apesar de serem cultos pela educação que receberam na juventude, sofrem grande preconceito da sociedade por submeterem-se a vários experimentos durante seu treinamento, sendo muitas vezes considerados como aberrações pelas pessoas.\n");
+   }    
+  
+     if(strcmp(nome, "Diablo_III") == 0){
+   
+      printf("\n A história do novo jogo passa-se depois de vinte anos dos acontecimentos que marcaram o fim de Diablo II. Os guerreiros finalmente derrotaram o mal, mas quando um cometa cai na Terra exatamente no lugar onde Diablo foi confinado, os guerreiros são novamente convocados para defender a humanidade contra o novo inimigo.\n");
+   
+   }    
+  
+     if(strcmp(nome, "Stardew_Valley") == 0){
+   
+      printf("\nStardew Valley é um RPG sem fim da vida no campo! Você herdou a antiga fazenda de seu avô no Vale do Orvalho. Equipado com ferramentas de segunda mão e algumas moedas, você irá começar sua nova vida. Será que você consegue aprender a viver da terra e transformar esses campos absurdamente vegetados em uma casa próspera?\n");
+   
+   }    
+  
+     if(strcmp(nome, "Undertale") == 0){
+   
+      printf("\nUndertale inicia contando sobre o passado, no qual monstros e humanos viviam no planeta. Após uma guerra, os monstros foram derrotados e selados embaixo de uma montanha. O jogo, então, volta para o presente e passa a focar na história de uma criança que caiu dentro da montanha onde os monstros agora vivem.\n");
+   
+   }  
 
 }
 
