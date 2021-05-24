@@ -470,6 +470,7 @@ void recomendacoes_livro(Lista *k, int cont)
           printf(" O_diário_de_Anne_Frank\n");
           printf(" O_menino_do_pijama_listrado\n");
           printf(" Capitães_da_areia\n");
+          printf(" Me_Chame_pelo_Seu_Nome\n");
           printf(" A_menina_que_roubava_livros\n");
           printf(" A_cidade_do_Sol\n");
         
@@ -486,12 +487,30 @@ void recomendacoes_livro(Lista *k, int cont)
         
         } 
        
+        if(strcmp(k[i].genero, "Fantasia") == 0){
+        
+          printf("\n\nLivros Fantasia\n\n");
+          printf(" As_Crônicas_de_Nárnia\n");
+          printf(" O_Hobbit\n");
+          printf(" Harry_Potter\n");
+          printf(" Percy_Jackson\n");
+          printf(" O_Instituto\n");
+          printf(" Uma_Dobra_no_Tempo\n");
+          printf(" Viagem_ao_Centro_da_Terra\n");
+        
+        }       
+       
        if(strcmp(k[i].genero, "Romance") == 0){
        
           printf("\n\nLivros Romance\n\n");
           printf(" Me_Chame_pelo_Seu_Nome\n");
+          printf(" A_cidade_do_Sol\n");
+          printf(" Viagem_ao_Centro_da_Terra\n");
+          printf(" Uma_Dobra_no_Tempo\n");
           printf(" O_Visconde_que_me_Amava\n");
+          printf(" A_menina_que_roubava_livros\n");
           printf(" Eleanor_&_Park\n");
+          printf(" Capitães_da_areia\n");
           printf(" O_Diário_de_Suzana_para_Nicolas\n");
           printf(" Simplesmente_Acontece\n");
         
@@ -502,6 +521,7 @@ void recomendacoes_livro(Lista *k, int cont)
           printf("\n\nLivros Terror\n\n");
           printf(" O_Desfiladeiro_do_Medo\n");
           printf(" As_Ruínas\n");
+          printf(" O_Instituto\n");
           printf(" A_Profecia\n");
           printf(" O_Exorcista\n");
           printf(" A_Coisa\n");
@@ -1336,155 +1356,167 @@ void ano_livro(Lista2 *l, char nome[])
 
     if(strcmp(nome, "O_diário_de_Anne_Frank") == 0){
    
-      printf("\nNa Holanda ocupada pelos nazistas na Segunda Guerra Mundial, o comerciante Kraler abriga duas famílias de judeus em seu sótão. A jovem Anne Frank mantém um diário da vida cotidiana dos Franks e dos Van Daans, narrando a ameaça nazista bem como a dinâmica familiar. Um romance com Peter Van Daan causa ciúmes entre Anne e sua irmã, Margot. Anos depois de as duas famílias terem sido capturadas, Otto Frank volta ao sótão e acha o diário de sua filha.\n");
-   
+      printf("\nAno de Publicação : 1947\n");
+      
    }
    
     if(strcmp(nome, "O_menino_do_pijama_listrado") == 0){
    
-      printf("\nDurante a Segunda Guerra Mundial, Bruno, um garoto de oito anos, e sua família saem de Berlim para residir próximo a um campo de concentração, onde seu pai acaba de se tornar comandante. Infeliz e solitário, ele vagueia fora de sua casa e certo dia encontra Shmuel, um menino judeu de sua idade. Embora a cerca de arame farpado do campo os separem, os meninos começam uma amizade proibida.\n");
-   
+      printf("\nAno de Publicação : 2006\n");
+    
    }
    
    if(strcmp(nome, "Capitães_da_areia") == 0){
    
-      printf("\nPedro Bala, Professor, Gato, Sem Pernas e Boa Vida são adolescentes abandonados por suas famílias, que crescem nas ruas de Salvador e vivem em comunidade no Trapiche. Eles praticam uma série de assaltos e são constantemente perseguidos pela polícia. Um dia, Professor conhece Dora e seu irmão Zé Fuinha e os leva até o Trapiche, o que desencadeia a excitação dos demais garotos, que não estão acostumados à presença de uma mulher no local. Aos poucos, nasce o afeto entre o líder do grupo e a jovem.\n");
-   
+      printf("\nAno de Publicação : 1937\n");
+    
    }
    
    if(strcmp(nome, "A_menina_que_roubava_livros") == 0){
    
-      printf("\nDurante a Segunda Guerra Mundial, uma jovem garota chamada Liesel Meminger sobrevive fora de Munique lendo os livros que ela rouba. Ajudada por seu pai adotivo, ela aprende a ler e partilhar livros com seus amigos, incluindo um judeu que vive na clandestinidade em sua casa. Enquanto não está lendo ou estudando, ela faz algumas tarefas para a mãe e brinca com o amigo Rudy.\n");
-   
+      printf("\nAno de Publicação : 2005\n");
+    
    }
    
    if(strcmp(nome, "A_cidade_do_Sol") == 0){
    
-      printf("\nMariam tem 33 anos. Sua mãe morreu quando ela tinha 15 anos e Jalil, o homem que deveria ser seu pai, a deu em casamento a Rasheed, um sapateiro de 45 anos. ... Ela vai à escola todos os dias, é considerada uma das melhores alunas do colégio e sempre soube que seu destino era muito maior do que casar e ter filhos.\n");
-   
+      printf("\nAno de Publicação : 2007\n");
+    
    }
 
    if(strcmp(nome, "As_Crônicas_de_Nárnia") == 0){
    
-      printf("\nDurante os bombardeios da Segunda Guerra Mundial de Londres, quatro irmãos ingleses são enviados para uma casa de campo onde eles estarão seguros. Um dia, Lucy encontra um guarda-roupa que a transporta para um mundo mágico chamado Nárnia. Depois de voltar, ela logo volta a Nárnia com seus irmãos, Peter e Edmund, e sua irmã, Susan. Lá eles se juntam ao leão mágico, Aslan, na luta contra a Feiticeira Branca.\n");
-   
+      printf("\nAno de Publicação : 1950-1956\n");
+    
    }
   
   if(strcmp(nome, "O_Hobbit") == 0){
    
-      printf("\nComo a maioria dos hobbits, Bilbo Bolseiro leva uma vida tranquila até o dia em que recebe uma missão do mago Gandalf. Acompanhado por um grupo de anões, ele parte numa jornada até a Montanha Solitária para libertar o Reino de Erebor do dragão Smaug.\n");
-   
+      printf("\nAno de Publicação : 1937\n");
+    
    }
   
   if(strcmp(nome, "O_Instituto") == 0){
    
-      printf("\nUma garota está sofrendo por conta da morte inesperada de seus pais e voluntariamente dá entrada no Instituto Rosewood, onde é submetida a experimentos bizarros e pseudocientíficos de modificação de personalidade e de lavagem cerebral.\n");
-   
+      printf("\nAno de Publicação : 2019\n");
+    
    }
   
   if(strcmp(nome, "Uma_Dobra_no_Tempo") == 0){
    
-      printf("\nMeg Murry e seu irmãozinho, Charles Wallace, ficaram sem o seu pai cientista, o senhor Murry, há cinco anos, desde que ele descobriu um novo planeta e usou o conceito conhecido como tesseract para viajar para lá. Aliado do colega de classe de Meg, Calvin O'Keefe, e guiado pelos três misteriosos viajantes astrais conhecidos como sra. Whatsit, sra. Who e mrs. Which, as crianças iniciam uma perigosa jornada para um planeta que possui todo o mal no universo.\n");
-   
+      printf("\nAno de Publicação : 1962\n");
+    
    }
   
   if(strcmp(nome, "Viagem_ao_Centro_da_Terra") == 0){
    
-      printf("\nDurante uma expedição na Islândia, o professor Trevor Anderson, o seu sobrinho Sean, e sua guia Hannah ficam presos em uma caverna. Enquanto seguem sua rota de fuga mais abaixo da superfície da Terra, eles passam por lugares estranhos e encontram criaturas incríveis, incluindo dinossauros. Porém, como a atividade vulcânica à sua volta aumenta, eles percebem que precisam encontrar o caminho para fora rapidamente.\n");
-   
+      printf("\nAno de Publicação : 1864\n");
+    
    }   
 
   if(strcmp(nome, "Me_Chame_pelo_Seu_Nome") == 0){
    
-      printf("\nO jovem Elio está enfrentando outro verão preguiçoso na casa de seus pais na bela e lânguida paisagem italiana. Mas tudo muda com a chegada de Oliver, um acadêmico que veio ajudar a pesquisa de seu pai.\n");
-   
+      printf("\nAno de Publicação : 2007\n");
+    
    }   
    
   if(strcmp(nome, "O_Visconde_que_me_Amava") == 0){
    
-      printf("\nAo que tudo indica, o solteiro mais cobiçado do ano será Anthony Bridgerton, um visconde charmoso, elegante e muito rico que, contrariando as probabilidades, resolve dar um basta na rotina de libertino e arranjar uma noiva. Logo ele decide que Edwina Sheffield, a debutante mais linda da estação, é a candidata ideal.\n");
-   
+      printf("\nAno de Publicação : 2000\n");
+    
    }   
    
 
   if(strcmp(nome, "Eleanor_&_Park") == 0){
    
-      printf("\nEleanor é nova na cidade. Com roupas inusitadas, cachos ruivos indomáveis e uma família problemática, ela sente que nunca vai conseguir se encaixar. Park senta sozinho no ônibus da escola. Sempre de camiseta preta, fones de ouvido e a cabeça enfiada num livro, acha que consegue passar despercebido.\n");
-   
+      printf("\nAno de Publicação : 2012\n");
+    
    }   
    
 
   if(strcmp(nome, "O_Diário_de_Suzana_para_Nicolas") == 0){
    
-      printf("\nAo folhear aquelas páginas, Katie logo descobre que Suzana é uma jovem médica que, depois de sofrer um infarto, decidiu deixar para trás a correria de Boston e se mudar para um chalé na pacata ilha de Martha's Vineyard. ... O diário de Suzana para Nicolas é uma história de amor que se constrói ao virar de cada página.\n");
-   
+      printf("\nAno de Publicação : 2001\n");
+    
    }
 
 
   if(strcmp(nome, "Simplesmente_Acontece") == 0){
    
-      printf("\nAlex e Rosie são amigos inseparáveis que cresceram juntos em Londres, compartilhando entre si suas melhores experiências. Tudo muda quando Alex ganha uma bolsa de estudos e passa a morar nos EUA. Separados, seus caminhos agora são outros. Mas nos tempos de hoje é impossível não se conectar. E, em se tratando de amor, o difícil é fazer as escolhas certas.\n");
-   
+      printf("\nAno de Publicação : 2014\n");
+    
    }   
 
   if(strcmp(nome, "O_Desfiladeiro_do_Medo") == 0){
    
-      printf("\nApós uma cirurgia malfeita, Todd precisa de um lugar onde possa esconder-se durante algum tempo, enquanto as cicatrizes desaparecem. Querendo ser momentaneamente esquecido instala-se em uma mansão no Coldheart Canyon, um recanto da cidade tão secreto, que sequer consta nos mapas.\n");
-   
+      printf("\nAno de Publicação : 2001\n");
+    
    }
    
    if(strcmp(nome, "As_Ruínas") == 0){
    
-      printf("\n Amy, Stacy, Jeff e Eric procuram por diversão no México, mas o que eles encontram é muito mais do que esperavam. Eles descobrem uma entidade maldita em uma região arqueológica na selva do país. Vinhas carnívoras tentam seduzir os amigos em seus tentáculos, forçando o grupo a lutar pela sobrevivência.\n");
-   
+      printf("\nAno de Publicação : 2007\n");
+    
    }
    
    if(strcmp(nome, "A_Profecia") == 0){
    
-      printf("\nO embaixador americano e a esposa querem muito ter filhos. Quando ela dá à luz um bebê morto e um padre sugere que adotem um recém-nascido saudável e órfão, ele aceita sem contar à mulher. O que ele não sabe é que o bebê é o anticristo.\n");
-   
+      printf("\nAno de Publicação : 1976\n");
+    
    }
    
    if(strcmp(nome, "O_Exorcista") == 0){
    
-      printf("\nUma atriz vai gradativamente tomando consciência de que a sua filha de doze anos está tendo um comportamento completamente assustador. Deste modo, ela pede ajuda a um padre, que também é um psiquiatra, e este chega a conclusão de que a garota está possuída pelo demônio. Ele solicita então a ajuda de um segundo sacerdote, especialista em exorcismo, para tentar livrar a menina desta terrível possessão.\n");
-   
+      printf("\nAno de Publicação : 1971\n");
+    
    }
    
    if(strcmp(nome, "A_Coisa") == 0){
    
-      printf("\nUm grupo de crianças se une para investigar o misterioso desaparecimento de vários jovens em sua cidade. Eles descobrem que o culpado é Pennywise, um palhaço cruel que se alimenta de seus medos e cuja violência teve origem há vários séculos.\n");
-   
+      printf("\nAno de Publicação : 2014\n");
+    
    }       
 
    if(strcmp(nome, "Azul_da_Cor_do_Mar") == 0){
    
-      printf("\nEla quer ser jornalista, e seu sonho está se concretizando: Rafaela Vilas Boas (um nome tão imponente para alguém tão desajeitado) conseguiu um estágio no melhor jornal de Minas Gerais. ... O jornal é mesmo incrível, mas seu colega de trabalho, Bernardo, não é a pessoa mais simpática do mundo.\n");
-   
+      printf("\nAno de Publicação : 2014\n");
+    
    }
    
    if(strcmp(nome, "Cadê_Você_Bernadette?") == 0){
    
-      printf("\nA vida de Bernadette começa a parecer sem rumo, e ela resolve fugir da sua zona de conforto e desaparecer misteriosamente, deixando tudo para trás. Agora, Bee, sua filha, precisa juntar todas as pistas para descobrir onde foi parar essa mulher que imaginava conhecer tão bem, mas que se transformou em um verdadeiro ponto de interrogação.\n");
-   
+      printf("\nAno de Publicação : 2012\n");
+    
    }
    
    if(strcmp(nome, "Galvez_Imperador_do_Acre") == 0){
    
-      printf("\nTrata-se de um folhetim histórico-farsesco baseado na vida de Luis Gálvez Rodríguez de Arias (1864-1935), aventureiro espanhol que se envolveu com as disputas em torno da posse do território do Acre, no final do século XIX. \n");
-   
+      printf("\nAno de Publicação : 1976\n");
+    
    }
    
    if(strcmp(nome, "A_louca_dos_gatos") == 0){
    
-      printf("\nOs quadrinhos de Sarah Andersen são para todos que precisam lidar com níveis de ansiedade cada vez mais alarmantes, que sentem que o mundo está à beira do colapso e que se esforçam para sair ao menos um centimetrozinho da zona de conforto. Ou seja, é basicamente um manual de sobrevivência para os dias de hoje.\n");
-   
+      printf("\nAno de Publicação : 2018\n");
+    
    } 
    
    if(strcmp(nome, "Cães_e_gatos") == 0){
    
-      printf("\nCães e gatos têm travado uma guerra secreta desde o começo dos tempos. A vitória dos cães fica cada vez mais próxima quando o Professor Brody inventa uma fórmula capaz de curar a alergia dos humanos a cachorros. Para impedi-la, o líder dos gatos, Sr. Tinkles, decide roubar a vacina, mas primeiro precisa enfrentar o Agente Lou, um cão corajoso que, graças a um erro no sistema, está encarregado de proteger a família Brody.\n");
+      printf("\nAno de Publicação : 2019\n");
+    
+   }
+  
+     if(strcmp(nome, "Harry_Potter") == 0){
    
+      printf("\nAno de Publicação : 1997-2007\n");
+    
+   }
+  
+     if(strcmp(nome, "Percy_Jackson") == 0){
+   
+      printf("\nAno de Publicação : 2005-2009\n");
+    
    }
 }
 
@@ -1503,7 +1535,19 @@ void sinopse_livro(Lista2 *l, char nome[])
       printf("\nDurante a Segunda Guerra Mundial, Bruno, um garoto de oito anos, e sua família saem de Berlim para residir próximo a um campo de concentração, onde seu pai acaba de se tornar comandante. Infeliz e solitário, ele vagueia fora de sua casa e certo dia encontra Shmuel, um menino judeu de sua idade. Embora a cerca de arame farpado do campo os separem, os meninos começam uma amizade proibida.\n");
    
    }
+     
+     if(strcmp(nome, "Harry_Potter") == 0){
    
+      printf("\nA série narra as aventuras de um jovem chamado Harry James Potter, que descobre aos 11 anos de idade que é um bruxo ao ser convidado para estudar na Escola de Magia e Bruxaria de Hogwarts.\n");
+   
+   }
+  
+     if(strcmp(nome, "Percy_Jackson") == 0){
+   
+      printf("\nA série narra as aventuras de Percy Jackson, um jovem que enfrenta problemas na escola, devido ao que acredita ser dislexia e déficit de atenção. ... Após ser atacado em plena excursão escolar, é revelado a Percy que ele é um semideus, ou seja, filho do deus Poseidon com uma humana, e possui poderes.\n");
+   
+   }
+  
    if(strcmp(nome, "Capitães_da_areia") == 0){
    
       printf("\nPedro Bala, Professor, Gato, Sem Pernas e Boa Vida são adolescentes abandonados por suas famílias, que crescem nas ruas de Salvador e vivem em comunidade no Trapiche. Eles praticam uma série de assaltos e são constantemente perseguidos pela polícia. Um dia, Professor conhece Dora e seu irmão Zé Fuinha e os leva até o Trapiche, o que desencadeia a excitação dos demais garotos, que não estão acostumados à presença de uma mulher no local. Aos poucos, nasce o afeto entre o líder do grupo e a jovem.\n");
@@ -1641,8 +1685,7 @@ void sinopse_livro(Lista2 *l, char nome[])
    
    if(strcmp(nome, "Cães_e_gatos") == 0){
    
-      printf("\nCães e gatos têm travado uma guerra secreta desde o começo dos tempos. A vitória dos cães fica cada vez mais próxima quando o Professor Brody inventa uma fórmula capaz de curar a alergia dos humanos a cachorros. Para impedi-la, o líder dos gatos, Sr. Tinkles, decide roubar a vacina, mas primeiro precisa enfrentar o Agente Lou, um cão corajoso que, graças a um erro no sistema, está encarregado de proteger a família Brody.\n");
-   
+      printf("\nA felicidade para um cão é um rabo abanando, já para um gato, não. É o gato que tem que abanar o rabo para demonstrar felicidade para o cão ou o cão que tem que entender que o gato demonstra afeto de outras formas? Cães e gatos lida com as diferenças.\n");
    }
 }
 
@@ -2135,7 +2178,7 @@ int main(void)
         printf(" I - Se deseja inserir uma série da lista:\n");
         printf(" R - Se deseja remover uma série da lista:\n");
         printf(" S - Se deseja saber a sinopse de alguma série:\n");
-        printf(" A - Se deseja saber o ano de lançamento de alguma série:\n");
+        printf(" A - Se deseja saber a duração de lançamento de alguma série:\n");
         printf(" M - Se deseja mostrar o conteúdo da sua lista de séries:\n");
         printf(" F - Se deseja finalizar a sua lista de séries e mostrar o seu conteúdo:\n");
         
@@ -2246,7 +2289,7 @@ int main(void)
         printf(" I - Se deseja inserir um livro da lista:\n");
         printf(" R - Se deseja remover um livro da lista:\n");
         printf(" S - Se deseja saber a sinopse de algum livro:\n");
-        printf(" A - Se deseja saber o ano de lançamento de algum livro:\n");
+        printf(" A - Se deseja saber o ano de publicação de algum livro:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de livros:\n");
         printf(" F - Se deseja finalizar a lista de livros e mostrar o seu conteúdo:\n");
         
