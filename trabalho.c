@@ -2103,6 +2103,189 @@ void sinopse_jogo(Lista2 *l, char nome[])
 }
 
 
+void plataforma_jogo(Lista2 *l, char nome[])
+{
+
+    if(strcmp(nome, "Katana_Zero") == 0){
+   
+      printf("\nPlataformas: Nintendo Switch, Xbox One, Microsoft Windows, macOS, Mac OS\n");
+   
+   }
+   
+    if(strcmp(nome, "Celeste") == 0){
+   
+      printf("\nPlataformas: Nintendo Switch, PlayStation 4, Xbox One, Microsoft Windows, Linux, Mac OS Classic, Google Stadia, macOS\n");
+   
+   }
+   
+   if(strcmp(nome, "Little_Nightmares") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Nintendo Switch, Xbox One, Microsoft Windows, Google Stadia\n");
+   
+   }
+   
+   if(strcmp(nome, "Ori_and_the_Blind_Forest") == 0){
+   
+      printf("\nPlataformas: Nintendo Switch, Xbox One, Microsoft Windows\n");
+   
+   }
+   
+   if(strcmp(nome, "Hollow_Knight") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Nintendo Switch, Xbox One, macOS, Microsoft Windows, Linux, Mac OS\n");
+   
+   }
+
+   if(strcmp(nome, "Assassin’s_Creed_II") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, PlayStation 3, Xbox 360, Microsoft Windows, macOS, Mac OS Classic\n");
+   
+   }
+  
+  if(strcmp(nome, "Red_Dead_Redemption_2") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Google Stadia, Microsoft Windows\n");
+   
+   }
+  
+  if(strcmp(nome, "Tomb_Raider") == 0){
+   
+      printf("\nPlataformas: Microsoft Windows, PlayStation 3, Xbox 360\n");
+   
+   }
+  
+  if(strcmp(nome, "The_Last_of_Us") == 0){
+   
+      printf("\nPlataformas: PlayStation 3, PlayStation 4\n");
+   
+   }
+  
+  if(strcmp(nome, "Grand_Theft_Auto_V") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, PlayStation 3, Xbox Series X, Xbox 360, Microsoft Windows, PlayStation 5\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "FIFA_20") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Nintendo Switch, Microsoft Windows\n");
+   
+   }   
+   
+  if(strcmp(nome, "PES_2020") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Android, Microsoft Windows, Xbox One, iOS\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Crash_Team_Racing_Nitro_Fueled") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Nintendo Switch\n");
+   
+   }   
+   
+
+  if(strcmp(nome, "Need_For_Speed_Heat") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Microsoft Windows\n");
+   
+   }
+
+
+  if(strcmp(nome, "UFC_3") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One\n");
+   
+   }   
+
+  if(strcmp(nome, "Alien:_Isolation") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, PlayStation 3, Nintendo Switch, Xbox 360, Microsoft Windows, Mac OS, Linux, macOS\n");
+   
+   }
+   
+   if(strcmp(nome, "Outlast") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Android, Microsoft Windows, Nintendo Switch, Linux, macOS, Mac OS Classic\n");
+   
+   }
+   
+   if(strcmp(nome, "Until_Dawn") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Android\n");
+   
+   }
+   
+   if(strcmp(nome, "Resident_Evil_7") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Nintendo Switch, Microsoft Windows, Google Stadia, Amazon Luna\n");
+   
+   }
+   
+   if(strcmp(nome, "Layers_of_Fear") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Nintendo Switch, Xbox One, Android, Microsoft Windows, Linux, macOS, Mac OS\n");
+   
+   }     
+
+   if(strcmp(nome, "The_Elder_Scrolls_V:_Skyrim") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Nintendo Switch, PlayStation 3, Xbox 360, Microsoft Windows\n");
+   
+   }  
+   
+   if(strcmp(nome, "Disco_Elysium") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, PlayStation 5, Xbox One, Nintendo Switch, Xbox Series X, macOS, Google Stadia, Microsoft Windows\n");
+   
+   }
+   
+   if(strcmp(nome, "Persona_5_Royal") == 0){
+   
+      printf("\nPlataforma: PlayStation 4\n");
+   
+   }
+   
+   if(strcmp(nome, "Chrono_Cross") == 0){
+   
+      printf("\nPlataforma: PlayStation\n");
+   
+   }
+   
+   if(strcmp(nome, "Final_Fantasy_VII_Remake") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, PlayStation 5\n");
+   
+   }    
+  
+     if(strcmp(nome, "The_Witcher_3") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Nintendo Switch, Xbox One, PlayStation 5, Xbox Series X, Microsoft Windows\n");
+   }    
+  
+     if(strcmp(nome, "Diablo_III") == 0){
+   
+      printf("\nPlataformas: Microsoft Windows, Mac OS X, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Nintendo Switch\n");
+   
+   }    
+  
+     if(strcmp(nome, "Stardew_Valley") == 0){
+   
+      printf("\nPlataformas: Microsoft Windows, macOS, Linux, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android\n");
+   
+   }    
+  
+     if(strcmp(nome, "Undertale") == 0){
+   
+      printf("\nPlataformas: Microsoft Windows, OS X, Linux, Playstation 4, Playstation Vita, Nintendo Switch.\n");
+   
+   }  
+
+}
+
+
 int main(void)
 {
 
@@ -2117,7 +2300,9 @@ int main(void)
    system("clear");
    
    printf("\n\n");
-   printf("    Programa que tem como objetivo dar recomendações de formas de entretenimentos como: filmes, series, livros e jogos de acordo com as preferências do usuário.");
+   printf("    ______________________________________________________________________________________________________________________________________________________________\n\n");
+   printf("    |Programa que tem como objetivo dar recomendações de formas de entretenimentos como: filmes, series, livros e jogos de acordo com as preferências do usuário.|\n");
+   printf("    ______________________________________________________________________________________________________________________________________________________________\n");
    printf("\n\n\n\n\n\n");
       
    lista =  malloc(1000 * sizeof(Lista));
@@ -2145,8 +2330,10 @@ int main(void)
    
    if(tipo == 1){
     
-      printf(" Digite os gêneros que deseja incluir no seu filme, e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Ficção, Suspense, Animação, Crime, Histórico.\n\n\n\n");
+      printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
+      printf("\n                             |Digite os gêneros que deseja incluir no seu filme, e quando terminar digite FIM.                         |\n");
+      printf("                             |Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Ficção, Suspense, Animação, Crime, Histórico.|\n");
+      printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2160,11 +2347,15 @@ int main(void)
       printf("\n\n\n");
       system("read -p 'Press Enter to continue...' var");
       
+        printf("\n\n\n                                            ___________________________________________________________________________________\n");
+        printf("\n                                            |Menu com informações sobre os filmes e opções para criação da sua lista de filmes:|\n");
+        printf("                                            ___________________________________________________________________________________\n\n\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
+        printf(" S - Se deseja saber a sinopse de algum jogo:\n");
+        printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
+        printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
         printf(" I - Se deseja inserir um filme da lista:\n");
         printf(" R - Se deseja remover um filme da lista:\n");
-        printf(" S - Se deseja saber a sinopse de algum filme:\n");
-        printf(" A - Se deseja saber o ano de lançamento de algum filme:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de filmes:\n");
         printf(" F - Se deseja finalizar a lista de filmes e mostrar o seu conteúdo:\n");
         
@@ -2258,8 +2449,10 @@ int main(void)
   
   else if(tipo == 2){
     
-      printf(" Digite os gêneros que deseja incluir na sua série e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Suspense, Fantasia, Mistério.\n\n\n\n");
+      printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
+      printf("\n                             |Digite os gêneros que deseja incluir na sua série, e quando terminar digite FIM.                         |\n");
+      printf("                             |Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Fantasia, Suspense, Mistério                 |\n");
+      printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2273,11 +2466,15 @@ int main(void)
        printf("\n\n\n");
        system("read -p 'Press Enter to continue...' var");
       
+        printf("\n\n\n                                            ___________________________________________________________________________________\n");
+        printf("\n                                            |Menu com informações sobre as séries e opções para criação da sua lista de séries:|\n");
+        printf("                                            ___________________________________________________________________________________\n\n\n\n"); 
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
+        printf(" S - Se deseja saber a sinopse de algum jogo:\n");
+        printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
+        printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
         printf(" I - Se deseja inserir uma série da lista:\n");
         printf(" R - Se deseja remover uma série da lista:\n");
-        printf(" S - Se deseja saber a sinopse de alguma série:\n");
-        printf(" A - Se deseja saber a duração de lançamento de alguma série:\n");
         printf(" M - Se deseja mostrar o conteúdo da sua lista de séries:\n");
         printf(" F - Se deseja finalizar a sua lista de séries e mostrar o seu conteúdo:\n");
         
@@ -2371,8 +2568,10 @@ int main(void)
   
   else if(tipo == 3){
     
-      printf(" Digite os gêneros que deseja incluir no seu livro e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Fantasia, Terror, Comédia.\n\n\n\n");
+      printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
+      printf("\n                             |Digite os gêneros que deseja incluir no seu livro, e quando terminar digite FIM.                         |\n");
+      printf("                             |Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Fantasia                                     |\n");
+      printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2386,11 +2585,15 @@ int main(void)
       printf("\n\n\n");
       system("read -p 'Press Enter to continue...' var");
   
+        printf("\n\n\n                                            ___________________________________________________________________________________\n");
+        printf("\n                                            |Menu com informações sobre os livros e opções para criação da sua lista de livros:|\n");
+        printf("                                            ___________________________________________________________________________________\n\n\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
+        printf(" S - Se deseja saber a sinopse de algum jogo:\n");
+        printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
+        printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
         printf(" I - Se deseja inserir um livro da lista:\n");
         printf(" R - Se deseja remover um livro da lista:\n");
-        printf(" S - Se deseja saber a sinopse de algum livro:\n");
-        printf(" A - Se deseja saber o ano de publicação de algum livro:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de livros:\n");
         printf(" F - Se deseja finalizar a lista de livros e mostrar o seu conteúdo:\n");
         
@@ -2484,8 +2687,10 @@ int main(void)
   
   else if(tipo == 4){
     
-      printf(" Digite os gêneros que deseja incluir no seu jogo e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Plataforma, Ação, Aventura, Tiro, Esportes, Terror, RPG.\n\n\n\n");
+      printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
+      printf("\n                             |Digite os gêneros que deseja incluir no seu jogo, e quando terminar digite FIM.                          |\n");
+      printf("                             |Exemplos de gêneros: Plataforma, Ação, Aventura, Tiro, Esportes, Terror, RPG.                            |\n");
+      printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2499,12 +2704,15 @@ int main(void)
       printf("\n\n\n");
       system("read -p 'Press Enter to continue...' var"); 
       
-        printf("\n\nMenu com informações sobre os jogos e opções para criação da sua lista de jogos:\n\n");
+        printf("\n\n\n                                            _________________________________________________________________________________\n");
+        printf("\n                                            |Menu com informações sobre os jogos e opções para criação da sua lista de jogos:|\n");
+        printf("                                            _________________________________________________________________________________\n\n\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
-        printf(" I - Se deseja inserir um jogo da lista:\n");
-        printf(" R - Se deseja remover um jogo da lista:\n");
         printf(" S - Se deseja saber a sinopse de algum jogo:\n");
         printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
+        printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
+        printf(" I - Se deseja inserir um jogo da lista:\n");
+        printf(" R - Se deseja remover um jogo da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de jogos:\n");
         printf(" F - Se deseja finalizar a lista de jogos e mostrar o seu conteúdo:\n");
         
@@ -2568,6 +2776,17 @@ int main(void)
             scanf("%s", nome);
             
             ano_jogo(lista2, nome);
+        }
+        
+        if(r == 'P')
+        {
+        
+            printf("\n Informe o jogo que deseja saber a plataforma em que está disponível.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            plataforma_jogo(lista2, nome);
         }
         
         if(r == 'M')
