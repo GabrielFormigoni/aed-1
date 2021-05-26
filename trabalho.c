@@ -875,8 +875,10 @@ if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
    
       printf("\nAno de lançamento : 2009\n");
    
+  }  
   
-}  
+}
+
 
 void sinopse_filme(Lista2 *l, char nome[])
 {
@@ -1733,6 +1735,7 @@ void sinopse_livro(Lista2 *l, char nome[])
       printf("\nA felicidade para um cão é um rabo abanando, já para um gato, não. É o gato que tem que abanar o rabo para demonstrar felicidade para o cão ou o cão que tem que entender que o gato demonstra afeto de outras formas? Cães e gatos lida com as diferenças.\n");
    }
 }
+  
 
 void ano_jogo(Lista2 *l, char nome[])
 {
@@ -2010,7 +2013,7 @@ void sinopse_jogo(Lista2 *l, char nome[])
 
   if(strcmp(nome, "UFC_3") == 0){
    
-      printf("\nVada Sultenfuss, uma garota de 11 anos, é obcecada com a morte, pois sua mãe morreu quando a garota nasceu e seu pai, Harry Sultenfuss, é um agente funerário que não lhe dá muita atenção. Vada é apaixonada por Jake Bixler, seu professor de inglês, e é muito amiga de Thomas J. Sennett, um garoto que é alérgico a tudo. Quando Harry contrata Shelly DeVoto, uma maquiadora, para os funerais e se apaixona por ela, Vada se sente rejeitada e quer fazer qualquer coisa para separá-los.\n");
+      printf("\nUm modo história evoluído que agora desafia o jogador a se tornar uma lenda do UFC, com direito a objetivos paralelos às lutas, uma área de treinamento personalizada e até a opção de promover um combate provocando o adversário nas redes sociais.\n");
    
    }   
 
@@ -2115,7 +2118,7 @@ int main(void)
    
    printf("\n\n");
    printf("    Programa que tem como objetivo dar recomendações de formas de entretenimentos como: filmes, series, livros e jogos de acordo com as preferências do usuário.");
-   printf("\n\n");
+   printf("\n\n\n\n\n\n");
       
    lista =  malloc(1000 * sizeof(Lista));
    lista2 =  malloc(3*sizeof(Lista2));
@@ -2129,7 +2132,7 @@ int main(void)
    
    
    printf("\n\n Selecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
-   printf(" 1 - Filme\n");
+   printf("1 - Filme\n");
    printf(" 2 - Série\n");
    printf(" 3 - Livro\n");
    printf(" 4 - Jogo\n\n");
@@ -2143,7 +2146,7 @@ int main(void)
    if(tipo == 1){
     
       printf(" Digite os gêneros que deseja incluir no seu filme, e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Ficção, Suspense, Animação, Crime, Histórico.\n");
+      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Ficção, Suspense, Animação, Crime, Histórico.\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2154,6 +2157,8 @@ int main(void)
 
       system("clear");
       recomendacoes_filme(lista, cont);
+      printf("\n\n\n");
+      system("read -p 'Press Enter to continue...' var");
       
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
         printf(" I - Se deseja inserir um filme da lista:\n");
@@ -2254,7 +2259,7 @@ int main(void)
   else if(tipo == 2){
     
       printf(" Digite os gêneros que deseja incluir na sua série e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Suspense, Fantasia, Mistério.\n\n");
+      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Suspense, Fantasia, Mistério.\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2265,7 +2270,9 @@ int main(void)
       
        system("clear");
        recomendacoes_serie(lista, cont);     
-  
+       printf("\n\n\n");
+       system("read -p 'Press Enter to continue...' var");
+      
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
         printf(" I - Se deseja inserir uma série da lista:\n");
         printf(" R - Se deseja remover uma série da lista:\n");
@@ -2365,7 +2372,7 @@ int main(void)
   else if(tipo == 3){
     
       printf(" Digite os gêneros que deseja incluir no seu livro e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia.\n\n");
+      printf(" Exemplos de gêneros: Drama, Ação, Romance, Fantasia, Terror, Comédia.\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2376,6 +2383,8 @@ int main(void)
 
       system("clear");
       recomendacoes_livro(lista, cont);
+      printf("\n\n\n");
+      system("read -p 'Press Enter to continue...' var");
   
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
         printf(" I - Se deseja inserir um livro da lista:\n");
@@ -2476,7 +2485,7 @@ int main(void)
   else if(tipo == 4){
     
       printf(" Digite os gêneros que deseja incluir no seu jogo e quando terminar digite FIM.\n");
-      printf(" Exemplos de gêneros: Plataforma, Ação, Esportes, Terror, RPG.\n");
+      printf(" Exemplos de gêneros: Plataforma, Ação, Aventura, Tiro, Esportes, Terror, RPG.\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -2486,8 +2495,11 @@ int main(void)
       }
       
       system("clear");
-      recomendacoes_jogo(lista, cont);  
+      recomendacoes_jogo(lista, cont); 
+      printf("\n\n\n");
+      system("read -p 'Press Enter to continue...' var"); 
       
+        printf("\n\nMenu com informações sobre os jogos e opções para criação da sua lista de jogos:\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
         printf(" I - Se deseja inserir um jogo da lista:\n");
         printf(" R - Se deseja remover um jogo da lista:\n");
@@ -2594,5 +2606,4 @@ int main(void)
   free(lista2);
 
 return 0;
-
 }
