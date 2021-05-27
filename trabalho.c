@@ -215,12 +215,12 @@ void recomendacoes_filme(Lista *k, int cont)
         if(strcmp(k[i].genero, "Drama") == 0){
         
           printf("\n\nFilmes Drama\n\n");
-          printf(" Como_Eu_Era_Antes_de_Você                                       PS_Eu_Te_Amo\n");
-          printf(" A_Culpa_é_das_Estrelas                                          Túmulo_dos_Vaga_Lumes\n");
-          printf(" Doze_Anos_de_Escravidão                                         Mad_Max\n");
-          printf(" Sempre_ao_Seu_Lado                                              Meu_Primeiro_Amor\n");
-          printf(" Tenet                                                           À_Espera_de_um_Milagre\n");
-          printf(" O_Guarda_Costas                                                 A_Identidade_Bourne\n");
+          printf(" Como_Eu_Era_Antes_de_Você                                      PS_Eu_Te_Amo\n");
+          printf(" A_Culpa_é_das_Estrelas                                         Túmulo_dos_Vaga_Lumes\n");
+          printf(" Doze_Anos_de_Escravidão                                        Mad_Max\n");
+          printf(" Sempre_ao_Seu_Lado                                             Meu_Primeiro_Amor\n");
+          printf(" Tenet                                                          À_Espera_de_um_Milagre\n");
+          printf(" O_Guarda_Costas                                                A_Identidade_Bourne\n");
           printf(" Cartas_para_Julieta\n");
         
         }
@@ -321,11 +321,11 @@ void recomendacoes_filme(Lista *k, int cont)
        if(strcmp(k[i].genero, "Comédia") == 0){
           
           printf("\n\nFilmes Comédia\n\n");
-          printf(" Minha_Mãe_é_Uma_Peça                                                    O_virgem_de_40_anos\n");
-          printf(" Cartas_para_Julieta                                                     Simplesmente_Acontece\n");
-          printf(" Até_que_a_Sorte_nos_Separe                                              As_Férias_de_Mr_Bean\n");
-          printf(" Missão_Madrinha_de_Casamento                                            Toy_Story\n");
-          printf(" Meu_Primeiro_Amor                                                       Divertidamente\n");
+          printf(" Minha_Mãe_é_Uma_Peça                                           O_virgem_de_40_anos\n");
+          printf(" Cartas_para_Julieta                                            Simplesmente_Acontece\n");
+          printf(" Até_que_a_Sorte_nos_Separe                                     As_Férias_de_Mr_Bean\n");
+          printf(" Missão_Madrinha_de_Casamento                                   Toy_Story\n");
+          printf(" Meu_Primeiro_Amor                                              Divertidamente\n");
         
         }
           
@@ -846,6 +846,7 @@ if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
       printf("\nAno de lançamento : 2009\n");
    
   }  
+   
   
 }
 
@@ -1074,6 +1075,7 @@ if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
    
   }  
   
+  
 }
 
 void sinopse_filme(Lista2 *l, char nome[])
@@ -1274,6 +1276,7 @@ void sinopse_filme(Lista2 *l, char nome[])
       printf("\nEnquanto explora sua nova casa à noite, a pequena Coraline descobre uma porta secreta que contém um mundo parecido com o dela, porém melhor em muitas maneiras. Todos têm botões no lugar dos olhos, os pais são carinhosos e os sonhos de Coraline viram realidade por lá. Ela se encanta com essa descoberta, mas logo percebe que segredos estranhos estão em ação: uma outra mãe e o resto de sua família tentam mantê-la eternamente nesse mundo paralelo.\n");
    
    }  
+   
 }      
 
 void ano_serie(Lista2 *l, char nome[])
@@ -1432,6 +1435,7 @@ void ano_serie(Lista2 *l, char nome[])
       printf("\nAnos de duração: 2005-2009\n");
      
    }          
+   
 
 }
 
@@ -1617,6 +1621,7 @@ void temporadas_serie(Lista2 *l, char nome[])
      
    }          
 
+
 }
 void sinopse_serie(Lista2 *l, char nome[])
 {         
@@ -1773,7 +1778,8 @@ void sinopse_serie(Lista2 *l, char nome[])
    
       printf("\nA série conta a história da família Rock entre os anos de 1982 até 1987, com o foco no menino Chris (Tyler James Williams). Em 1982, Chris completa 13 anos e muda-se com a sua família para Bedford-Stuyvesant, no Brooklyn. Lá, Chris vive situações corriqueiras da vida de um adolescente, tanto nas histórias que realmente acontecem quanto nos pensamentos que são expostos de uma forma humorística. Chris vive com os pais Julius (Terry Crews) e Rochelle (Tichina Arnold), e com os dois irmãos Drew (Tequan Richmond) e Tonya (Imani Hakim). Ele estuda no Corleone Junior High School, colégio onde Chris é o único aluno negro, situação que o vitimiza durante todo seu tempo lá. Mas ele faz um amigo, Greg (Vicent Martella), que vai estar sempre junto de Chris, passando por suas situações tragicamente cômicas.\n");
    
-   }          
+   }         
+    
 
 }
 
@@ -1944,6 +1950,8 @@ void ano_livro(Lista2 *l, char nome[])
       printf("\nAno de Publicação : 2005-2009\n");
     
    }
+   
+ 
 }
 
 
@@ -2113,6 +2121,8 @@ void autor_livro(Lista2 *l, char nome[])
       printf("\nAutor : Rick Riordan.\n");
     
    }
+   
+
 }
 
 
@@ -2282,6 +2292,8 @@ void sinopse_livro(Lista2 *l, char nome[])
    
       printf("\nA felicidade para um cão é um rabo abanando, já para um gato, não. É o gato que tem que abanar o rabo para demonstrar felicidade para o cão ou o cão que tem que entender que o gato demonstra afeto de outras formas? Cães e gatos lida com as diferenças.\n");
    }
+   
+
 }
   
 
@@ -2517,6 +2529,7 @@ void ano_jogo(Lista2 *l, char nome[])
       printf("\nAno de Lançamento : 2012\n");   
       
    }
+    
 }
 
 void sinopse_jogo(Lista2 *l, char nome[])
@@ -2750,6 +2763,7 @@ void sinopse_jogo(Lista2 *l, char nome[])
       printf("\nLone Survivor é um jogo de suspense e terror psicológico que desafia jogadores a sobreviverem em meio a um apocalipse misterioso com criaturas nefastas. A grande sacada da história é que tanto tempo isolado já deixou seu personagem um pouco perturbado, sendo difícil definir o que é real.\n");   
       
    }
+    
 }
 
 
@@ -2978,7 +2992,8 @@ void plataforma_jogo(Lista2 *l, char nome[])
    
       printf("\nPlataformas: Nintendo Switch, PlayStation 4, Microsoft Windows, PlayStation 3, macOS, Wii U, PlayStation Vita.\n");   
       
-   }   
+   }
+      
 
 }
 
@@ -3012,12 +3027,15 @@ int main(void)
    fgets(user,1000, stdin);
    strcpy(lista2[0].nome,user);
    
+   do
+   {
    
    printf("\n\n Selecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
    printf("1 - Filme\n");
    printf(" 2 - Série\n");
    printf(" 3 - Livro\n");
-   printf(" 4 - Jogo\n\n");
+   printf(" 4 - Jogo\n");
+   printf(" 5 - Sair\n\n");
    
    
    scanf("%d", &tipo);
@@ -3047,6 +3065,8 @@ int main(void)
         printf("\n\n\n                                            ___________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre os filmes e opções para criação da sua lista de filmes:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n");
+        
+        
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
         printf(" S - Se deseja saber a sinopse de algum filme:\n");
         printf(" A - Se deseja saber o ano de lançamento de algum filme:\n");
@@ -3054,7 +3074,7 @@ int main(void)
         printf(" I - Se deseja inserir um filme da lista:\n");
         printf(" R - Se deseja remover um filme da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de filmes:\n");
-        printf(" F - Se deseja finalizar a lista de filmes e mostrar o seu conteúdo:\n");
+        printf(" F - Se deseja finalizar a lista de filmes, mostrar o seu conteúdo e voltar a tela inicial:\n");
         
         
   do
@@ -3146,7 +3166,9 @@ int main(void)
           printf("\n");  
           imprimir_filme(lista2, len);
           printf("\n");
-          
+          system("read -p 'Press Enter to continue...' var");
+          system("clear");
+              
         }
     }
     while(r != 'F'); 
@@ -3183,7 +3205,7 @@ int main(void)
         printf(" I - Se deseja inserir uma série da lista:\n");
         printf(" R - Se deseja remover uma série da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da sua lista de séries:\n");
-        printf(" F - Se deseja finalizar a sua lista de séries e mostrar o seu conteúdo:\n");
+        printf(" F - Se deseja finalizar a sua lista de séries, mostrar o seu conteúdo e voltar a tela inicial:\n");
         
         
   do
@@ -3276,6 +3298,8 @@ int main(void)
           printf("\n");  
           imprimir_serie(lista2, len);
           printf("\n");
+          system("read -p 'Press Enter to continue...' var");
+          system("clear");
           
         }
     }
@@ -3313,7 +3337,7 @@ int main(void)
         printf(" I - Se deseja inserir um livro da lista:\n");
         printf(" R - Se deseja remover um livro da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de livros:\n");
-        printf(" F - Se deseja finalizar a lista de livros e mostrar o seu conteúdo:\n");
+        printf(" F - Se deseja finalizar a lista de livros, mostrar o seu conteúdo e voltar a tela inicial:\n");
         
         
   do
@@ -3407,6 +3431,8 @@ int main(void)
           printf("\n");  
           imprimir_livro(lista2, len);
           printf("\n");
+          system("read -p 'Press Enter to continue...' var");
+          system("clear");
           
         }
     }
@@ -3444,7 +3470,7 @@ int main(void)
         printf(" I - Se deseja inserir um jogo da lista:\n");
         printf(" R - Se deseja remover um jogo da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de jogos:\n");
-        printf(" F - Se deseja finalizar a lista de jogos e mostrar o seu conteúdo:\n");
+        printf(" F - Se deseja finalizar a lista de jogos, mostrar o seu conteúdo e voltar a tela inicial:\n");
         
         
   do
@@ -3536,6 +3562,8 @@ int main(void)
           printf("\n");  
           imprimir_jogo(lista2, len);
           printf("\n");
+          system("read -p 'Press Enter to continue...' var");
+          system("clear");
           
         }
     }
@@ -3544,11 +3572,7 @@ int main(void)
   } 
   
   
-  else{
-  
-     printf(" Número inválido!!!\n");
-  
-  }
+  }while( tipo != 5);
         
 
   free(lista);
