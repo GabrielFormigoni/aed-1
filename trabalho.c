@@ -16,6 +16,8 @@ typedef struct{
 typedef struct{
   
    char nome[1000];
+   int ano;
+   char tipo[1000];
    
 }Lista2;
 
@@ -24,6 +26,8 @@ typedef struct{
 void inserir_filme(Lista2 *l, int len, char nome[])
 {
     strncpy(l[len].nome, nome, 1000);
+    
+    printf("\nFilme inserido com sucesso!!!\n\n");
 
 }
 
@@ -31,6 +35,8 @@ void inserir_filme(Lista2 *l, int len, char nome[])
 void inserir_serie(Lista2 *l, int len, char nome[])
 {
     strncpy(l[len].nome, nome, 1000);
+    
+    printf("\nSérie inserido com sucesso!!!\n\n");
 
 }
 
@@ -38,6 +44,8 @@ void inserir_serie(Lista2 *l, int len, char nome[])
 void inserir_livro(Lista2 *l, int len, char nome[])
 {
     strncpy(l[len].nome, nome, 1000);
+    
+    printf("\nLivro inserido com sucesso!!!\n\n");
 
 }
 
@@ -45,6 +53,8 @@ void inserir_livro(Lista2 *l, int len, char nome[])
 void inserir_jogo(Lista2 *l, int len, char nome[])
 {
     strncpy(l[len].nome, nome, 1000);
+    
+    printf("\nJogo inserido com sucesso!!!\n\n");
 
 }
 
@@ -64,6 +74,8 @@ void remover_filme(Lista2 *l, int len, char nome[])
             }
         }
     }
+    
+    printf("\nFilme removido com sucesso!!!\n\n");
 }
 
 
@@ -82,6 +94,8 @@ void remover_serie(Lista2 *l, int len, char nome[])
             }
         }
     }
+    
+    printf("\nSérie removida com sucesso!!!\n\n");
 }
 
 
@@ -100,6 +114,8 @@ void remover_livro(Lista2 *l, int len, char nome[])
             }
         }
     }
+    
+    printf("\nLivro removido com sucesso!!!\n\n");
 }
 
 
@@ -118,6 +134,8 @@ void remover_jogo(Lista2 *l, int len, char nome[])
             }
         }
     }
+    
+    printf("\nJogo removido com sucesso!!!\n\n");
 }
 
 
