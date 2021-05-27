@@ -125,12 +125,16 @@ void imprimir_filme(Lista2 *l, int len)
 {
     int i;
     
-    printf("Usuário:%s\n\n%s\n\n", l[0].nome, l[1].nome);
+    printf("    ____________\n\n");
+    printf("   |%s|\n", l[1].nome);
+    printf("    ____________\n\n");
+    printf("   Usuário : %s\n\n",l[0].nome);
+    printf("   FILMES : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome);
+       printf("   %s\n", l[i].nome);
        
     
     }
@@ -142,12 +146,16 @@ void imprimir_serie(Lista2 *l, int len)
 {
     int i;
     
-    printf("Usuário:%s\n\n%s\n\n", l[0].nome, l[1].nome);
+    printf("    ____________\n\n");
+    printf("   |%s|\n", l[1].nome);
+    printf("    ____________\n\n");
+    printf("   Usuário : %s\n\n",l[0].nome);
+    printf("   SÉRIES : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome);
+       printf("   %s\n", l[i].nome);
        
     
     }
@@ -159,12 +167,16 @@ void imprimir_livro(Lista2 *l, int len)
 {
     int i;
     
-    printf("Usuário:%s\n\n%s\n\n", l[0].nome, l[1].nome);
+    printf("    ____________\n\n");
+    printf("   |%s|\n", l[1].nome);
+    printf("    ____________\n\n");
+    printf("   Usuário : %s\n\n",l[0].nome);
+    printf("   LIVROS : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome);
+       printf("   %s\n", l[i].nome);
        
     
     }
@@ -176,12 +188,16 @@ void imprimir_jogo(Lista2 *l, int len)
 {
     int i;
     
-    printf("Usuário:%s\n\n%s\n\n", l[0].nome, l[1].nome);
+    printf("    ____________\n\n");
+    printf("   |%s|\n", l[1].nome);
+    printf("    ____________\n\n");
+    printf("   Usuário : %s\n\n",l[0].nome);
+    printf("   JOGOS : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome);
+       printf("   %s\n", l[i].nome);
        
     
     }
@@ -199,19 +215,13 @@ void recomendacoes_filme(Lista *k, int cont)
         if(strcmp(k[i].genero, "Drama") == 0){
         
           printf("\n\nFilmes Drama\n\n");
-          printf(" Como_Eu_Era_Antes_de_Você\n");
-          printf(" A_Culpa_é_das_Estrelas\n");
-          printf(" Doze_Anos_de_Escravidão\n");
-          printf(" Sempre_ao_Seu_Lado\n");
-          printf(" Tenet\n");
-          printf(" O_Guarda_Costas\n");
+          printf(" Como_Eu_Era_Antes_de_Você                                       PS_Eu_Te_Amo\n");
+          printf(" A_Culpa_é_das_Estrelas                                          Túmulo_dos_Vaga_Lumes\n");
+          printf(" Doze_Anos_de_Escravidão                                         Mad_Max\n");
+          printf(" Sempre_ao_Seu_Lado                                              Meu_Primeiro_Amor\n");
+          printf(" Tenet                                                           À_Espera_de_um_Milagre\n");
+          printf(" O_Guarda_Costas                                                 A_Identidade_Bourne\n");
           printf(" Cartas_para_Julieta\n");
-          printf(" A_Identidade_Bourne\n");
-          printf(" À_Espera_de_um_Milagre\n");
-          printf(" Meu_Primeiro_Amor\n");
-          printf(" Mad_Max\n");
-          printf(" Túmulo_dos_Vaga_Lumes\n");
-          printf(" PS_Eu_Te_Amo\n");
         
         }
        
@@ -257,20 +267,13 @@ void recomendacoes_filme(Lista *k, int cont)
         if(strcmp(k[i].genero, "Suspense") == 0){
         
           printf("\n\nFilmes Suspense\n\n");
-          printf(" À_Espera_de_um_Milagre\n");
-          printf(" A_Identidade_Bourne\n");
-          printf(" O_Sexto_Sentido\n");
-          printf(" Psicose\n");
-          printf(" IT_A_Coisa\n");
-          printf(" Tenet\n");
-          printf(" ParaNorman\n");
-          printf(" Coraline\n");
-          printf(" Upgrade\n");
-          printf(" O_Massacre_da_Serra_Elétrica\n");
-          printf(" O_Guarda_Costas\n");
-          printf(" Mad_Max\n");
-          printf(" O_Exorcista\n");
-          printf(" Missão_Impossível_Fallout\n");
+          printf(" À_Espera_de_um_Milagre                                         Missão_Impossível_Fallout\n");
+          printf(" A_Identidade_Bourne                                            O_Exorcista\n");
+          printf(" O_Sexto_Sentido                                                Mad_Max\n");
+          printf(" Psicose                                                        O_Guarda_Costas\n");
+          printf(" IT_A_Coisa                                                     O_Massacre_da_Serra_Elétrica\n");
+          printf(" Tenet                                                          Upgrade\n");
+          printf(" ParaNorman                                                     Coraline\n");
         
         }
        
@@ -318,16 +321,11 @@ void recomendacoes_filme(Lista *k, int cont)
        if(strcmp(k[i].genero, "Comédia") == 0){
           
           printf("\n\nFilmes Comédia\n\n");
-          printf(" Minha_Mãe_é_Uma_Peça\n");
-          printf(" Cartas_para_Julieta\n");
-          printf(" Até_que_a_Sorte_nos_Separe\n");
-          printf(" Missão_Madrinha_de_Casamento\n");
-          printf(" Meu_Primeiro_Amor\n");
-          printf(" Divertidamente\n");
-          printf(" Toy_Story\n");
-          printf(" As_Férias_de_Mr_Bean\n");
-          printf(" Simplesmente_Acontece\n");
-          printf(" O_virgem_de_40_anos\n");
+          printf(" Minha_Mãe_é_Uma_Peça                                                    O_virgem_de_40_anos\n");
+          printf(" Cartas_para_Julieta                                                     Simplesmente_Acontece\n");
+          printf(" Até_que_a_Sorte_nos_Separe                                              As_Férias_de_Mr_Bean\n");
+          printf(" Missão_Madrinha_de_Casamento                                            Toy_Story\n");
+          printf(" Meu_Primeiro_Amor                                                       Divertidamente\n");
         
         }
           
@@ -343,24 +341,12 @@ void recomendacoes_serie(Lista *k, int cont)
         if(strcmp(k[i].genero, "Drama") == 0){
         
           printf("\n\nSéries Drama\n\n");
-          printf(" Elite\n");
-          printf(" Os_Inocentes\n");
-          printf(" Lupin\n");
-          printf(" How_I_Met_Your_Mother\n");
-          printf(" A_Maldição_da_Mansão_Bly\n");
-          printf(" Jane_a_Virgem\n");
-          printf(" O_Mundo_Sombrio_de_Sabrina\n");
-          printf(" The_End_of_the_F***ing_World\n");
-          printf(" The_Witcher\n");
-          printf(" Bates_Motel\n");
-          printf(" La_Casa_de_Papel\n");
-          printf(" Peaky_Blinders\n");
-          printf(" Kingdom\n");
-          printf(" Virgin_River\n");
-          printf(" Riverdale\n");
-          printf(" Sky_Rojo\n");
-          printf(" Sex_Education\n");
-          printf(" Sherlock\n");
+          printf(" Elite                                                Sherlock                                          Kingdom\n");
+          printf(" Os_Inocentes                                         Sex_Education                                     Peaky_Blinders\n");
+          printf(" Lupin                                                Sky_Rojo                                          La_Casa_de_Papel\n");
+          printf(" How_I_Met_Your_Mother                                Riverdale                                         Bates_Motel\n");
+          printf(" A_Maldição_da_Mansão_Bly                             Virgin_River                                      The_End_of_the_F***ing_World\n");
+          printf(" Jane_a_Virgem                                        The_Witcher                                       O_Mundo_Sombrio_de_Sabrina\n");
         
         }
        
@@ -579,21 +565,12 @@ void recomendacoes_jogo(Lista *k, int cont)
         if(strcmp(k[i].genero, "Aventura") == 0){
         
           printf("\n\nJogos Aventura\n\n");
-          printf(" Hollow_Knight\n");
-          printf(" Resident_Evil_7\n");
-          printf(" Until_Dawn\n");
-          printf(" The_Elder_Scrolls_V:_Skyrim\n");
-          printf(" Assassin’s_Creed_II\n");
-          printf(" Grand_Theft_Auto_V\n");
-          printf(" Outlast\n");
-          printf(" The_Last_of_Us\n");
-          printf(" Red_Dead_Redemption_2\n");
-          printf(" Katana_Zero\n");
-          printf(" Tomb_Raider\n");
-          printf(" Ori_and_the_Blind_Forest\n");
-          printf(" Little_Nightmares\n");
-          printf(" Celeste\n");
-          
+          printf(" Hollow_Knight                                        Grand_Theft_Auto_V                          Tomb_Raider\n");
+          printf(" Resident_Evil_7                                      Outlast                                     Ori_and_the_Blind_Forest\n");
+          printf(" Until_Dawn                                           The_Last_of_Us                              Little_Nightmares\n");
+          printf(" The_Elder_Scrolls_V:_Skyrim                          Red_Dead_Redemption_2                       Mass_Effect 2\n");
+          printf(" Assassin’s_Creed_II                                  Katana_Zero                                 Celeste\n");
+          printf(" Monster_Hunter:_World                                Horizon_Zero_Dawn                           Genshin_Impact\n");
         
         }
        
@@ -623,29 +600,22 @@ void recomendacoes_jogo(Lista *k, int cont)
        if(strcmp(k[i].genero, "Terror") == 0){
         
           printf("\n\nJogos Terror\n\n");
-          printf(" Alien:_Isolation\n");
-          printf(" Outlast\n");
-          printf(" Until_Dawn\n");
-          printf(" The_Last_of_Us\n");
-          printf(" Little_Nightmares\n");
-          printf(" Resident_Evil_7\n");
-          printf(" Layers_of_Fear\n");
+          printf(" Alien:_Isolation                                     Resident_Evil_7                             Dark_Souls_III\n");
+          printf(" Outlast                                              Layers_of_Fear                              SOMA\n");
+          printf(" Until_Dawn                                           Mass_Effect 2                               Dead_Space\n");
+          printf(" The_Last_of_Us                                       Silent_Hill                                 F.E.A.R\n");
+          printf(" Little_Nightmares                                    The_Evil_Within                             Lone_Survivor\n");
         
         }
        
        if(strcmp(k[i].genero, "RPG") == 0){
           
           printf("\n\nJogos RPG\n\n");
-          printf(" The_Elder_Scrolls_V:_Skyrim\n");
-          printf(" Disco_Elysium\n");
-          printf(" Persona_5_Royal\n");
-          printf(" Chrono_Cross\n");
-          printf(" Final_Fantasy_VII_Remake\n");
-          printf(" The_Witcher_3\n");
-          printf(" Diablo_III\n");
-          printf(" Stardew_Valley\n");
-          printf(" Undertale\n");
-          
+          printf(" The_Elder_Scrolls_V:_Skyrim                          Mass_Effect 2                               Monster_Hunter:_World\n");
+          printf(" Disco_Elysium                                        Undertale                                   Horizon_Zero_Dawn\n");
+          printf(" Persona_5_Royal                                      Stardew_Valley                              Genshin_Impact\n");
+          printf(" Chrono_Cross                                         Diablo_III                                  Dark_Souls_III\n");
+          printf(" Final_Fantasy_VII_Remake                             The_Witcher_3                               Path_of_Exile\n");
         
         }
           
@@ -2495,7 +2465,58 @@ void ano_jogo(Lista2 *l, char nome[])
       printf("\nAno de lançamento : 2015\n");
    
    }  
-  
+     if(strcmp(nome, "Monster_Hunter:_World") == 0){
+   
+      printf("\nAno de Lançamento : 2018\n");
+   
+   }  
+      if(strcmp(nome, "Genshin_Impact") == 0){
+   
+      printf("\nAno de Lançamento : 2020\n"); 
+      
+   }
+
+      if(strcmp(nome, "Dark_Souls_III") == 0){
+   
+      printf("\nAno de Lançamento : 2016\n");   
+      
+   }
+   
+      if(strcmp(nome, "Path_of_Exile") == 0){
+   
+      printf("\nAno de Lançamento : 2013\n");   
+      
+   }
+   
+      if(strcmp(nome, "Horizon_Zero_Dawn") == 0){
+   
+      printf("\nAno de Lançamento : 2017.\n");  
+      
+   }
+
+      if(strcmp(nome, "SOMA") == 0){
+   
+      printf("\nAno de Lançamento : 2015\n");   
+      
+   }
+   
+      if(strcmp(nome, "Dead_Space") == 0){
+   
+      printf("\nAno de Lançamento : 2008\n");   
+      
+   }
+   
+      if(strcmp(nome, "F.E.A.R") == 0){
+   
+      printf("\nAno de Lançamento : 2005\n"); 
+       
+   }
+   
+      if(strcmp(nome, "Lone_Survivor") == 0){
+   
+      printf("\nAno de Lançamento : 2012\n");   
+      
+   }
 }
 
 void sinopse_jogo(Lista2 *l, char nome[])
@@ -2677,7 +2698,58 @@ void sinopse_jogo(Lista2 *l, char nome[])
       printf("\nUndertale inicia contando sobre o passado, no qual monstros e humanos viviam no planeta. Após uma guerra, os monstros foram derrotados e selados embaixo de uma montanha. O jogo, então, volta para o presente e passa a focar na história de uma criança que caiu dentro da montanha onde os monstros agora vivem.\n");
    
    }  
+     if(strcmp(nome, "Monster_Hunter:_World") == 0){
+   
+      printf("\nMonster Hunter: World é um jogo de RPG eletrônico de ação desenvolvido e publicado pela Capcom. No jogo, o jogador assume o papel de um Caçador, encarregado de caçar e matar ou atrapalhar monstros que vagam em um dos vários espaços ambientais.\n");
+   
+   }  
+      if(strcmp(nome, "Genshin_Impact") == 0){
+   
+      printf("\nO jogo apresenta um ambiente de mundo aberto de fantasia e sistema de batalha baseado em ação usando magia elemental e troca de personagem, e usa a monetização de jogo gacha para os jogadores obterem novos personagens, armas e outros recursos.\n");  
+      
+   }
 
+      if(strcmp(nome, "Dark_Souls_III") == 0){
+   
+      printf("\nDark Souls III é um jogo do gênero RPG de ação numa perspectiva de terceira pessoa, similar aos jogos anteriores da série. ... As cinzas, de acordo com Miyazaki, têm um papel importante no jogo. A Magia está incluída no jogo, assim como a barra de magia, similar a Demon's Souls.\n");   
+      
+   }
+   
+      if(strcmp(nome, "Path_of_Exile") == 0){
+   
+      printf("\nPath of Exile é um RPG de ação no estilo Diablo 3 situado em um mundo sombrio de fantasia medieval. O jogo é gratuito, e tenta seguir uma nova tendência chamada de “micro transações éticas”, que basicamente significa que você não terá que pagar para ser bom no jogo.\n");   
+      
+   }
+   
+      if(strcmp(nome, "Horizon_Zero_Dawn") == 0){
+   
+      printf("\nHorizon Zero Dawn é um eletrônico de ação em que os jogadores controlam Aloy, uma caçadora e arqueira, à medida que ela progride através de um mundo pós-apocalíptico, dominado por criaturas mecanizadas como robôs dinossauros.\n");   
+      
+   }
+
+      if(strcmp(nome, "SOMA") == 0){
+   
+      printf("\nSoma é um jogo em primeira pessoa onde o personagem principal não usará armas, tendo que contar com estratégias para sobreviver. Durante o jogo aparecerão monstros com características diferentes e o jogador deverá se adaptar a cada um deles.\n");   
+      
+   }
+   
+      if(strcmp(nome, "Dead_Space") == 0){
+   
+      printf("\nO jogador toma o papel de um engenheiro chamado Isaac Clarke, que luta contra uma infestação alienígena, parecida com vírus, que transforma humanos em monstros alienígenas chamados (Necromorphs), a bordo de uma nave de mineração espacial chamada USG Ishimura.\n");   
+      
+   }
+   
+      if(strcmp(nome, "F.E.A.R") == 0){
+
+      printf("\nNeste game de tiro em primeira pessoa, você é membro da First Encounter Assault and Recon (F.E.A.R.), força militar de elite para assuntos paranormais, e deve investigar um lunático comandante militar que assumiu o controle de um batalhão de soldados de elite clonados.\n"); 
+       
+   }
+   
+      if(strcmp(nome, "Lone_Survivor") == 0){
+   
+      printf("\nLone Survivor é um jogo de suspense e terror psicológico que desafia jogadores a sobreviverem em meio a um apocalipse misterioso com criaturas nefastas. A grande sacada da história é que tanto tempo isolado já deixou seu personagem um pouco perturbado, sendo difícil definir o que é real.\n");   
+      
+   }
 }
 
 
@@ -2855,11 +2927,58 @@ void plataforma_jogo(Lista2 *l, char nome[])
    
    }    
   
-     if(strcmp(nome, "Undertale") == 0){
+     if(strcmp(nome, "Monster_Hunter:_World") == 0){
    
-      printf("\nPlataformas: Microsoft Windows, OS X, Linux, Playstation 4, Playstation Vita, Nintendo Switch.\n");
+      printf("\nPlataformas: PlayStation 4, Xbox One, Microsoft Windows\n");
    
    }  
+      if(strcmp(nome, "Genshin_Impact") == 0){
+   
+      printf("\nPlataformas : PlayStation 4, Microsoft Windows, iOS, Android, PlayStation 5\n");  
+      
+   }
+
+      if(strcmp(nome, "Dark_Souls_III") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Microsoft Windows.\n");   
+      
+   }
+   
+      if(strcmp(nome, "Path_of_Exile") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, macOS, Microsoft Windows, Mac OS.\n");  
+      
+   }
+   
+      if(strcmp(nome, "Horizon_Zero_Dawn") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Microsoft Windows.\n");   
+      
+   }
+
+      if(strcmp(nome, "SOMA") == 0){
+   
+      printf("\nPlataformas: PlayStation 4, Xbox One, Microsoft Windows, Linux, macOS, Mac OS Classic.\n");  
+      
+   }
+   
+      if(strcmp(nome, "Dead_Space") == 0){
+   
+      printf("\nPlataformas: PlayStation 3, Xbox 360, Microsoft Windows\n");
+      
+   }
+   
+      if(strcmp(nome, "F.E.A.R") == 0){
+   
+      printf("\nPlataformas: Microsoft Windows, PlayStation 3, Xbox 360.\n"); 
+       
+   }
+   
+      if(strcmp(nome, "Lone_Survivor") == 0){
+   
+      printf("\nPlataformas: Nintendo Switch, PlayStation 4, Microsoft Windows, PlayStation 3, macOS, Wii U, PlayStation Vita.\n");   
+      
+   }   
 
 }
 
@@ -2889,8 +3008,8 @@ int main(void)
    strcpy(lista2[1].nome,user);
    
    
-   printf(" Informe o nome de usuário: ");
-   gets(user);
+   printf(" Informe o nome de usuário : ");
+   fgets(user,1000, stdin);
    strcpy(lista2[0].nome,user);
    
    
