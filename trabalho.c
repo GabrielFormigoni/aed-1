@@ -880,6 +880,232 @@ if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
 }
 
 
+void estudio_filme(Lista2 *l, char nome[])
+{
+
+if(strcmp(nome, "Como_Eu_Era_Antes_de_Você") == 0){
+   
+      printf("\nDistribuição : Warner Bros.\n");
+   
+   }
+   
+    if(strcmp(nome, "A_Culpa_é_das_Estrelas") == 0){
+   
+      printf("\nDistribuição : 20th Century Fox.\n");
+      
+   }
+   
+   if(strcmp(nome, "Doze_Anos_de_Escravidão") == 0){
+   
+      printf("\nDistribuição : (Estados Unidos) Fox Searchlight Pictures, (Reino Unido) Entertainment One, (Mundial) Buena Vista International.\n");
+      
+   
+   }
+   
+   if(strcmp(nome, "Sempre_ao_Seu_Lado") == 0){
+   
+      printf("\nDistribuição : (Estados Unidos) Stage 6 Films, (Brasil) Imagem Filmes.\n");
+      
+   
+   }
+   
+   if(strcmp(nome, "À_Espera_de_um_Milagre") == 0){
+   
+      printf("\nDistribuição : Warner Bros.\n");
+      
+    
+   }
+ 
+   if(strcmp(nome, "Tenet") == 0){
+   
+      printf("\nDistribuição : Warner Bros. Pictures.\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "Mad_Max") == 0){
+   
+       printf("\nDistribuição : Village Roadshow Pictures.\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "Matrix") == 0){
+   
+      printf("\nDistribuição : Warner Bros.\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "A_Identidade_Bourne") == 0){
+   
+      printf("\nDistribuição : Universal Pictures.\n");
+      
+   
+   }
+  
+  if(strcmp(nome, "Missão_Impossível_Fallout") == 0){
+   
+      printf("\nDistribuição : Paramount Pictures.\n");
+      
+     
+   }   
+   
+
+  if(strcmp(nome, "PS_Eu_Te_Amo") == 0){
+   
+      printf("\nDistribuição : Warner Bros. Pictures (EUA), Momentum Pictures (Reino Unido).\n");
+      
+     
+   }   
+   
+  if(strcmp(nome, "Simplesmente_Acontece") == 0){
+   
+      printf("\nDistribuição : Lionsgate.\n");
+      
+     
+   }   
+   
+
+  if(strcmp(nome, "Cartas_para_Julieta") == 0){
+   
+      printf("\nDistribuição : Summit Entertainment.\n");
+      
+    
+   }   
+   
+
+  if(strcmp(nome, "O_Guarda_Costas") == 0){
+   
+      printf("\nDistribuição : Warner Bros.\n");
+      
+     
+   }
+
+
+  if(strcmp(nome, "Meu_Primeiro_Amor") == 0){
+   
+      printf("\nDistribuição : Columbia Pictures.\n");
+      
+     
+   }   
+
+  if(strcmp(nome, "O_Exorcista") == 0){
+   
+      printf("\nDistribuição : Warner Bros. Pictures.\n");
+      
+     
+   }
+   
+   if(strcmp(nome, "O_Massacre_da_Serra_Elétrica") == 0){
+   
+      printf("\nDistribuição : Bryanston Pictures.\n");
+      
+     
+   }
+   
+   if(strcmp(nome, "O_Sexto_Sentido") == 0){
+   
+      printf("\nDistribuição : Buena Vista Pictures Distribution.\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "Psicose") == 0){
+   
+      printf("\nDistribuição : Paramount Pictures (lançamento original), Universal Pictures (direitos adquiridos em 1962).\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "IT_A_Coisa") == 0){
+   
+      printf("\nDistribuição : Warner Bros. Pictures.\n");
+      
+     
+   }     
+  
+   if(strcmp(nome, "Minha_Mãe_é_Uma_Peça") == 0){
+   
+      printf("\nDistribuição : Downtown Filmes, Paris Filmes.\n");
+      
+     
+   }  
+   
+   if(strcmp(nome, "Até_que_a_Sorte_nos_Separe") == 0){
+   
+      printf("\nDistribuição 	Paris Filmes, Downtown Filmes (co-distribuição).\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "Missão_Madrinha_de_Casamento") == 0){
+   
+       printf("\nDistribuição : Universal Pictures.\n");
+      
+    
+   }
+   
+   if(strcmp(nome, "As_Férias_de_Mr_Bean") == 0){
+   
+      printf("\nDistribuição : Universal Pictures.\n");
+      
+     
+   }
+   
+   if(strcmp(nome, "O_virgem_de_40_anos") == 0){
+   
+      printf("\nDistribuição : Universal Pictures.\n");
+      
+    
+   }      
+
+      if(strcmp(nome, "Upgrade") == 0){
+   
+      printf("\nDistribuição : Blumhouse, OTL Releasing.\n");
+      
+    
+   } 
+  
+  if(strcmp(nome, "O_Rei_Leão") == 0){
+   
+    printf("\nDistribuição : Buena Vista Pictures.\n");
+     
+   }  
+  
+  if(strcmp(nome, "Túmulo_dos_Vaga_Lumes") == 0){
+   
+    printf("\nDistribuição : Toho.\n");
+    
+   }  
+  
+  if(strcmp(nome, "Divertidamente") == 0){
+   
+    printf("\nDistribuição : Walt Disney Studios Motion Pictures.\n");
+    
+   }  
+  
+  if(strcmp(nome, "Toy_Story") == 0){
+   
+     printf("\nDistribuição : Buena Vista Pictures Distribution.\n");
+    
+   
+   }  
+  
+  if(strcmp(nome, "ParaNorman") == 0){
+   
+     printf("\nDistribuição : Focus Features.\n");
+    
+   }  
+  
+  if(strcmp(nome, "Coraline") == 0){
+   
+      printf("\nDistribuição : Focus Features.\n");
+   
+  }  
+  
+}
+
 void sinopse_filme(Lista2 *l, char nome[])
 {
 
@@ -1239,6 +1465,189 @@ void ano_serie(Lista2 *l, char nome[])
 
 }
 
+void temporadas_serie(Lista2 *l, char nome[])
+{         
+ 
+   if(strcmp(nome, "Sky_Rojo") == 0){
+   
+      printf("\nNúmero de temporadas : 1 temporada.");
+      printf("\nNúmero de episódios : 8 episódios.\n");
+   
+   }
+   
+    if(strcmp(nome, "Lupin") == 0){
+   
+      printf("\nNúmero de temporadas : 1 temporada.");
+      printf("\nNúmero de episódios : 5 episódios.\n");
+      
+   }
+   
+   if(strcmp(nome, "Sherlock") == 0){
+   
+      printf("\nNúmero de temporadas : 4 temporadas.");
+      printf("\nNúmero de episódios : 13 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "Peaky_Blinders") == 0){
+   
+      printf("\nNúmero de temporadas : 5 temporadas.");
+      printf("\nNúmero de episódios : 30 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "La_Casa_de_Papel") == 0){
+   
+      printf("\nNúmero de temporadas : 2 temporadas(4 partes).");
+      printf("\nNúmero de episódios : 31 episódios.\n");
+     
+   }
+
+   if(strcmp(nome, "Elite") == 0){
+   
+      printf("\nNúmero de temporadas : 3 temporadas.");
+      printf("\nNúmero de episódios : 24 episódios.\n");
+     
+   }
+  
+  if(strcmp(nome, "The_End_of_the_F***ing_World") == 0){
+   
+      printf("\nNúmero de temporadas : 2 temporadas.");
+      printf("\nNúmero de episódios : 16 episódios.\n");
+     
+   }
+  
+  if(strcmp(nome, "The_Witcher") == 0){
+   
+      printf("\nNúmero de temporadas : 1 temporada.");
+      printf("\nNúmero de episódios : 8 episódios.\n");
+     
+   }
+  
+  if(strcmp(nome, "Kingdom") == 0){
+   
+      printf("\nNúmero de temporadas : 2 temporadas.");
+      printf("\nNúmero de episódios : 12 episódios.\n");
+     
+   }
+  
+  if(strcmp(nome, "Sex_Education") == 0){
+   
+      printf("\nNúmero de temporadas : 2 temporadas.");
+      printf("\nNúmero de episódios : 16 episódios.\n");
+     
+   }   
+   
+
+  if(strcmp(nome, "Jane_a_Virgem") == 0){
+   
+      printf("\nNúmero de temporadas : 5 temporadas.");
+      printf("\nNúmero de episódios : 100 episódios.\n");
+     
+   }   
+   
+  if(strcmp(nome, "Riverdale") == 0){
+   
+      printf("\nNúmero de temporadas : 5 temporadas.");
+      printf("\nNúmero de episódios : 86 episódios.\n");
+     
+   }   
+   
+
+  if(strcmp(nome, "Virgin_River") == 0){
+   
+      printf("\nNúmero de temporadas : 2 temporadas.");
+      printf("\nNúmero de episódios : 20 episódios.\n");
+     
+   }   
+   
+
+  if(strcmp(nome, "Os_Inocentes") == 0){
+   
+      printf("\nNúmero de temporadas : 1 temporada.");
+      printf("\nNúmero de episódios : 8 episódios.\n");
+     
+   }
+
+
+  if(strcmp(nome, "Bridgerton") == 0){
+   
+      printf("\nNúmero de temporadas : 1 temporada.");
+      printf("\nNúmero de episódios : 8 episódios.\n");
+     
+   }   
+
+  if(strcmp(nome, "American_Horror_Story") == 0){
+   
+      printf("\nNúmero de temporadas : 9 temporadas.");
+      printf("\nNúmero de episódios : 103 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "Stranger_Things") == 0){
+   
+      printf("\nNúmero de temporadas : 3 temporadas.");
+      printf("\nNúmero de episódios : 25 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "O_Mundo_Sombrio_de_Sabrina") == 0){
+   
+      printf("\nNúmero de temporadas : 2 temporadas(4 partes).");
+      printf("\nNúmero de episódios : 36 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "A_Maldição_da_Mansão_Bly") == 0){
+   
+      printf("\nNúmero de temporadas : 1 temporada.");
+      printf("\nNúmero de episódios : 9 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "Bates_Motel") == 0){
+   
+      printf("\nNúmero de temporadas : 5 temporadas.");
+      printf("\nNúmero de episódios : 50 episódios.\n");
+     
+   }     
+
+   if(strcmp(nome, "Friends") == 0){
+   
+      printf("\nNúmero de temporadas : 10 temporadas.");
+      printf("\nNúmero de episódios : 236 episódios.\n");
+     
+   }  
+   
+   if(strcmp(nome, "The_Big_Bang_Theory") == 0){
+   
+      printf("\nNúmero de temporadas : 12 temporadas.");
+      printf("\nNúmero de episódios : 279 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "How_I_Met_Your_Mother") == 0){
+   
+      printf("\nNúmero de temporadas : 9 temporadas.");
+      printf("\nNúmero de episódios : 208 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "Os_Simpsons") == 0){
+   
+      printf("\nNúmero de temporadas : 32 temporadas.");
+      printf("\nNúmero de episódios : 705 episódios.\n");
+     
+   }
+   
+   if(strcmp(nome, "Todo_Mundo_Odeia_o_Chris") == 0){
+   
+      printf("\nNúmero de temporadas : 4 temporadas.");
+      printf("\nNúmero de episódios : 88 episódios.\n");
+     
+   }          
+
+}
 void sinopse_serie(Lista2 *l, char nome[])
 {         
  
@@ -1563,6 +1972,175 @@ void ano_livro(Lista2 *l, char nome[])
      if(strcmp(nome, "Percy_Jackson") == 0){
    
       printf("\nAno de Publicação : 2005-2009\n");
+    
+   }
+}
+
+
+void autor_livro(Lista2 *l, char nome[])
+{
+
+    if(strcmp(nome, "O_diário_de_Anne_Frank") == 0){
+   
+      printf("\nAutora : Anne Frank.\n");
+      
+   }
+   
+    if(strcmp(nome, "O_menino_do_pijama_listrado") == 0){
+   
+      printf("\nAutor : John Boyne.\n");
+    
+   }
+   
+   if(strcmp(nome, "Capitães_da_areia") == 0){
+   
+      printf("\nAutor : Jorge Amado.\n");
+    
+   }
+   
+   if(strcmp(nome, "A_menina_que_roubava_livros") == 0){
+   
+      printf("\nAutor : Markus Zusak.\n");
+    
+   }
+   
+   if(strcmp(nome, "A_cidade_do_Sol") == 0){
+   
+      printf("\nAutor : Khaled Hosseini.\n");
+    
+   }
+
+   if(strcmp(nome, "As_Crônicas_de_Nárnia") == 0){
+   
+      printf("\nAutor : C. S. Lewis.\n");
+    
+   }
+  
+  if(strcmp(nome, "O_Hobbit") == 0){
+   
+      printf("\nAutor : J. R. R. Tolkien.\n");
+    
+   }
+  
+  if(strcmp(nome, "O_Instituto") == 0){
+   
+      printf("\nAutor : Stephen King.\n");
+    
+   }
+  
+  if(strcmp(nome, "Uma_Dobra_no_Tempo") == 0){
+   
+      printf("\nAutora : Madeleine L'Engle.\n");
+    
+   }
+  
+  if(strcmp(nome, "Viagem_ao_Centro_da_Terra") == 0){
+   
+      printf("\nAutor : Júlio Verne.\n");
+    
+   }   
+
+  if(strcmp(nome, "Me_Chame_pelo_Seu_Nome") == 0){
+   
+      printf("\nAutor : André Aciman.\n");
+    
+   }   
+   
+  if(strcmp(nome, "O_Visconde_que_me_Amava") == 0){
+   
+      printf("\nAutora : Julia Quinn.\n");
+    
+   }   
+   
+
+  if(strcmp(nome, "Eleanor_&_Park") == 0){
+   
+      printf("\nAutora : Rainbow Rowell.\n");
+    
+   }   
+   
+
+  if(strcmp(nome, "O_Diário_de_Suzana_para_Nicolas") == 0){
+   
+      printf("\nAutor : James Patterson.\n");
+   }
+
+
+  if(strcmp(nome, "Simplesmente_Acontece") == 0){
+  
+      printf("\nAutora : Cecelia Ahern.\n");
+    
+   }   
+
+  if(strcmp(nome, "O_Desfiladeiro_do_Medo") == 0){
+   
+      printf("\nAutor : Clive Barker.\n");
+    
+   }
+   
+   if(strcmp(nome, "As_Ruínas") == 0){
+   
+      printf("\nAutores : Scott Smith, Fernanda Abreu.\n");;
+    
+   }
+   
+   if(strcmp(nome, "A_Profecia") == 0){
+   
+      printf("\nAutor : David Seltzer.\n");
+    
+   }
+   
+   if(strcmp(nome, "O_Exorcista") == 0){
+   
+      printf("\nAutor : William Peter Blatty.\n");
+    
+   }
+   
+   if(strcmp(nome, "A_Coisa") == 0){
+   
+      printf("\nAutor : Stephen King.\n");
+    
+   }       
+
+   if(strcmp(nome, "Azul_da_Cor_do_Mar") == 0){
+   
+      printf("\nAutora : Marina Carvalho Oliveira Carvalho.\n");
+    
+   }
+   
+   if(strcmp(nome, "Cadê_Você_Bernadette?") == 0){
+   
+      printf("\nAutora : Maria Semple.\n");
+    
+   }
+   
+   if(strcmp(nome, "Galvez_Imperador_do_Acre") == 0){
+   
+      printf("\nAutor : Márcio Souza.\n");
+    
+   }
+   
+   if(strcmp(nome, "A_louca_dos_gatos") == 0){
+   
+      printf("\nAutora : Sarah Andersen.\n");
+    
+   } 
+   
+   if(strcmp(nome, "Cães_e_gatos") == 0){
+   
+      printf("\nAutor : Carlos Ruas.\n");
+    
+   }
+  
+     if(strcmp(nome, "Harry_Potter") == 0){
+   
+      printf("\nAutor : J. K. Rowling.\n");
+    
+   }
+  
+     if(strcmp(nome, "Percy_Jackson") == 0){
+   
+      printf("\nAutor : Rick Riordan.\n");
     
    }
 }
@@ -2351,9 +2929,9 @@ int main(void)
         printf("\n                                            |Menu com informações sobre os filmes e opções para criação da sua lista de filmes:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
-        printf(" S - Se deseja saber a sinopse de algum jogo:\n");
-        printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
-        printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
+        printf(" S - Se deseja saber a sinopse de algum filme:\n");
+        printf(" A - Se deseja saber o ano de lançamento de algum filme:\n");
+        printf(" P - Se deseja saber o estúdio de algum filme:\n");
         printf(" I - Se deseja inserir um filme da lista:\n");
         printf(" R - Se deseja remover um filme da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de filmes:\n");
@@ -2421,7 +2999,17 @@ int main(void)
             ano_filme(lista2, nome);
         }
         
+        if(r == 'P')
+        {
         
+            printf("\n Informe o nome do filme que deseja saber o estúdio.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            estudio_filme(lista2, nome);
+        }
+   
         if(r == 'M')
         {
         
@@ -2470,9 +3058,9 @@ int main(void)
         printf("\n                                            |Menu com informações sobre as séries e opções para criação da sua lista de séries:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n"); 
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
-        printf(" S - Se deseja saber a sinopse de algum jogo:\n");
-        printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
-        printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
+        printf(" S - Se deseja saber a sinopse de alguma série:\n");
+        printf(" A - Se deseja saber os anos de duração de alguma série:\n");
+        printf(" P - Se deseja saber a quantidade de temporadas e episódios de alguma série:\n");
         printf(" I - Se deseja inserir uma série da lista:\n");
         printf(" R - Se deseja remover uma série da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da sua lista de séries:\n");
@@ -2541,6 +3129,17 @@ int main(void)
             ano_serie(lista2, nome);
         }
         
+        if(r == 'P')
+        {
+        
+            printf("\n Informe o nome da série que deseja saber o número de temporadas e episódios.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            temporadas_serie(lista2, nome);
+        }
+           
         if(r == 'M')
         {
         
@@ -2589,9 +3188,9 @@ int main(void)
         printf("\n                                            |Menu com informações sobre os livros e opções para criação da sua lista de livros:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
-        printf(" S - Se deseja saber a sinopse de algum jogo:\n");
-        printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
-        printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
+        printf(" S - Se deseja saber a sinopse de algum livro:\n");
+        printf(" A - Se deseja saber o ano de publicação de algum livro:\n");
+        printf(" P - Se deseja saber o nome do autor de algum livro:\n");
         printf(" I - Se deseja inserir um livro da lista:\n");
         printf(" R - Se deseja remover um livro da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de livros:\n");
@@ -2659,6 +3258,18 @@ int main(void)
             
             ano_livro(lista2, nome);
         }
+        
+        if(r == 'P')
+        {
+        
+            printf("\n Informe o livro que deseja saber o nome do autor.\n");
+            printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
+            
+            scanf("%s", nome);
+            
+            autor_livro(lista2, nome);
+        }
+   
         
         if(r == 'M')
         {
