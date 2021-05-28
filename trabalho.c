@@ -10,12 +10,18 @@
 typedef struct{
   
    char genero[1000];
+   char genero2[1000];
+   char genero3[1000];
+   char genero4[1000];
    
 }Lista;
 
 typedef struct{
   
    char nome[1000];
+   char nome2[1000];
+   char nome3[1000];
+   char nome4[1000];
    int ano;
    char tipo[1000];
    
@@ -34,7 +40,7 @@ void inserir_filme(Lista2 *l, int len, char nome[])
 
 void inserir_serie(Lista2 *l, int len, char nome[])
 {
-    strncpy(l[len].nome, nome, 1000);
+    strncpy(l[len].nome2, nome, 1000);
     
     printf("\nSérie inserido com sucesso!!!\n\n");
 
@@ -43,7 +49,7 @@ void inserir_serie(Lista2 *l, int len, char nome[])
 
 void inserir_livro(Lista2 *l, int len, char nome[])
 {
-    strncpy(l[len].nome, nome, 1000);
+    strncpy(l[len].nome3, nome, 1000);
     
     printf("\nLivro inserido com sucesso!!!\n\n");
 
@@ -52,7 +58,7 @@ void inserir_livro(Lista2 *l, int len, char nome[])
 
 void inserir_jogo(Lista2 *l, int len, char nome[])
 {
-    strncpy(l[len].nome, nome, 1000);
+    strncpy(l[len].nome4, nome, 1000);
     
     printf("\nJogo inserido com sucesso!!!\n\n");
 
@@ -85,11 +91,11 @@ void remover_serie(Lista2 *l, int len, char nome[])
     
     for(i = 0; i < len; i++)
     {
-        if(strcmp(l[i].nome,nome)==0)
+        if(strcmp(l[i].nome2,nome)==0)
         {
             for(j = i; j < len; j++)
             {
-                strncpy(l[j].nome,l[j+1].nome,1000);
+                strncpy(l[j].nome2,l[j+1].nome2,1000);
 
             }
         }
@@ -105,11 +111,11 @@ void remover_livro(Lista2 *l, int len, char nome[])
     
     for(i = 0; i < len; i++)
     {
-        if(strcmp(l[i].nome,nome)==0)
+        if(strcmp(l[i].nome3,nome)==0)
         {
             for(j = i; j < len; j++)
             {
-                strncpy(l[j].nome,l[j+1].nome,1000);
+                strncpy(l[j].nome3,l[j+1].nome3,1000);
 
             }
         }
@@ -125,11 +131,11 @@ void remover_jogo(Lista2 *l, int len, char nome[])
     
     for(i = 0; i < len; i++)
     {
-        if(strcmp(l[i].nome,nome)==0)
+        if(strcmp(l[i].nome4,nome)==0)
         {
             for(j = i; j < len; j++)
             {
-                strncpy(l[j].nome,l[j+1].nome,1000);
+                strncpy(l[j].nome4,l[j+1].nome,1000);
 
             }
         }
@@ -173,7 +179,7 @@ void imprimir_serie(Lista2 *l, int len)
     for(i = 2; i < len; i++)
     {
 
-       printf("   %s\n", l[i].nome);
+       printf("   %s\n", l[i].nome2);
        
     
     }
@@ -194,7 +200,7 @@ void imprimir_livro(Lista2 *l, int len)
     for(i = 2; i < len; i++)
     {
 
-       printf("   %s\n", l[i].nome);
+       printf("   %s\n", l[i].nome3);
        
     
     }
@@ -215,7 +221,7 @@ void imprimir_jogo(Lista2 *l, int len)
     for(i = 2; i < len; i++)
     {
 
-       printf("   %s\n", l[i].nome);
+       printf("   %s\n", l[i].nome4);
        
     
     }
@@ -356,7 +362,7 @@ void recomendacoes_serie(Lista *k, int cont)
   
      for(i = 0; i < cont; i++){
        
-        if(strcmp(k[i].genero, "Drama") == 0){
+        if(strcmp(k[i].genero2, "Drama") == 0){
         
           printf("\n\nSéries Drama\n\n");
           printf(" Elite                                                Sherlock                                          Kingdom\n");
@@ -368,7 +374,7 @@ void recomendacoes_serie(Lista *k, int cont)
         
         }
        
-        if(strcmp(k[i].genero, "Ação") == 0){
+        if(strcmp(k[i].genero2, "Ação") == 0){
         
           printf("\n\nSéries Ação\n\n");
           printf(" Sky_Rojo\n");
@@ -381,7 +387,7 @@ void recomendacoes_serie(Lista *k, int cont)
         
         } 
        
-        if(strcmp(k[i].genero, "Suspense") == 0){
+        if(strcmp(k[i].genero2, "Suspense") == 0){
        
           printf("\n\nSéries Suspense\n\n");
           printf(" Elite\n");
@@ -395,7 +401,7 @@ void recomendacoes_serie(Lista *k, int cont)
        
         }
        
-        if(strcmp(k[i].genero, "Fantasia") == 0){
+        if(strcmp(k[i].genero2, "Fantasia") == 0){
        
           printf("\n\nSéries Fantasia\n\n");
           printf(" The_Witcher\n");
@@ -404,7 +410,7 @@ void recomendacoes_serie(Lista *k, int cont)
        
         }     
        
-        if(strcmp(k[i].genero, "Mistério") == 0){
+        if(strcmp(k[i].genero2, "Mistério") == 0){
        
           printf("\n\nSéries Mistério\n\n");
           printf(" Elite\n");
@@ -418,7 +424,7 @@ void recomendacoes_serie(Lista *k, int cont)
        
         }
        
-       if(strcmp(k[i].genero, "Romance") == 0){
+       if(strcmp(k[i].genero2, "Romance") == 0){
        
           printf("\n\nSéries Romance\n\n");
           printf(" Jane_a_Virgem\n");
@@ -431,7 +437,7 @@ void recomendacoes_serie(Lista *k, int cont)
         
         }
        
-       if(strcmp(k[i].genero, "Terror") == 0){
+       if(strcmp(k[i].genero2, "Terror") == 0){
         
           printf("\n\nSéries Terror\n\n");
           printf(" American_Horror_Story\n");
@@ -444,7 +450,7 @@ void recomendacoes_serie(Lista *k, int cont)
         
         }
        
-       if(strcmp(k[i].genero, "Comédia") == 0){
+       if(strcmp(k[i].genero2, "Comédia") == 0){
           
           printf("\n\nSéries Comédia\n\n");
           printf(" Friends\n");
@@ -468,7 +474,7 @@ void recomendacoes_livro(Lista *k, int cont)
   
      for(i = 0; i < cont; i++){
        
-        if(strcmp(k[i].genero, "Drama") == 0){
+        if(strcmp(k[i].genero3, "Drama") == 0){
         
           printf("\n\nLivros Drama\n\n");
           printf(" O_diário_de_Anne_Frank\n");
@@ -480,7 +486,7 @@ void recomendacoes_livro(Lista *k, int cont)
         
         }
        
-        if(strcmp(k[i].genero, "Ação") == 0){
+        if(strcmp(k[i].genero3, "Ação") == 0){
         
           printf("\n\nLivros Ação\n\n");
           printf(" As_Crônicas_de_Nárnia\n");
@@ -491,7 +497,7 @@ void recomendacoes_livro(Lista *k, int cont)
         
         } 
        
-        if(strcmp(k[i].genero, "Fantasia") == 0){
+        if(strcmp(k[i].genero3, "Fantasia") == 0){
         
           printf("\n\nLivros Fantasia\n\n");
           printf(" As_Crônicas_de_Nárnia\n");
@@ -504,7 +510,7 @@ void recomendacoes_livro(Lista *k, int cont)
         
         }       
        
-       if(strcmp(k[i].genero, "Romance") == 0){
+       if(strcmp(k[i].genero3, "Romance") == 0){
        
           printf("\n\nLivros Romance\n\n");
           printf(" Me_Chame_pelo_Seu_Nome\n");
@@ -520,7 +526,7 @@ void recomendacoes_livro(Lista *k, int cont)
         
         }
        
-       if(strcmp(k[i].genero, "Terror") == 0){
+       if(strcmp(k[i].genero3, "Terror") == 0){
         
           printf("\n\nLivros Terror\n\n");
           printf(" O_Desfiladeiro_do_Medo\n");
@@ -532,7 +538,7 @@ void recomendacoes_livro(Lista *k, int cont)
         
         }
        
-       if(strcmp(k[i].genero, "Comédia") == 0){
+       if(strcmp(k[i].genero3, "Comédia") == 0){
           
           printf("\n\nLivros Comédia\n\n");
           printf(" Azul_da_Cor_do_Mar\n");
@@ -553,7 +559,7 @@ void recomendacoes_jogo(Lista *k, int cont)
   
      for(i = 0; i < cont; i++){
 
-        if(strcmp(k[i].genero, "Plataforma") == 0){
+        if(strcmp(k[i].genero4, "Plataforma") == 0){
         
           printf("\n\nJogos Plataforma\n\n");
           printf(" Katana_Zero\n");
@@ -564,7 +570,7 @@ void recomendacoes_jogo(Lista *k, int cont)
         
         }
        
-        if(strcmp(k[i].genero, "Ação") == 0){
+        if(strcmp(k[i].genero4, "Ação") == 0){
         
           printf("\n\nJogos Ação\n\n");
           printf(" Assassin’s_Creed_II\n");
@@ -580,7 +586,7 @@ void recomendacoes_jogo(Lista *k, int cont)
         
         } 
        
-        if(strcmp(k[i].genero, "Aventura") == 0){
+        if(strcmp(k[i].genero4, "Aventura") == 0){
         
           printf("\n\nJogos Aventura\n\n");
           printf(" Hollow_Knight                                        Grand_Theft_Auto_V                          Tomb_Raider\n");
@@ -592,7 +598,7 @@ void recomendacoes_jogo(Lista *k, int cont)
         
         }
        
-        if(strcmp(k[i].genero, "Tiro") == 0){
+        if(strcmp(k[i].genero4, "Tiro") == 0){
         
           printf("\n\nJogos Tiro\n\n");
           printf(" Red_Dead_Redemption_2\n");
@@ -604,7 +610,7 @@ void recomendacoes_jogo(Lista *k, int cont)
         
         }
        
-       if(strcmp(k[i].genero, "Esportes") == 0){
+       if(strcmp(k[i].genero4, "Esportes") == 0){
        
           printf("\n\nJogos Esportes\n\n");
           printf(" FIFA_20\n");
@@ -615,7 +621,7 @@ void recomendacoes_jogo(Lista *k, int cont)
         
         }
        
-       if(strcmp(k[i].genero, "Terror") == 0){
+       if(strcmp(k[i].genero4, "Terror") == 0){
         
           printf("\n\nJogos Terror\n\n");
           printf(" Alien:_Isolation                                     Resident_Evil_7                             Dark_Souls_III\n");
@@ -626,7 +632,7 @@ void recomendacoes_jogo(Lista *k, int cont)
         
         }
        
-       if(strcmp(k[i].genero, "RPG") == 0){
+       if(strcmp(k[i].genero4, "RPG") == 0){
           
           printf("\n\nJogos RPG\n\n");
           printf(" The_Elder_Scrolls_V:_Skyrim                          Mass_Effect 2                               Monster_Hunter:_World\n");
@@ -3039,22 +3045,29 @@ int main(void)
    lista2 =  malloc(3*sizeof(Lista2));
    strcpy(user,"Minha Lista:");
    strcpy(lista2[1].nome,user);
+   strcpy(lista2[1].nome2,user);
+   strcpy(lista2[1].nome3,user);
+   strcpy(lista2[1].nome4,user);
    
    
    printf(" Informe o nome de usuário : ");
    fgets(user,1000, stdin);
    strcpy(lista2[0].nome,user);
+   strcpy(lista2[0].nome2,user);
+   strcpy(lista2[0].nome3,user);
+   strcpy(lista2[0].nome4,user);
    
    do
    {
    
-   printf("\n\n Selecione de acordo com o número, o tipo de recomendação que você gostaria de receber :\n ");
-   printf("1 - Filme\n");
-   printf(" 2 - Série\n");
-   printf(" 3 - Livro\n");
-   printf(" 4 - Jogo\n");
-   printf(" 5 - Sair\n\n");
-   
+   printf("\n\n==============================================================================================");
+   printf("\n\n Selecione de acordo com o número, o tipo de recomendação que você gostaria de receber :  \n\n ");
+   printf("|| 1 - Filme\n");
+   printf(" || 2 - Série\n");
+   printf(" || 3 - Livro\n");
+   printf(" || 4 - Jogo\n");
+   printf(" || 5 - Sair\n\n");
+   printf("==============================================================================================\n\n");
    
    scanf("%d", &tipo);
    printf("\n");
@@ -3063,10 +3076,10 @@ int main(void)
    
    if(tipo == 1){
     
-      printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
-      printf("\n                             |Digite os gêneros que deseja incluir no seu filme, e quando terminar digite FIM.                         |\n");
-      printf("                             |Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Ficção, Suspense, Animação, Crime, Histórico.|\n");
-      printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
+      printf("\n\n\n                             ___________________________________________________________________________________________________________________\n");
+      printf("\n                             |      Digite os gêneros que deseja incluir no seu filme, e quando terminar digite FIM.                           |\n");
+      printf("                             |      Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Ficção, Suspense, Animação, Crime, Histórico.  |\n");
+      printf("                             ___________________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
@@ -3085,7 +3098,7 @@ int main(void)
         printf("                                            ___________________________________________________________________________________\n\n\n\n");
         
         
-        printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
+        printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de algum filme:\n");
         printf(" A - Se deseja saber o ano de lançamento de algum filme:\n");
         printf(" P - Se deseja saber o estúdio de algum filme:\n");
@@ -3183,7 +3196,7 @@ int main(void)
           system("clear");
           printf("\n");  
           imprimir_filme(lista2, len);
-          printf("\n");
+          printf("\n\n\n");
           system("read -p 'Press Enter to continue...' var");
           system("clear");
               
@@ -3197,14 +3210,14 @@ int main(void)
   else if(tipo == 2){
     
       printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
-      printf("\n                             |Digite os gêneros que deseja incluir na sua série, e quando terminar digite FIM.                         |\n");
-      printf("                             |Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Fantasia, Suspense, Mistério                 |\n");
+      printf("\n                             |      Digite os gêneros que deseja incluir na sua série, e quando terminar digite FIM.                   |\n");
+      printf("                             |      Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Fantasia, Suspense, Mistério           |\n");
       printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
-         scanf("%s", lista[cont].genero);
-         strcpy(genero1,lista[cont].genero);
+         scanf("%s", lista[cont].genero2);
+         strcpy(genero1,lista[cont].genero2);
          cont++;
       }
       
@@ -3216,7 +3229,8 @@ int main(void)
         printf("\n\n\n                                            ___________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre as séries e opções para criação da sua lista de séries:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n"); 
-        printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
+        
+        printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de alguma série:\n");
         printf(" A - Se deseja saber os anos de duração de alguma série:\n");
         printf(" P - Se deseja saber a quantidade de temporadas e episódios de alguma série:\n");
@@ -3315,7 +3329,7 @@ int main(void)
           system("clear");
           printf("\n");  
           imprimir_serie(lista2, len);
-          printf("\n");
+          printf("\n\n\n");
           system("read -p 'Press Enter to continue...' var");
           system("clear");
           
@@ -3329,14 +3343,14 @@ int main(void)
   else if(tipo == 3){
     
       printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
-      printf("\n                             |Digite os gêneros que deseja incluir no seu livro, e quando terminar digite FIM.                         |\n");
-      printf("                             |Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Fantasia                                     |\n");
+      printf("\n                             |      Digite os gêneros que deseja incluir no seu livro, e quando terminar digite FIM.                   |\n");
+      printf("                             |      Exemplos de gêneros: Drama, Ação, Romance, Terror, Comédia, Fantasia                               |\n");
       printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
-         scanf("%s", lista[cont].genero);
-         strcpy(genero1,lista[cont].genero);
+         scanf("%s", lista[cont].genero3);
+         strcpy(genero1,lista[cont].genero3);
          cont++;
       }
 
@@ -3348,7 +3362,8 @@ int main(void)
         printf("\n\n\n                                            ___________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre os livros e opções para criação da sua lista de livros:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n");
-        printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
+        
+        printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de algum livro:\n");
         printf(" A - Se deseja saber o ano de publicação de algum livro:\n");
         printf(" P - Se deseja saber o nome do autor de algum livro:\n");
@@ -3448,7 +3463,7 @@ int main(void)
           system("clear");
           printf("\n");  
           imprimir_livro(lista2, len);
-          printf("\n");
+          printf("\n\n\n");
           system("read -p 'Press Enter to continue...' var");
           system("clear");
           
@@ -3462,14 +3477,14 @@ int main(void)
   else if(tipo == 4){
     
       printf("\n\n\n                             ___________________________________________________________________________________________________________\n");
-      printf("\n                             |Digite os gêneros que deseja incluir no seu jogo, e quando terminar digite FIM.                          |\n");
-      printf("                             |Exemplos de gêneros: Plataforma, Ação, Aventura, Tiro, Esportes, Terror, RPG.                            |\n");
+      printf("\n                             |      Digite os gêneros que deseja incluir no seu jogo, e quando terminar digite FIM.                    |\n");
+      printf("                             |      Exemplos de gêneros: Plataforma, Ação, Aventura, Tiro, Esportes, Terror, RPG.                      |\n");
       printf("                             ___________________________________________________________________________________________________________\n\n\n\n");
    
       while(strcmp(genero1, "FIM") != 0){
       
-         scanf("%s", lista[cont].genero);
-         strcpy(genero1,lista[cont].genero);
+         scanf("%s", lista[cont].genero4);
+         strcpy(genero1,lista[cont].genero4);
          cont++;
       }
       
@@ -3481,7 +3496,8 @@ int main(void)
         printf("\n\n\n                                            _________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre os jogos e opções para criação da sua lista de jogos:|\n");
         printf("                                            _________________________________________________________________________________\n\n\n\n");
-        printf("\n Informe o caractere conforme a operação que deseja realizar:\n");
+        
+        printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de algum jogo:\n");
         printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
         printf(" P - Se deseja saber as plataformas em que o jogo escolhido está disponível:\n");
@@ -3579,7 +3595,7 @@ int main(void)
           system("clear");
           printf("\n");  
           imprimir_jogo(lista2, len);
-          printf("\n");
+          printf("\n\n\n");
           system("read -p 'Press Enter to continue...' var");
           system("clear");
           
