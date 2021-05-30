@@ -13,6 +13,8 @@ typedef struct{
    char genero2[1000];
    char genero3[1000];
    char genero4[1000];
+   int ano;
+   char tipo[1000];
    
 }Lista;
 
@@ -22,11 +24,24 @@ typedef struct{
    char nome2[1000];
    char nome3[1000];
    char nome4[1000];
-   int ano;
-   char tipo[1000];
    
 }Lista2;
 
+
+void limpatela()
+{
+
+   system("clear");   
+
+}
+
+
+void pausatela()
+{
+
+   system("read -p 'Press Enter to continue...' var");
+
+}
 
 
 void inserir_filme(Lista2 *l, int len, char nome[])
@@ -3033,7 +3048,7 @@ int main(void)
    char genero1[1000], nome[1000], r, user[1000];
    int tipo, cont = 0, len = 2;
    
-   system("clear");
+   limpatela();
    
    printf("\n\n");
    printf("    ______________________________________________________________________________________________________________________________________________________________\n\n");
@@ -3072,7 +3087,7 @@ int main(void)
    scanf("%d", &tipo);
    printf("\n");
    
-   system("clear");
+   limpatela();
    
    if(tipo == 1){
     
@@ -3088,10 +3103,10 @@ int main(void)
          cont++;
       }
 
-      system("clear");
+      limpatela();
       recomendacoes_filme(lista, cont);
       printf("\n\n\n");
-      system("read -p 'Press Enter to continue...' var");
+      pausatela();
       
         printf("\n\n\n                                            ___________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre os filmes e opções para criação da sua lista de filmes:|\n");
@@ -3193,12 +3208,12 @@ int main(void)
         if(r == 'F')
         {
         
-          system("clear");
+          limpatela();
           printf("\n");  
           imprimir_filme(lista2, len);
           printf("\n\n\n");
-          system("read -p 'Press Enter to continue...' var");
-          system("clear");
+          pausatela();
+          limpatela();
               
         }
     }
@@ -3221,10 +3236,10 @@ int main(void)
          cont++;
       }
       
-       system("clear");
+       limpatela();
        recomendacoes_serie(lista, cont);     
        printf("\n\n\n");
-       system("read -p 'Press Enter to continue...' var");
+       pausatela();
       
         printf("\n\n\n                                            ___________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre as séries e opções para criação da sua lista de séries:|\n");
@@ -3326,12 +3341,12 @@ int main(void)
         if(r == 'F')
         {
           
-          system("clear");
+          limpatela();
           printf("\n");  
           imprimir_serie(lista2, len);
           printf("\n\n\n");
-          system("read -p 'Press Enter to continue...' var");
-          system("clear");
+          pausatela();
+          limpatela();
           
         }
     }
@@ -3354,10 +3369,10 @@ int main(void)
          cont++;
       }
 
-      system("clear");
+      limpatela();
       recomendacoes_livro(lista, cont);
       printf("\n\n\n");
-      system("read -p 'Press Enter to continue...' var");
+      pausatela();
   
         printf("\n\n\n                                            ___________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre os livros e opções para criação da sua lista de livros:|\n");
@@ -3460,12 +3475,12 @@ int main(void)
         if(r == 'F')
         {
         
-          system("clear");
+          limpatela();
           printf("\n");  
           imprimir_livro(lista2, len);
           printf("\n\n\n");
-          system("read -p 'Press Enter to continue...' var");
-          system("clear");
+          pausatela();
+          limpatela();
           
         }
     }
@@ -3488,10 +3503,10 @@ int main(void)
          cont++;
       }
       
-      system("clear");
+      limpatela();
       recomendacoes_jogo(lista, cont); 
       printf("\n\n\n");
-      system("read -p 'Press Enter to continue...' var"); 
+      pausatela(); 
       
         printf("\n\n\n                                            _________________________________________________________________________________\n");
         printf("\n                                            |Menu com informações sobre os jogos e opções para criação da sua lista de jogos:|\n");
@@ -3592,12 +3607,12 @@ int main(void)
         if(r == 'F')
         {
         
-          system("clear");
+          limpatela();
           printf("\n");  
           imprimir_jogo(lista2, len);
           printf("\n\n\n");
-          system("read -p 'Press Enter to continue...' var");
-          system("clear");
+          pausatela();
+          limpatela();
           
         }
     }
@@ -3605,6 +3620,7 @@ int main(void)
         
   } 
   
+  strcpy(genero1,"teste");
   
   }while( tipo != 5);
         
