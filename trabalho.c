@@ -167,13 +167,13 @@ void imprimir_filme(Lista2 *l, int len)
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
     printf("    ____________\n\n");
-    printf("   Usuário : %s\n\n",l[0].nome);
-    printf("   FILMES : \n\n");
+    printf("Usuário : %s\n\n",l[0].nome);
+    printf("FILMES : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("   %s\n", l[i].nome);
+       printf("%s\n", l[i].nome);
        
     
     }
@@ -188,13 +188,13 @@ void imprimir_serie(Lista2 *l, int len)
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
     printf("    ____________\n\n");
-    printf("   Usuário : %s\n\n",l[0].nome);
-    printf("   SÉRIES : \n\n");
+    printf("Usuário : %s\n\n",l[0].nome);
+    printf("SÉRIES : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("   %s\n", l[i].nome2);
+       printf("%s\n", l[i].nome2);
        
     
     }
@@ -209,13 +209,13 @@ void imprimir_livro(Lista2 *l, int len)
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
     printf("    ____________\n\n");
-    printf("   Usuário : %s\n\n",l[0].nome);
-    printf("   LIVROS : \n\n");
+    printf("Usuário : %s\n\n",l[0].nome);
+    printf("LIVROS : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("   %s\n", l[i].nome3);
+       printf("%s\n", l[i].nome3);
        
     
     }
