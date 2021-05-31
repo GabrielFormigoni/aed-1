@@ -3364,7 +3364,7 @@ int main(void)
         if(r == 'A')
         {
         
-            printf("\n Informe a série que deseja saber o ano de lançamento.\n");
+            printf("\n Informe a série que deseja saber a duração do lançamento.\n");
             printf(" Utilize o caractere sublinha (“_”) para nomes que contenham espaço em sua formação (nomes compostos).\n\n");            
             
             scanf("%s", nome);
