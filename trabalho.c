@@ -230,13 +230,13 @@ void imprimir_jogo(Lista2 *l, int len)
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
     printf("    ____________\n\n");
-    printf("   Usuário : %s\n\n",l[0].nome);
-    printf("   JOGOS : \n\n");
+    printf("Usuário : %s\n\n",l[0].nome);
+    printf("JOGOS : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("   %s\n", l[i].nome4);
+       printf("%s\n", l[i].nome4);
        
     
     }
@@ -244,7 +244,62 @@ void imprimir_jogo(Lista2 *l, int len)
 }
 
 
+void limpa_filme(Lista *k, int cont)
+{
+   int i;
+   
+   for(i = 0; i < cont; i++){
+   
+      strcpy(k[i].genero,"teste");
+   
+   }
 
+
+}
+
+
+void limpa_serie(Lista *k, int cont)
+{
+   int i;
+   
+   for(i = 0; i < cont; i++){
+   
+      strcpy(k[i].genero2,"teste");
+   
+   }
+
+
+}
+
+
+void limpa_livro(Lista *k, int cont)
+{
+   int i;
+   
+   for(i = 0; i < cont; i++){
+   
+      strcpy(k[i].genero3,"teste");
+   
+   }
+
+
+}
+
+ 
+void limpa_jogo(Lista *k, int cont)
+{
+   int i;
+   
+   for(i = 0; i < cont; i++){
+   
+      strcpy(k[i].genero4,"teste");
+   
+   }
+
+
+}
+
+    
 void recomendacoes_filme(Lista *k, int cont)
 {
   int i;
@@ -3620,6 +3675,10 @@ int main(void)
         
   } 
   
+  limpa_filme(lista, cont);
+  limpa_serie(lista, cont);
+  limpa_livro(lista, cont);
+  limpa_jogo(lista, cont);
   strcpy(genero1,"teste");
   
   }while( tipo != 5);
