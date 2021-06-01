@@ -169,7 +169,7 @@ void imprimir_filme(Lista2 *l, int len)
     printf("    ____________\n\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
     printf("============================\n");    
-    printf("FILMES : \n\n");
+    printf(" FILMES : \n\n");
     
     for(i = 2; i < len; i++)
     {
@@ -192,7 +192,7 @@ void imprimir_serie(Lista2 *l, int len)
     printf("    ____________\n\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
     printf("============================\n");    
-    printf("SÉRIES : \n\n");
+    printf(" SÉRIES : \n\n");
     
     for(i = 2; i < len; i++)
     {
@@ -238,15 +238,13 @@ void imprimir_jogo(Lista2 *l, int len)
     printf("    ____________\n\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
     printf("============================\n");
-    printf("JOGOS : \n\n");
+    printf(" JOGOS : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
        printf(" %s\n", l[i].nome4);
-       }
-       
-    
+           
     }
     printf("============================\n");
   
@@ -3689,6 +3687,7 @@ int main(void)
   limpa_livro(lista, cont);
   limpa_jogo(lista, cont);
   strcpy(genero1,"teste");
+  len = 2;
   
   }while( tipo != 5);
         
