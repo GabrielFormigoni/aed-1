@@ -164,9 +164,9 @@ void imprimir_filme(Lista2 *l, int len)
 {
     int i;
     
-    printf("    ____________\n\n");
-    printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n\n");
+    printf("==================\n");
+    printf("   %s\n", l[1].nome);
+    printf("==================\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
     printf("============================\n");    
     printf(" FILMES : \n\n");
@@ -187,9 +187,9 @@ void imprimir_serie(Lista2 *l, int len)
 {
     int i;
     
-    printf("    ____________\n\n");
-    printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n\n");
+    printf("==================\n");
+    printf("   %s\n", l[1].nome);
+    printf("==================\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
     printf("============================\n");    
     printf(" SÉRIES : \n\n");
@@ -210,9 +210,9 @@ void imprimir_livro(Lista2 *l, int len)
 {
     int i;
     
-    printf("    ____________\n\n");
-    printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n\n");
+    printf("==================\n");
+    printf("   %s\n", l[1].nome);
+    printf("==================\n\n");
     printf("Usuário : %s\n",l[0].nome);
     printf("============================\n");
     printf(" LIVROS : \n\n");
@@ -233,9 +233,9 @@ void imprimir_jogo(Lista2 *l, int len)
 {
     int i;
     
-    printf("    ____________\n\n");
-    printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n\n");
+    printf("==================\n");
+    printf("   %s\n", l[1].nome);
+    printf("==================\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
     printf("============================\n");
     printf(" JOGOS : \n\n");
@@ -3174,7 +3174,7 @@ int main(void)
         printf("\n                                            |Menu com informações sobre os filmes e opções para criação da sua lista de filmes:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n");
         
-        
+        printf("\n\n=============================================================================================\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de algum filme:\n");
         printf(" A - Se deseja saber o ano de lançamento de algum filme:\n");
@@ -3183,6 +3183,7 @@ int main(void)
         printf(" R - Se deseja remover um filme da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de filmes:\n");
         printf(" F - Se deseja finalizar a lista de filmes, mostrar o seu conteúdo e voltar a tela inicial:\n");
+        printf("\n=============================================================================================\n\n");        
         
         
   do
@@ -3307,6 +3308,7 @@ int main(void)
         printf("\n                                            |Menu com informações sobre as séries e opções para criação da sua lista de séries:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n"); 
         
+        printf("\n\n=============================================================================================\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de alguma série:\n");
         printf(" A - Se deseja saber os anos de duração de alguma série:\n");
@@ -3315,7 +3317,7 @@ int main(void)
         printf(" R - Se deseja remover uma série da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da sua lista de séries:\n");
         printf(" F - Se deseja finalizar a sua lista de séries, mostrar o seu conteúdo e voltar a tela inicial:\n");
-        
+        printf("\n=============================================================================================\n\n");
         
   do
     {
@@ -3440,6 +3442,7 @@ int main(void)
         printf("\n                                            |Menu com informações sobre os livros e opções para criação da sua lista de livros:|\n");
         printf("                                            ___________________________________________________________________________________\n\n\n\n");
         
+        printf("\n\n=============================================================================================\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de algum livro:\n");
         printf(" A - Se deseja saber o ano de publicação de algum livro:\n");
@@ -3448,7 +3451,7 @@ int main(void)
         printf(" R - Se deseja remover um livro da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de livros:\n");
         printf(" F - Se deseja finalizar a lista de livros, mostrar o seu conteúdo e voltar a tela inicial:\n");
-        
+        printf("\n=============================================================================================\n\n");
         
   do
     {
@@ -3574,6 +3577,7 @@ int main(void)
         printf("\n                                            |Menu com informações sobre os jogos e opções para criação da sua lista de jogos:|\n");
         printf("                                            _________________________________________________________________________________\n\n\n\n");
         
+        printf("\n\n=============================================================================================\n\n");
         printf("\n Informe o caractere conforme a operação que deseja realizar:\n\n");
         printf(" S - Se deseja saber a sinopse de algum jogo:\n");
         printf(" A - Se deseja saber o ano de lançamento de algum jogo:\n");
@@ -3582,7 +3586,7 @@ int main(void)
         printf(" R - Se deseja remover um jogo da lista:\n");
         printf(" M - Se deseja mostrar o conteúdo da lista de jogos:\n");
         printf(" F - Se deseja finalizar a lista de jogos, mostrar o seu conteúdo e voltar a tela inicial:\n");
-        
+        printf("\n=============================================================================================\n\n");
         
   do
     {
