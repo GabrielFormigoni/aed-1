@@ -166,17 +166,19 @@ void imprimir_filme(Lista2 *l, int len)
     
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n");
+    printf("    ____________\n\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
+    printf("============================\n");    
     printf("FILMES : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome);
+       printf(" %s\n", l[i].nome);
        
     
     }
+    printf("============================\n");
 
 }
 
@@ -187,18 +189,20 @@ void imprimir_serie(Lista2 *l, int len)
     
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n");
+    printf("    ____________\n\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
+    printf("============================\n");    
     printf("SÉRIES : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome2);
+       printf(" %s\n", l[i].nome2);
        
     
     }
-
+    printf("============================\n");
+        
 }
 
 
@@ -208,18 +212,20 @@ void imprimir_livro(Lista2 *l, int len)
     
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n");
-    printf("Usuário : %s\n\n",l[0].nome);
-    printf("LIVROS : \n\n");
+    printf("    ____________\n\n\n");
+    printf("Usuário : %s\n",l[0].nome);
+    printf("============================\n");
+    printf(" LIVROS : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome3);
+       printf(" %s\n",  l[i].nome3);
        
     
     }
-
+    printf("\n============================");
+   
 }
 
 
@@ -229,18 +235,21 @@ void imprimir_jogo(Lista2 *l, int len)
     
     printf("    ____________\n\n");
     printf("   |%s|\n", l[1].nome);
-    printf("    ____________\n\n");
+    printf("    ____________\n\n\n");
     printf("Usuário : %s\n\n",l[0].nome);
+    printf("============================\n");
     printf("JOGOS : \n\n");
     
     for(i = 2; i < len; i++)
     {
 
-       printf("%s\n", l[i].nome4);
+       printf(" %s\n", l[i].nome4);
+       }
        
     
     }
-
+    printf("============================\n");
+  
 }
 
 
