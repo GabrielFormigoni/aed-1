@@ -174,7 +174,7 @@ void imprimir_filme(Lista2 *l, int len)
     for(i = 2; i < len; i++)
     {
 
-       printf(" %s\n", l[i].nome);
+       printf("%d - %s\n",i-1, l[i].nome);
        
     
     }
@@ -197,7 +197,7 @@ void imprimir_serie(Lista2 *l, int len)
     for(i = 2; i < len; i++)
     {
 
-       printf(" %s\n", l[i].nome2);
+       printf("%d - %s\n",i-1, l[i].nome2);
        
     
     }
@@ -220,7 +220,7 @@ void imprimir_livro(Lista2 *l, int len)
     for(i = 2; i < len; i++)
     {
 
-       printf(" %s\n",  l[i].nome3);
+       printf("%d - %s\n",i-1, l[i].nome3);
        
     
     }
@@ -243,7 +243,7 @@ void imprimir_jogo(Lista2 *l, int len)
     for(i = 2; i < len; i++)
     {
 
-       printf(" %s\n", l[i].nome4);
+       printf("%d - %s\n",i-1, l[i].nome4);
            
     }
     printf("============================\n");
